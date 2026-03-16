@@ -1,0 +1,12 @@
+torch
+torchvision
+torchaudio
+torch_geometric
+transformers
+requests
+beautifulsoup4
+pandas
+numpy
+tqdm
+scikit-learn
+SPARQLWrapper
