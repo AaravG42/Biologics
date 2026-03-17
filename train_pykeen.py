@@ -42,13 +42,13 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--triples",
         type=Path,
-        default=Path("artifacts/kg_vocab_oncology_ttl_resources_only/triples_ids.csv"),
+        default=Path("artifacts/kg_vocab_onco_filtered/triples_ids.csv"),
         help="CSV containing head_id,relation_id,tail_id",
     )
     parser.add_argument(
         "--metadata",
         type=Path,
-        default=Path("artifacts/kg_vocab_oncology_ttl_resources_only/metadata.json"),
+        default=Path("artifacts/kg_vocab_onco_filtered/metadata.json"),
         help="Metadata JSON produced by build_kg_vocabulary.py",
     )
     parser.add_argument(
@@ -248,10 +248,14 @@ def summarize_tail_ranks(
 
 
 def resolve_clinical_indication_relation_ids(relation_to_id: Dict[str, int]) -> List[int]:
+    # candidates = (
+    #     "https://www.imgt.org/imgt-ontology#hasClinicalIndication",
+    #     "https://www.imgt.org/imgt-ontology#isClinicalIndicationOf",
+    #     "https://www.imgt.org/imgt-ontology#isClincicalIndicationOf",
+    # )
     candidates = (
-        "https://www.imgt.org/imgt-ontology#hasClinicalIndication",
-        "https://www.imgt.org/imgt-ontology#isClinicalIndicationOf",
-        "https://www.imgt.org/imgt-ontology#isClincicalIndicationOf",
+        "imgt:hasClinicalIndication",
+        "imgt:isClinicalIndicationOf",
     )
     relation_ids = [
         relation_to_id[relation]
