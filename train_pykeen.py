@@ -9,7 +9,7 @@ import json
 import os
 from importlib.metadata import version
 from pathlib import Path
-from typing import Any, Dict, List, Tuple
+from typing import Any, Dict, List, Sequence, Tuple
 
 import torch
 
@@ -133,6 +133,20 @@ def load_triples(path: Path) -> torch.LongTensor:
     return torch.as_tensor(triples, dtype=torch.long)
 
 
+def load_relation_id_map(path: Path) -> Dict[str, int]:
+    relation_to_id: Dict[str, int] = {}
+    with path.open(newline="", encoding="utf-8") as handle:
+        reader = csv.DictReader(handle)
+        expected = {"relation", "id"}
+        if set(reader.fieldnames or []) != expected:
+            raise ValueError(
+                f"Expected columns {sorted(expected)} in {path}, got {reader.fieldnames}"
+            )
+        for row in reader:
+            relation_to_id[row["relation"]] = int(row["id"])
+    return relation_to_id
+
+
 def split_triples(
     triples: torch.LongTensor, train_fraction: float, seed: int
 ) -> Tuple[torch.LongTensor, torch.LongTensor]:
@@ -200,6 +214,67 @@ def compute_tail_ranks(
     return torch.cat(ranks, dim=0) if ranks else torch.empty(0, dtype=torch.long)
 
 
+def summarize_tail_ranks(
+    label: str,
+    triples: torch.LongTensor,
+    model: Any,
+    batch_size: int,
+    device: str,
+) -> Dict[str, object]:
+    if triples.shape[0] == 0:
+        return {
+            "label": label,
+            "num_test_triples": 0,
+            "task": "tail link prediction",
+            "query_form": "(h, r, ?)",
+            "ranking": "raw rank over all candidate tails using PyKEEN scores",
+            "tail_mean_rank": None,
+        }
+
+    tail_ranks = compute_tail_ranks(
+        model=model,
+        test_triples=triples,
+        batch_size=batch_size,
+        device=device,
+    )
+    return {
+        "label": label,
+        "num_test_triples": int(triples.shape[0]),
+        "task": "tail link prediction",
+        "query_form": "(h, r, ?)",
+        "ranking": "raw rank over all candidate tails using PyKEEN scores",
+        "tail_mean_rank": float(tail_ranks.float().mean().item()),
+    }
+
+
+def resolve_clinical_indication_relation_ids(relation_to_id: Dict[str, int]) -> List[int]:
+    candidates = (
+        "https://www.imgt.org/imgt-ontology#hasClinicalIndication",
+        "https://www.imgt.org/imgt-ontology#isClinicalIndicationOf",
+        "https://www.imgt.org/imgt-ontology#isClincicalIndicationOf",
+    )
+    relation_ids = [
+        relation_to_id[relation]
+        for relation in candidates
+        if relation in relation_to_id
+    ]
+    if len(relation_ids) < 2:
+        raise ValueError(
+            "Could not resolve both clinical-indication relation IDs from relations.csv"
+        )
+    return sorted(set(relation_ids))
+
+
+def filter_triples_by_relation_ids(
+    triples: torch.LongTensor, relation_ids: Sequence[int]
+) -> torch.LongTensor:
+    if triples.shape[0] == 0:
+        return triples
+    relation_id_tensor = torch.as_tensor(relation_ids, dtype=triples.dtype)
+    mask = torch.isin(triples[:, 1], relation_id_tensor)
+    return triples[mask]
+
+
 def extract_embeddings(model: Any) -> Tuple[torch.Tensor, torch.Tensor]:
     entity_embeddings = model.entity_representations[0]().detach().cpu()
     relation_embeddings = model.relation_representations[0]().detach().cpu()
@@ -232,6 +307,10 @@ def main() -> None:
     args = parse_args()
     metadata = load_metadata(args.metadata)
     triples = load_triples(args.triples)
+    relation_to_id = load_relation_id_map(args.triples.parent / "relations.csv")
+    clinical_indication_relation_ids = resolve_clinical_indication_relation_ids(
+        relation_to_id
+    )
 
     num_entities = int(metadata["num_entities"])
     num_relations = int(metadata["num_relations"])
@@ -265,6 +344,10 @@ def main() -> None:
     print(f"Model: {args.model}")
     print(f"Train triples: {train_triples.shape[0]}")
     print(f"Test triples: {test_triples.shape[0]}")
+    print(
+        "Clinical-indication relation IDs: "
+        + ", ".join(str(relation_id) for relation_id in clinical_indication_relation_ids)
+    )
 
     torch.manual_seed(args.seed)
     if torch.cuda.is_available():
@@ -293,13 +376,24 @@ def main() -> None:
     )
 
     print("Evaluating held-out triples with tail prediction (h, r, ?)")
-    tail_ranks = compute_tail_ranks(
+    full_evaluation = summarize_tail_ranks(
+        label="all_test_triples",
+        triples=test_triples,
         model=model,
-        test_triples=test_triples,
         batch_size=args.eval_batch_size,
         device=device,
     )
-    tail_mean_rank = float(tail_ranks.float().mean().item())
+    clinical_indication_test_triples = filter_triples_by_relation_ids(
+        test_triples,
+        clinical_indication_relation_ids,
+    )
+    clinical_indication_evaluation = summarize_tail_ranks(
+        label="clinical_indication_relations_only",
+        triples=clinical_indication_test_triples,
+        model=model,
+        batch_size=args.eval_batch_size,
+        device=device,
+    )
 
     entity_embeddings, relation_embeddings = extract_embeddings(model)
     torch.save(model.state_dict(), output_dir / "model_state_dict.pt")
@@ -327,10 +421,8 @@ def main() -> None:
         "cuda_available": bool(torch.cuda.is_available()),
         "training_losses": [float(loss) for loss in losses],
         "evaluation": {
-            "task": "tail link prediction",
-            "query_form": "(h, r, ?)",
-            "ranking": "raw rank over all candidate tails using PyKEEN scores",
-            "tail_mean_rank": tail_mean_rank,
+            "all_test_triples": full_evaluation,
+            "clinical_indication_relations_only": clinical_indication_evaluation,
         },
     }
     (output_dir / "metrics_summary.json").write_text(
@@ -338,7 +430,11 @@ def main() -> None:
         encoding="utf-8",
     )
 
-    print(f"Tail mean rank: {tail_mean_rank}")
+    print(f"Tail mean rank (all test triples): {full_evaluation['tail_mean_rank']}")
+    print(
+        "Tail mean rank (clinical indication relations only): "
+        f"{clinical_indication_evaluation['tail_mean_rank']}"
+    )
     print(f"Artifacts written to {output_dir}")
 
 
