@@ -20,7 +20,7 @@ os.environ.setdefault("PYSTOW_HOME", str(Path("artifacts/pystow").resolve()))
 from pykeen.models import BoxE, TransE
 from pykeen.training import SLCWATrainingLoop
 from pykeen.triples import CoreTriplesFactory
-
+from pykeen.sampling import BernoulliNegativeSampler
 
 IndexedTriple = Tuple[int, int, int]
 
@@ -42,13 +42,13 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--triples",
         type=Path,
-        default=Path("artifacts/kg_vocab_literal_excluded/triples_ids.csv"),
+        default=Path("artifacts/kg_vocab_oncology_ttl_resources_only/triples_ids.csv"),
         help="CSV containing head_id,relation_id,tail_id",
     )
     parser.add_argument(
         "--metadata",
         type=Path,
-        default=Path("artifacts/kg_vocab_literal_excluded/metadata.json"),
+        default=Path("artifacts/kg_vocab_oncology_ttl_resources_only/metadata.json"),
         help="Metadata JSON produced by build_kg_vocabulary.py",
     )
     parser.add_argument(

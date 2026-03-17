@@ -1,3 +1,5 @@
 artifacts/*
 !artifacts/kg_vocab/
 !artifacts/kg_vocab_literal_excluded/
+!artifacts/kg_vocab_oncology_ttl_resources_only/
+!artifacts/kg_vocab_oncology_ttl/

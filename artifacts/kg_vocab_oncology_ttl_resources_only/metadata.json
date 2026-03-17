@@ -1,0 +1,32 @@
+{
+  "input_ttl": "data/IMGT_ONTO_ABOX_MAB_ONCOLOGY_ONLY.ttl",
+  "output_dir": "artifacts/kg_vocab_oncology_ttl_resources_only",
+  "object_mode": "resources-only",
+  "num_input_triples": 81469,
+  "num_dropped_triples": 32618,
+  "num_entities": 13399,
+  "num_relations": 66,
+  "num_triples": 48851,
+  "embedding_dim": 100,
+  "rdf_term_summary": {
+    "subjects": {
+      "URIRef": 81437,
+      "BNode": 32
+    },
+    "predicates": {
+      "URIRef": 81469
+    },
+    "objects": {
+      "URIRef": 48837,
+      "Literal": 32618,
+      "BNode": 14
+    }
+  },
+  "files": {
+    "entities": "entities.csv",
+    "relations": "relations.csv",
+    "triples": "triples_ids.csv",
+    "entity_embeddings": "entity_embeddings.npy",
+    "relation_embeddings": "relation_embeddings.npy"
+  }
+}
