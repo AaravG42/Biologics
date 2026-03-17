@@ -1,0 +1,1 @@
+One implementation detail matters: this script treats both URI nodes and literal objects like dates/labels as entities, because that matches the raw triple file.

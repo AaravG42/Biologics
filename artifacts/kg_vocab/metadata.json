@@ -1,0 +1,15 @@
+{
+  "input_csv": "data/Query.csv",
+  "output_dir": "artifacts/kg_vocab",
+  "num_entities": 65249,
+  "num_relations": 115,
+  "num_triples": 149354,
+  "embedding_dim": 100,
+  "files": {
+    "entities": "entities.csv",
+    "relations": "relations.csv",
+    "triples": "triples_ids.csv",
+    "entity_embeddings": "entity_embeddings.npy",
+    "relation_embeddings": "relation_embeddings.npy"
+  }
+}

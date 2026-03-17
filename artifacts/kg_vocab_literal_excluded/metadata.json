@@ -1,0 +1,18 @@
+{
+  "input_csv": "data/Query.csv",
+  "output_dir": "artifacts/kg_vocab_literal_excluded",
+  "literal_policy": "exclude object literals and any non-URI subject/object rows",
+  "num_input_triples": 149354,
+  "num_dropped_triples": 49482,
+  "num_entities": 30968,
+  "num_relations": 81,
+  "num_triples": 99872,
+  "embedding_dim": 100,
+  "files": {
+    "entities": "entities.csv",
+    "relations": "relations.csv",
+    "triples": "triples_ids.csv",
+    "entity_embeddings": "entity_embeddings.npy",
+    "relation_embeddings": "relation_embeddings.npy"
+  }
+}

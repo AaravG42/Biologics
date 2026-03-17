@@ -1,0 +1,3 @@
+artifacts/*
+!artifacts/kg_vocab/
+!artifacts/kg_vocab_literal_excluded/
