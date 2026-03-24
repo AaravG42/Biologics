@@ -4,3 +4,6 @@ artifacts/*
 !artifacts/kg_vocab_oncology_ttl_resources_only/
 !artifacts/kg_vocab_oncology_ttl/
 !artifacts/kg_vocab_onco_filtered/
+!artifacts/kg_vocab_onco_filtered_ESM_640/
+!artifacts/kg_vocab_onco_prior/
+!artifacts/kg_split_analysis/

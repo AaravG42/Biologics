@@ -1,0 +1,74 @@
+{
+  "input_splits": {
+    "train": "data/train.txt",
+    "valid": "data/valid.txt",
+    "test": "data/test.txt"
+  },
+  "sequence_source": "data/mab_inn_sequences_split.csv",
+  "output_dir": "artifacts/kg_vocab_onco_filtered_ESM_640",
+  "num_entities": 9611,
+  "num_relations": 53,
+  "num_triples": 29795,
+  "split_counts": {
+    "train": 24135,
+    "valid": 2856,
+    "test": 2804
+  },
+  "embedding_dim": 1280,
+  "entity_embedding_dim": 1280,
+  "relation_embedding_dim": 1280,
+  "mab_entity_embedding_source": {
+    "relation_used_for_inn_mapping": "imgt:isLinkedToStructureAccessNumb",
+    "esm_model": "esm2_t30_150M_UR50D",
+    "esm_hidden_size_per_chain": 640,
+    "entity_embedding_layout": "concat(heavy_chain, light_chain)",
+    "sequence_pooling": "mean over residue token embeddings excluding special tokens",
+    "max_residue_length": 1022,
+    "random_fallback_for_non_mab_or_unmapped": true
+  },
+  "mapping_summary": {
+    "num_mab_entities_in_vocab": 684,
+    "num_mab_entities_with_inn_link": 572,
+    "num_mab_entities_with_sequence_embeddings": 483,
+    "num_mab_entities_random_fallback": 201,
+    "num_mab_entities_missing_inn_link": 112,
+    "num_mab_entities_missing_sequence_row": 0,
+    "num_inn_rows_with_empty_chain_sequence": 89,
+    "num_inn_rows_truncated": 1,
+    "mab_entities_missing_inn_link_sample": [
+      "imgt:mAb_108",
+      "imgt:mAb_109",
+      "imgt:mAb_110",
+      "imgt:mAb_113",
+      "imgt:mAb_114",
+      "imgt:mAb_115",
+      "imgt:mAb_116",
+      "imgt:mAb_1165",
+      "imgt:mAb_1166",
+      "imgt:mAb_117"
+    ],
+    "mab_entities_missing_sequence_row_sample": [],
+    "inn_rows_with_empty_chain_sequence_sample": [
+      "10014",
+      "10410",
+      "10417",
+      "10518",
+      "10522",
+      "10557",
+      "10562",
+      "10593",
+      "10606",
+      "10652"
+    ],
+    "truncated_inn_rows_sample": [
+      "12023"
+    ]
+  },
+  "files": {
+    "entities": "entities.csv",
+    "relations": "relations.csv",
+    "triples": "triples_ids.csv",
+    "entity_embeddings": "entity_embeddings.npy",
+    "relation_embeddings": "relation_embeddings.npy"
+  }
+}

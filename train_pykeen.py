@@ -11,6 +11,7 @@ from importlib.metadata import version
 from pathlib import Path
 from typing import Any, Dict, List, Sequence, Tuple
 
+import numpy as np
 import torch
 
 # Keep PyKEEN/PyStow caches inside the repo so the script works without
@@ -42,13 +43,13 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--triples",
         type=Path,
-        default=Path("artifacts/kg_vocab_onco_filtered/triples_ids.csv"),
+        default=Path("artifacts/kg_vocab_onco_prior/triples_ids.csv"),
         help="CSV containing head_id,relation_id,tail_id",
     )
     parser.add_argument(
         "--metadata",
         type=Path,
-        default=Path("artifacts/kg_vocab_onco_filtered/metadata.json"),
+        default=Path("artifacts/kg_vocab_onco_prior/metadata.json"),
         help="Metadata JSON produced by build_kg_vocabulary.py",
     )
     parser.add_argument(
@@ -81,7 +82,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--eval-batch-size",
         type=int,
-        default=64,
+        default=4,
         help="Evaluation batch size for tail ranking",
     )
     parser.add_argument(
@@ -145,6 +146,38 @@ def load_relation_id_map(path: Path) -> Dict[str, int]:
         for row in reader:
             relation_to_id[row["relation"]] = int(row["id"])
     return relation_to_id
+
+
+def resolve_entity_embeddings_path(metadata: Dict[str, object], metadata_path: Path) -> Path:
+    artifacts = metadata.get("artifacts")
+    if isinstance(artifacts, dict):
+        entity_embeddings_name = artifacts.get("entity_embeddings")
+        if isinstance(entity_embeddings_name, str):
+            candidate = metadata_path.parent / entity_embeddings_name
+            if candidate.is_file():
+                return candidate
+
+    candidate = metadata_path.parent / "entity_embeddings.npy"
+    if candidate.is_file():
+        return candidate
+
+    raise FileNotFoundError(
+        f"Could not find entity_embeddings.npy in {metadata_path.parent}"
+    )
+
+
+def load_entity_embeddings(path: Path, num_entities: int) -> np.ndarray:
+    entity_embeddings = np.load(path)
+    if entity_embeddings.ndim != 2:
+        raise ValueError(
+            f"Expected 2D entity embeddings in {path}, got shape {entity_embeddings.shape}"
+        )
+    if entity_embeddings.shape[0] != num_entities:
+        raise ValueError(
+            "Entity embedding row count does not match metadata: "
+            f"{entity_embeddings.shape[0]} != {num_entities}"
+        )
+    return entity_embeddings.astype(np.float32, copy=False)
 
 
 def split_triples(
@@ -285,6 +318,28 @@ def extract_embeddings(model: Any) -> Tuple[torch.Tensor, torch.Tensor]:
     return entity_embeddings, relation_embeddings
 
 
+def maybe_initialize_entity_representations(
+    model: Any, entity_embeddings: np.ndarray, device: str
+) -> bool:
+    pretrained = torch.as_tensor(entity_embeddings, dtype=torch.float32, device=device)
+    representation = model.entity_representations[0]
+
+    candidate_parameters = []
+    embedding_module = getattr(representation, "_embeddings", None)
+    if embedding_module is not None and hasattr(embedding_module, "weight"):
+        candidate_parameters.append(embedding_module.weight)
+    if hasattr(representation, "weight"):
+        candidate_parameters.append(representation.weight)
+
+    for parameter in candidate_parameters:
+        if tuple(parameter.shape) == tuple(pretrained.shape):
+            with torch.no_grad():
+                parameter.copy_(pretrained)
+            return True
+
+    return False
+
+
 def build_model(
     model_name: str,
     training_factory: CoreTriplesFactory,
@@ -318,11 +373,20 @@ def main() -> None:
 
     num_entities = int(metadata["num_entities"])
     num_relations = int(metadata["num_relations"])
+    entity_embeddings_path = resolve_entity_embeddings_path(metadata, args.metadata)
+    pretrained_entity_embeddings = load_entity_embeddings(
+        entity_embeddings_path, num_entities
+    )
     embedding_dim = (
         args.embedding_dim
         if args.embedding_dim is not None
-        else int(metadata["embedding_dim"])
+        else int(pretrained_entity_embeddings.shape[1])
     )
+    if pretrained_entity_embeddings.shape[1] != embedding_dim:
+        raise ValueError(
+            "Embedding dimension does not match entity_embeddings.npy: "
+            f"{embedding_dim} != {pretrained_entity_embeddings.shape[1]}"
+        )
     device = resolve_device(args.device)
     output_dir = args.output_dir or Path(f"artifacts/pykeen_{args.model}")
 
@@ -346,6 +410,7 @@ def main() -> None:
     print(f"PyTorch version: {torch.__version__}")
     print(f"Using device: {device}")
     print(f"Model: {args.model}")
+    print(f"Entity embeddings source: {entity_embeddings_path}")
     print(f"Train triples: {train_triples.shape[0]}")
     print(f"Test triples: {test_triples.shape[0]}")
     print(
@@ -364,12 +429,24 @@ def main() -> None:
         seed=args.seed,
     )
     model = model.to(torch.device(device))
+    pretrained_loaded = maybe_initialize_entity_representations(
+        model=model,
+        entity_embeddings=pretrained_entity_embeddings,
+        device=device,
+    )
+    if not pretrained_loaded:
+        print(
+            "Warning: could not preload entity_embeddings.npy into the PyKEEN "
+            "entity representation; proceeding with the model's default initialization."
+        )
 
     training_loop = SLCWATrainingLoop(
         model=model,
         triples_factory=training_factory,
         optimizer="Adam",
         optimizer_kwargs={"lr": args.learning_rate},
+        negative_sampler=BernoulliNegativeSampler(triples_factory=training_factory),
+        negative_sampler_kwargs={"num_negs_per_pos": 2},
     )
     losses = training_loop.train(
         triples_factory=training_factory,
@@ -416,6 +493,8 @@ def main() -> None:
         "num_train_triples": int(train_triples.shape[0]),
         "num_test_triples": int(test_triples.shape[0]),
         "embedding_dim": embedding_dim,
+        "entity_embeddings_source": str(entity_embeddings_path),
+        "pretrained_entity_embeddings_loaded": pretrained_loaded,
         "epochs": args.epochs,
         "batch_size": args.batch_size,
         "eval_batch_size": args.eval_batch_size,

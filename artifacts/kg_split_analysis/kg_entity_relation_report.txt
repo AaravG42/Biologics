@@ -1,0 +1,44 @@
+KG split analysis
+Triples: 29795
+Entities: 9611
+Relations: 53
+Typed entities from Query.csv: 8966/9611
+
+Top entity families
+- StudyProduct: 1812 entities | dominant type: StudyProduct | prior: clinical_text
+- Segment: 905 entities | dominant type: Segment | prior: structured_text
+- Construct: 881 entities | dominant type: Construct | prior: composition
+- Product: 869 entities | dominant type: Product | prior: graph_composition
+- NumericId: 803 entities | dominant type: NumericId | prior: categorical
+- mAb: 684 entities | dominant type: INN | prior: protein_sequence
+- Decision: 580 entities | dominant type: Decision | prior: regulatory_metadata
+- Clone: 302 entities | dominant type: Clone | prior: identifier_only
+- Disease: 140 entities | dominant type: Disease | prior: biomedical_text_or_ontology
+- Organisation: 137 entities | dominant type: Organisation | prior: name_text
+- Conjugate: 120 entities | dominant type: Conjugate | prior: text_or_learned
+- Fused: 81 entities | dominant type: Fused | prior: text_or_learned
+- MOA: 78 entities | dominant type: MOA | prior: mechanism_text
+- : 34 entities | dominant type: ExpressionSystem | prior: text_or_learned
+- Radiolabelled: 28 entities | dominant type: Radiolabelled | prior: text_or_learned
+
+Top relations
+- imgt:hasImgtLabel: 1822 | heads: Segment (905), Construct (881), NumericId (36) | tails: ConstructLabels (1447), SegmentLabels (230), ChainLabels (23)
+- imgt:isClinicalIndicationOf: 1812 | heads: Disease (1799), Wegeners (3), Angiogenesis (3) | tails: StudyProduct (1812)
+- imgt:hasStudyProduct: 1812 | heads: Product (1812) | tails: StudyProduct (1812)
+- imgt:isStudyProductOf: 1812 | heads: StudyProduct (1812) | tails: Product (1812)
+- imgt:hasClinicalIndication: 1812 | heads: StudyProduct (1812) | tails: Disease (1799), Solid (3), Angiogenesis (3)
+- imgt:hasClinicalPhase: 1654 | heads: StudyProduct (1654) | tails: Phase (1589), Withdrawn (23), Discontinued (23)
+- obo:BFO_0000050: 1011 | heads: Segment (905), NumericId (106) | tails: Construct (1011)
+- obo:BFO_0000051: 1011 | heads: Construct (1011) | tails: Segment (905), NumericId (106)
+- imgt:isConstructOf: 881 | heads: Construct (881) | tails: mAb (652), Conjugate (120), Fused (81)
+- imgt:hasConstruct: 881 | heads: mAb (652), Conjugate (120), Fused (81) | tails: Construct (881)
+- imgt:isProductOf: 869 | heads: Product (869) | tails: mAb (869)
+- imgt:hasProduct: 869 | heads: mAb (869) | tails: Product (869)
+- imgt:produces: 857 | heads: Organisation (414), Amgen (27), Genmab (20) | tails: Product (857)
+- imgt:isProducedBy: 857 | heads: Product (857) | tails: Organisation (414), Amgen (27), Genmab (20)
+- imgt:isTargetOf: 784 | heads: NumericId (741), Disease (11), ganglioside (11) | tails: mAb (784)
+
+mAb prior recommendation
+- strategy: protein_sequence
+- prior: ESM or other antibody/protein LM on the amino-acid sequence
+- alignment: project sequence embeddings into KG space with a learned linear layer or small MLP

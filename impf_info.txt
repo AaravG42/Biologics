@@ -1,1 +1,108 @@
 One implementation detail matters: this script treats both URI nodes and literal objects like dates/labels as entities, because that matches the raw triple file.
+
+
+
+
+
+
+
+Tail mean rank (clinical indication relations only): 47.013755798339844
+Artifacts written to onco_filtered_boxe_esm_640_2
+(biologics) aarav@dmlab:~/Biologics$ python train_pykeen.py --output-dir onco_filtered_boxe_esm_640_2 --model boxe --batch-size 256 --epochs 200
+PyKEEN version: 1.11.1
+PyTorch version: 2.10.0+cu128
+Using device: cuda
+Model: boxe
+Entity embeddings source: artifacts/kg_vocab_onco_filtered_ESM_640/entity_embeddings.npy
+Train triples: 23836
+Test triples: 5959
+Clinical-indication relation IDs: 4, 23
+Training epochs on cuda:0: 100%|███████████████████████████████████████████████████████████████████████████████████| 200/200 [08:17<00:00,  2.49s/epoch, loss=34.9, prev_loss=35]
+Evaluating held-out triples with tail prediction (h, r, ?)                                                                                                                       
+Tail mean rank (all test triples): 409.232421875
+Tail mean rank (clinical indication relations only): 42.06464767456055
+Artifacts written to onco_filtered_boxe_esm_640_2
+(biologics) aarav@dmlab:~/Biologics$ python train_pykeen.py --output-dir onco_filtered_boxe_esm_640_2 --model boxe --batch-size 256 --epochs 250
+PyKEEN version: 1.11.1
+PyTorch version: 2.10.0+cu128
+Using device: cuda
+Model: boxe
+Entity embeddings source: artifacts/kg_vocab_onco_filtered_ESM_640/entity_embeddings.npy
+Train triples: 23836
+Test triples: 5959
+Clinical-indication relation IDs: 4, 23
+Training epochs on cuda:0:   4%|███▎                                                                                | 10/250 [00:22<08:31,  2.13s/epoch, loss=124, prev_loss=138^Training epochs on cuda:0: 100%|█████████████████████████████████████████████████████████████████████████████████| 250/250 [12:44<00:00,  3.06s/epoch, loss=34.1, prev_loss=34.3]
+Evaluating held-out triples with tail prediction (h, r, ?)                                                                                                                       
+Traceback (most recent call last):
+  File "/home/aarav/Biologics/train_pykeen.py", line 523, in <module>
+    main()
+  File "/home/aarav/Biologics/train_pykeen.py", line 458, in main
+    full_evaluation = summarize_tail_ranks(
+  File "/home/aarav/Biologics/train_pykeen.py", line 267, in summarize_tail_ranks
+    tail_ranks = compute_tail_ranks(
+  File "/home/aarav/Biologics/train_pykeen.py", line 242, in compute_tail_ranks
+    scores = model.predict_t(hr_batch=hr_batch)
+  File "/home/aarav/miniconda3/envs/biologics/lib/python3.10/site-packages/pykeen/models/base.py", line 413, in predict_t
+    scores = self.score_t(hr_batch, **kwargs)
+  File "/home/aarav/miniconda3/envs/biologics/lib/python3.10/site-packages/pykeen/models/nbase.py", line 540, in score_t
+    scores=self.interaction(h=h, r=r, t=t),
+  File "/home/aarav/miniconda3/envs/biologics/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/aarav/miniconda3/envs/biologics/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/aarav/miniconda3/envs/biologics/lib/python3.10/site-packages/pykeen/nn/modules.py", line 3085, in forward
+    return BoxEInteraction.boxe_kg_arity_position_score(
+  File "/home/aarav/miniconda3/envs/biologics/lib/python3.10/site-packages/pykeen/nn/modules.py", line 3220, in boxe_kg_arity_position_score
+    element_wise_distance = cls.point_to_box_distance(
+  File "/home/aarav/miniconda3/envs/biologics/lib/python3.10/site-packages/pykeen/nn/modules.py", line 3166, in point_to_box_distance
+    widths_p1 * torch.abs(points - centres) - (0.5 * widths) * (widths_p1 - 1 / widths_p1),
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 188.00 MiB. GPU 0 has a total capacity of 31.37 GiB of which 65.94 MiB is free. Process 2619636 has 27.68 GiB memory in use. Including non-PyTorch memory, this process has 1.31 GiB memory in use. Process 2893165 has 1.89 GiB memory in use. Process 2894446 has 412.00 MiB memory in use. Of the allocated memory 895.86 MiB is allocated by PyTorch, and 150.14 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+(biologics) aarav@dmlab:~/Biologics$ [A
+[A: command not found
+(biologics) aarav@dmlab:~/Biologics$ python train_pykeen.py --output-dir onco_filtered_boxe_esm_640_2 --model boxe --batch-size 256 --epochs 250
+PyKEEN version: 1.11.1
+PyTorch version: 2.10.0+cu128
+Using device: cuda
+Model: boxe
+Entity embeddings source: artifacts/kg_vocab_onco_filtered_ESM_640/entity_embeddings.npy
+Train triples: 23836
+Test triples: 5959
+Clinical-indication relation IDs: 4, 23
+Training epochs on cuda:0: 100%|█████████████████████████████████████████████████████████████████████████████████| 250/250 [08:39<00:00,  2.08s/epoch, loss=34.1, prev_loss=34.3]
+Evaluating held-out triples with tail prediction (h, r, ?)                                                                                                                       
+Tail mean rank (all test triples): 449.2262268066406
+Tail mean rank (clinical indication relations only): 45.524070739746094
+Artifacts written to onco_filtered_boxe_esm_640_2
+(biologics) aarav@dmlab:~/Biologics$ python train_pykeen.py --output-dir onco_filtered_boxe_esm_640_2 --model boxe --batch-size 128 --epochs 200
+PyKEEN version: 1.11.1
+PyTorch version: 2.10.0+cu128
+Using device: cuda
+Model: boxe
+Entity embeddings source: artifacts/kg_vocab_onco_filtered_ESM_640/entity_embeddings.npy
+Train triples: 23836
+Test triples: 5959
+Clinical-indication relation IDs: 4, 23
+Training epochs on cuda:0: 100%|█████████████████████████████████████████████████████████████████████████████████| 200/200 [15:49<00:00,  4.75s/epoch, loss=17.5, prev_loss=17.5]
+Evaluating held-out triples with tail prediction (h, r, ?)                                                                                                                       
+Tail mean rank (all test triples): 453.56201171875
+Tail mean rank (clinical indication relations only): 43.621734619140625
+Artifacts written to onco_filtered_boxe_esm_640_2
+(biologics) aarav@dmlab:~/Biologics$ python train_pykeen.py --output-dir onco_filtered_boxe_esm_640_2 --model boxe --batch-size 128 --epochs 250
+PyKEEN version: 1.11.1
+PyTorch version: 2.10.0+cu128
+Using device: cuda
+Model: boxe
+Entity embeddings source: artifacts/kg_vocab_onco_filtered_ESM_640/entity_embeddings.npy
+Train triples: 23836
+Test triples: 5959
+Clinical-indication relation IDs: 4, 23
+Training epochs on cuda:0: 100%|█████████████████████████████████████████████████████████████████████████████████| 250/250 [18:24<00:00,  4.42s/epoch, loss=17.3, prev_loss=17.5]
+Evaluating held-out triples with tail prediction (h, r, ?)                                                                                                                                        
+Tail mean rank (all test triples): 454.1698303222656
+Tail mean rank (clinical indication relations only): 42.77579116821289
+Artifacts written to onco_filtered_boxe_esm_640_2
+(biologics) aarav@dmlab:~/Biologics$ 
+
+python train_pykeen.py --output-dir onco_filtered_boxe_esm_640_ber_neg32 --model boxe --batch-size 256 --epochs 200
+neg32 - 43.5
+neg64 - 46.3
