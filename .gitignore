@@ -1,9 +1,28 @@
-artifacts/*
-!artifacts/kg_vocab/
-!artifacts/kg_vocab_literal_excluded/
-!artifacts/kg_vocab_oncology_ttl_resources_only/
-!artifacts/kg_vocab_oncology_ttl/
-!artifacts/kg_vocab_onco_filtered/
-!artifacts/kg_vocab_onco_filtered_ESM_640/
-!artifacts/kg_vocab_onco_prior/
-!artifacts/kg_split_analysis/
+# Byte-compiled / optimized / cache files
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+
+# OS files
+.DS_Store
+
+# Logs and run-time outputs
+logs/
+*.log
+
+# Analysis scratch / regenerable outputs
+analysis_outputs/
+
+# Matplotlib cache
+.matplotlib/
+
+# NOTE: the following directories are intentionally committed and must NOT
+# be ignored: data/, results/, esm_init/, interpretability/
