@@ -1,0 +1,56 @@
+{
+  "dataset_dir": "/home/aarav/KGEmb/data/IMGT_no_leakage_directional_clinical",
+  "biologics_entities_csv": "/home/aarav/Biologics/artifacts/kg_vocab_onco_filtered_ESM_640/entities.csv",
+  "biologics_embeddings_npy": "/home/aarav/Biologics/artifacts/kg_vocab_onco_filtered_ESM_640/entity_embeddings.npy",
+  "sequences_csv": "/home/aarav/Biologics/data/mab_inn_sequences_split.csv",
+  "num_entities": 9611,
+  "num_relations": 52,
+  "init_dim": 640,
+  "source_embedding_dim": 1280,
+  "fusion": "add(first_half, second_half)",
+  "clinical_relations": [
+    "imgt:hasClinicalIndication",
+    "imgt:isClinicalIndicationOf"
+  ],
+  "num_mab_entities_initialized": 483,
+  "num_mab_entities_missing_inn_link": 112,
+  "num_mab_entities_missing_or_empty_sequence": 89,
+  "num_mab_entities_missing_source_embedding": 0,
+  "initialized_mab_sample": [
+    "imgt:mAb_100",
+    "imgt:mAb_1000",
+    "imgt:mAb_1002",
+    "imgt:mAb_1003",
+    "imgt:mAb_1004",
+    "imgt:mAb_1005",
+    "imgt:mAb_1006",
+    "imgt:mAb_1007",
+    "imgt:mAb_1009",
+    "imgt:mAb_1010"
+  ],
+  "missing_inn_link_sample": [
+    "imgt:mAb_108",
+    "imgt:mAb_109",
+    "imgt:mAb_110",
+    "imgt:mAb_113",
+    "imgt:mAb_114",
+    "imgt:mAb_115",
+    "imgt:mAb_116",
+    "imgt:mAb_1165",
+    "imgt:mAb_1166",
+    "imgt:mAb_117"
+  ],
+  "missing_or_empty_sequence_sample": [
+    "imgt:mAb_101",
+    "imgt:mAb_1014",
+    "imgt:mAb_1041",
+    "imgt:mAb_1042",
+    "imgt:mAb_1048",
+    "imgt:mAb_1049",
+    "imgt:mAb_1055",
+    "imgt:mAb_1056",
+    "imgt:mAb_1057",
+    "imgt:mAb_1058"
+  ],
+  "missing_source_embedding_sample": []
+}
