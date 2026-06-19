@@ -1,0 +1,24 @@
+# Core runtime dependencies for training and evaluating the
+# IMGT/mAbOnco-KG embedding models and running the analysis scripts.
+# Derived from the actual import statements across the repository's .py files.
+
+# --- Knowledge-graph embedding training / evaluation ---
+numpy
+torch
+tqdm
+
+# --- Analysis, clustering, and interpretability scripts (scripts/) ---
+scikit-learn
+umap-learn
+matplotlib
+networkx
+httpx
+
+# --- Optional: ESM-2 source embedding regeneration ---
+# The committed ESM-2 embeddings (esm_init/esm2_source_1280d.npy) and the
+# 640-d additive init (esm_init/entity_init.npy) can be regenerated from the
+# antibody sequences. Doing so additionally requires one of the following
+# (not needed to use the provided pre-computed embeddings):
+#   fair-esm
+# or:
+#   transformers
