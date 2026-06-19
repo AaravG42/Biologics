@@ -1,0 +1,87 @@
+cff-version: 1.2.0
+message: "If you use this software or the results of this study, please cite the preferred-citation (the BJCP paper) below."
+title: "IMGT/mAbOnco-KG Repurposing Framework: a pharmacologically validated knowledge graph-based framework for repurposing therapeutic monoclonal antibodies in oncology"
+type: software
+authors:
+  - family-names: "Gupta"
+    given-names: "Aarav"
+  - family-names: "Pal"
+    given-names: "Anirban"
+  - family-names: "Redhu"
+    given-names: "Archana Kumari"
+  - family-names: "Singhvi"
+    given-names: "Angel"
+  - family-names: "Shah"
+    given-names: "Aryan"
+  - family-names: "Maiti"
+    given-names: "Debabrata"
+  - family-names: "Gota"
+    given-names: "Vikram"
+license: Apache-2.0
+repository-code: "https://github.com/aaravgupta/Biologics"
+
+preferred-citation:
+  type: article
+  title: "Repurposing Therapeutic Monoclonal Antibodies in Oncology Using a Pharmacologically Validated Knowledge Graph-Based Framework"
+  authors:
+    - family-names: "Gupta"
+      given-names: "Aarav"
+    - family-names: "Pal"
+      given-names: "Anirban"
+    - family-names: "Redhu"
+      given-names: "Archana Kumari"
+    - family-names: "Singhvi"
+      given-names: "Angel"
+    - family-names: "Shah"
+      given-names: "Aryan"
+    - family-names: "Maiti"
+      given-names: "Debabrata"
+    - family-names: "Gota"
+      given-names: "Vikram"
+  year: 2026
+  journal: "British Journal of Clinical Pharmacology"
+  notes: "Submitted. Submission ID 5f071cd3-9d74-4074-bdc9-95754b548f4d. Corresponding authors: Vikram Gota, Debabrata Maiti."
+
+references:
+  - type: article
+    title: "IMGT/mAb-KG: The knowledge graph for therapeutic monoclonal antibodies"
+    authors:
+      - family-names: "Sanou"
+        given-names: "Gnimah Eva"
+    year: 2024
+    journal: "Frontiers in Immunology"
+    volume: 15
+    start: 1393839
+    doi: "10.3389/fimmu.2024.1393839"
+    notes: "Source of the IMGT/mAb-KG dataset (see docs/DATA.md). Authorship reflects the cited publication; consult the article for the full author list."
+
+  - type: article
+    title: "Therapeutic monoclonal antibodies repurposing in oncology via IMGT/mAb-KG embeddings"
+    authors:
+      - family-names: "Sanou"
+        given-names: "Gnimah Eva"
+    year: 2026
+    journal: "BMC Medical Informatics and Decision Making"
+    volume: 26
+    start: 89
+    doi: "10.1186/s12911-026-03394-4"
+    notes: "Source of the processed IMGT/mAbOnco-KG splits (see docs/DATA.md). Authorship reflects the cited publication; consult the article for the full author list."
+
+  - type: conference-paper
+    title: "Low-Dimensional Hyperbolic Knowledge Graph Embeddings"
+    authors:
+      - family-names: "Chami"
+        given-names: "Ines"
+      - family-names: "Wolf"
+        given-names: "Adva"
+      - family-names: "Juan"
+        given-names: "Da-Cheng"
+      - family-names: "Sala"
+        given-names: "Frederic"
+      - family-names: "Ravi"
+        given-names: "Sujith"
+      - family-names: "Re"
+        given-names: "Christopher"
+    year: 2020
+    collection-title: "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)"
+    notes: "This repository's code is derived from the KGEmb implementation (Apache-2.0). https://github.com/HazyResearch/KGEmb"

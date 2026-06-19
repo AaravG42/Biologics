@@ -1,0 +1,84 @@
+IMGT/mAbOnco-KG Repurposing Framework
+Copyright 2026 Aarav Gupta and the IMGT/mAbOnco-KG repurposing study authors
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+This NOTICE file is provided for informational purposes only and does not
+modify the License.
+
+================================================================================
+1. Derived software: HazyResearch/KGEmb
+================================================================================
+
+This product includes software derived from the KGEmb project:
+
+    Low-Dimensional Hyperbolic Knowledge Graph Embeddings
+    Ines Chami, Adva Wolf, Da-Cheng Juan, Frederic Sala, Sujith Ravi,
+    Christopher Re. Proceedings of the 58th Annual Meeting of the
+    Association for Computational Linguistics (ACL), 2020.
+    https://github.com/HazyResearch/KGEmb
+
+The KGEmb project is licensed under the Apache License, Version 2.0.
+Portions of this repository are derived from and/or modified versions of
+KGEmb. In particular, files under the following paths are derived or
+adapted from KGEmb:
+
+    - models/
+    - optimizers/
+    - datasets/
+    - utils/euclidean.py
+    - utils/hyperbolic.py
+    - run.py
+
+Modifications to these files (relative to the upstream KGEmb sources) have
+been made by the present authors; modified files carry notices of change in
+accordance with the Apache License, Version 2.0.
+
+================================================================================
+2. Dataset: IMGT/mAbOnco-KG (third-party data, separate terms)
+================================================================================
+
+The knowledge-graph dataset distributed under data/ (the IMGT/mAbOnco-KG
+train/valid/test splits and derivatives thereof) is NOT the original work of
+the authors of this repository. It is derived from:
+
+    Sanou et al. (2026), "Therapeutic monoclonal antibodies repurposing in
+    oncology via IMGT/mAb-KG embeddings", BMC Medical Informatics and
+    Decision Making 26:89. doi:10.1186/s12911-026-03394-4
+
+    Sanou et al. (2024), "IMGT/mAb-KG: The knowledge graph for therapeutic
+    monoclonal antibodies", Frontiers in Immunology 15:1393839.
+    doi:10.3389/fimmu.2024.1393839
+
+The source dataset repository
+(https://src.koda.cnrs.fr/imgt-igh/oncomabkgembeddings) is licensed under the
+European Union Public Licence v1.2 (EUPL-1.2). The underlying data originates
+from IMGT, the international ImMunoGeneTics information system
+(https://www.imgt.org). This data is used here under the terms of its
+original licence and the IMGT terms of use, which are independent of, and
+take precedence over, the Apache-2.0 licence applied to this repository's
+code. See docs/DATA.md for full provenance and licensing details.
+
+================================================================================
+3. External tools, databases, and resources acknowledged
+================================================================================
+
+This work uses, references, or queries the following external resources.
+Each remains the property of its respective authors/maintainers and is
+subject to its own terms of use:
+
+  - ESM-2 protein language model:
+      Lin et al. (2023), "Evolutionary-scale prediction of atomic-level
+      protein structure with a language model", Science 379:1123.
+      doi:10.1126/science.ade2574
+
+  - Open Targets Platform:
+      Ochoa et al. (2023), "The next-generation Open Targets Platform:
+      reimagined, redesigned, rebuilt", Nucleic Acids Research 51:D1353.
+
+  - Reactome:
+      Milacic et al. (2024), "The Reactome Pathway Knowledgebase 2024",
+      Nucleic Acids Research 52:D672.
+
+  - MyGene.info:
+      Xin et al. (2016), "High-performance web services for querying gene
+      and variant annotation", Genome Biology 17:91.
