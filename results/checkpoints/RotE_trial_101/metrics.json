@@ -1,0 +1,115 @@
+{
+  "config": {
+    "batch_size": 256,
+    "bias": "constant",
+    "dataset": "IMGT_no_leakage_directional_clinical",
+    "debug": false,
+    "double_neg": true,
+    "dropout": 0.0,
+    "dtype": "single",
+    "gamma": 6.0,
+    "init_size": 0.001,
+    "learning_rate": 0.0003,
+    "max_epochs": 200,
+    "model": "RotE",
+    "multi_c": false,
+    "neg_sample_size": 32,
+    "optimizer": "Adam",
+    "patience": 10,
+    "rank": 640,
+    "reg": 0.0,
+    "regularizer": "N3",
+    "valid": 5
+  },
+  "gpu_id": 0,
+  "metrics": {
+    "best_epoch": 199,
+    "clinical_relation_id": 6,
+    "clinical_relations": {
+      "forward_head_prediction": {
+        "query": "?, imgt:hasClinicalIndication, t",
+        "relation_offset": 52
+      },
+      "forward_tail_prediction": {
+        "id": 6,
+        "name": "imgt:hasClinicalIndication"
+      }
+    },
+    "epoch": 199,
+    "num_parameters": 6303382,
+    "test": {
+      "count": 297,
+      "tail_hits@1": 0.18518517911434174,
+      "tail_hits@10": 0.5959596037864685,
+      "tail_hits@3": 0.3501683473587036,
+      "tail_mr": 24.55555534362793,
+      "tail_mrr": 0.31099292635917664
+    },
+    "test_by_direction": {
+      "combined": {
+        "count": 594,
+        "hits@1": 0.09427609120029956,
+        "hits@10": 0.30808081198483706,
+        "hits@3": 0.1767676753224805,
+        "mr": 424.45792293548584,
+        "mrr": 0.16153870057314634
+      },
+      "head_prediction": {
+        "count": 297,
+        "head_hits@1": 0.003367003286257386,
+        "head_hits@10": 0.020202020183205605,
+        "head_hits@3": 0.003367003286257386,
+        "head_mr": 824.3602905273438,
+        "head_mrr": 0.01208447478711605
+      },
+      "tail_prediction": {
+        "count": 297,
+        "tail_hits@1": 0.18518517911434174,
+        "tail_hits@10": 0.5959596037864685,
+        "tail_hits@3": 0.3501683473587036,
+        "tail_mr": 24.55555534362793,
+        "tail_mrr": 0.31099292635917664
+      }
+    },
+    "train_loss": 0.0037896044086664915,
+    "valid": {
+      "count": 301,
+      "tail_hits@1": 0.15282392501831055,
+      "tail_hits@10": 0.5215947031974792,
+      "tail_hits@3": 0.27574750781059265,
+      "tail_mr": 24.727575302124023,
+      "tail_mrr": 0.26754263043403625
+    },
+    "valid_by_direction": {
+      "combined": {
+        "count": 602,
+        "hits@1": 0.07641196250915527,
+        "hits@10": 0.27574751805514097,
+        "hits@3": 0.14451827201992273,
+        "mr": 436.08638286590576,
+        "mrr": 0.140764435287565
+      },
+      "head_prediction": {
+        "count": 301,
+        "head_hits@1": 0.0,
+        "head_hits@10": 0.029900332912802696,
+        "head_hits@3": 0.013289036229252815,
+        "head_mr": 847.4451904296875,
+        "head_mrr": 0.013986240141093731
+      },
+      "tail_prediction": {
+        "count": 301,
+        "tail_hits@1": 0.15282392501831055,
+        "tail_hits@10": 0.5215947031974792,
+        "tail_hits@3": 0.27574750781059265,
+        "tail_mr": 24.727575302124023,
+        "tail_mrr": 0.26754263043403625
+      }
+    },
+    "valid_loss": 0.18712803721427917
+  },
+  "model": "RotE",
+  "seed": 4143,
+  "trial_dir": "analysis_outputs/IMGT_no_leakage_directional_clinical/clinical_hpo/RotE/trial_101",
+  "trial_index": 101
+}

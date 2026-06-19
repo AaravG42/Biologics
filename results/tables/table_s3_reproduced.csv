@@ -1,0 +1,10 @@
+Model,Geometry,source_trial,MR,MRR,Hits@1(%),Hits@3(%),Hits@10(%)
+RotE,Euclidean,trial_101,24.96,0.316,19.5,34.7,59.26
+TransE,Euclidean,trial_079,31.4,0.314,18.9,35.0,58.25
+RefE,Euclidean,trial_065,24.55,0.311,18.9,34.7,59.26
+MurE,Euclidean,trial_163,30.51,0.3,19.5,31.3,54.55
+AttE,Euclidean,trial_154,24.18,0.292,18.2,30.0,55.89
+CP,Euclidean,trial_099,53.61,0.228,12.8,21.9,44.44
+AttH,Hyperbolic,trial_000,99.56,0.298,20.5,28.6,53.54
+RefH,Hyperbolic,trial_059,429.63,0.284,17.8,30.6,50.17
+RotH,Hyperbolic,trial_031,31.84,0.254,12.5,28.6,52.19

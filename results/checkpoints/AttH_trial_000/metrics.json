@@ -1,0 +1,115 @@
+{
+  "config": {
+    "batch_size": 2048,
+    "bias": "constant",
+    "dataset": "IMGT_no_leakage_directional_clinical",
+    "debug": false,
+    "double_neg": false,
+    "dropout": 0.0,
+    "dtype": "single",
+    "gamma": 12.0,
+    "init_size": 0.001,
+    "learning_rate": 0.001,
+    "max_epochs": 150,
+    "model": "AttH",
+    "multi_c": true,
+    "neg_sample_size": 64,
+    "optimizer": "Adam",
+    "patience": 8,
+    "rank": 640,
+    "reg": 0.0,
+    "regularizer": "F2",
+    "valid": 5
+  },
+  "gpu_id": 0,
+  "metrics": {
+    "best_epoch": 129,
+    "clinical_relation_id": 6,
+    "clinical_relations": {
+      "forward_head_prediction": {
+        "query": "?, imgt:hasClinicalIndication, t",
+        "relation_offset": 52
+      },
+      "forward_tail_prediction": {
+        "id": 6,
+        "name": "imgt:hasClinicalIndication"
+      }
+    },
+    "epoch": 129,
+    "num_parameters": 6503166,
+    "test": {
+      "count": 297,
+      "tail_hits@1": 0.2053872048854828,
+      "tail_hits@10": 0.5353535413742065,
+      "tail_hits@3": 0.2861952781677246,
+      "tail_mr": 99.55892181396484,
+      "tail_mrr": 0.29806673526763916
+    },
+    "test_by_direction": {
+      "combined": {
+        "count": 594,
+        "hits@1": 0.1026936024427414,
+        "hits@10": 0.27104377397336066,
+        "hits@3": 0.1430976390838623,
+        "mr": 685.4797782897949,
+        "mrr": 0.1509081117110327
+      },
+      "head_prediction": {
+        "count": 297,
+        "head_hits@1": 0.0,
+        "head_hits@10": 0.006734006572514772,
+        "head_hits@3": 0.0,
+        "head_mr": 1271.400634765625,
+        "head_mrr": 0.003749488154426217
+      },
+      "tail_prediction": {
+        "count": 297,
+        "tail_hits@1": 0.2053872048854828,
+        "tail_hits@10": 0.5353535413742065,
+        "tail_hits@3": 0.2861952781677246,
+        "tail_mr": 99.55892181396484,
+        "tail_mrr": 0.29806673526763916
+      }
+    },
+    "train_loss": 0.04676688835024834,
+    "valid": {
+      "count": 301,
+      "tail_hits@1": 0.13953489065170288,
+      "tail_hits@10": 0.4518272280693054,
+      "tail_hits@3": 0.2591361999511719,
+      "tail_mr": 60.23588180541992,
+      "tail_mrr": 0.2440541386604309
+    },
+    "valid_by_direction": {
+      "combined": {
+        "count": 602,
+        "hits@1": 0.06976744532585144,
+        "hits@10": 0.2292358730919659,
+        "hits@3": 0.12956809997558594,
+        "mr": 644.4202480316162,
+        "mrr": 0.12354423303622752
+      },
+      "head_prediction": {
+        "count": 301,
+        "head_hits@1": 0.0,
+        "head_hits@10": 0.006644518114626408,
+        "head_hits@3": 0.0,
+        "head_mr": 1228.6046142578125,
+        "head_mrr": 0.0030343274120241404
+      },
+      "tail_prediction": {
+        "count": 301,
+        "tail_hits@1": 0.13953489065170288,
+        "tail_hits@10": 0.4518272280693054,
+        "tail_hits@3": 0.2591361999511719,
+        "tail_mr": 60.23588180541992,
+        "tail_mrr": 0.2440541386604309
+      }
+    },
+    "valid_loss": 0.16369237005710602
+  },
+  "model": "AttH",
+  "seed": 9042,
+  "trial_dir": "analysis_outputs/IMGT_no_leakage_directional_clinical/clinical_hpo/AttH/trial_000",
+  "trial_index": 0
+}

@@ -1,0 +1,212 @@
+{
+  "graph": {
+    "nodes": 9611,
+    "directed_triples": 29795,
+    "undirected_edges": 18986,
+    "self_loops_ignored": 12,
+    "connected_components": 12,
+    "largest_component_size": 9231,
+    "largest_component_fraction": 0.9604619706586204,
+    "top_relations": [
+      [
+        "imgt:hasImgtLabel",
+        1822
+      ],
+      [
+        "imgt:isClinicalIndicationOf",
+        1812
+      ],
+      [
+        "imgt:hasStudyProduct",
+        1812
+      ],
+      [
+        "imgt:isStudyProductOf",
+        1812
+      ],
+      [
+        "imgt:hasClinicalIndication",
+        1812
+      ],
+      [
+        "imgt:hasClinicalPhase",
+        1654
+      ],
+      [
+        "obo:BFO_0000050",
+        1011
+      ],
+      [
+        "obo:BFO_0000051",
+        1011
+      ],
+      [
+        "imgt:isConstructOf",
+        881
+      ],
+      [
+        "imgt:hasConstruct",
+        881
+      ],
+      [
+        "imgt:isProductOf",
+        869
+      ],
+      [
+        "imgt:hasProduct",
+        869
+      ],
+      [
+        "imgt:produces",
+        857
+      ],
+      [
+        "imgt:isProducedBy",
+        857
+      ],
+      [
+        "imgt:isTargetOf",
+        784
+      ],
+      [
+        "sio:SIO_000291",
+        784
+      ],
+      [
+        "imgt:isLinkedToStructureAccessNumb",
+        666
+      ],
+      [
+        "imgt:hasReceptorFormat",
+        644
+      ],
+      [
+        "imgt:hasMolecularComponent",
+        644
+      ],
+      [
+        "imgt:isDecisionOf",
+        580
+      ]
+    ]
+  },
+  "degree": {
+    "min": 1,
+    "max": 634,
+    "mean": 3.950889605660181,
+    "median": 3.0,
+    "p90": 6.0,
+    "p99": 17.0,
+    "singleton_fraction": 0.22994485485381333,
+    "degree_leq_2_fraction": 0.420351680366247,
+    "top_hubs": [
+      [
+        "imgt:IgG1-kappa",
+        634
+      ],
+      [
+        "imgt:IG",
+        598
+      ],
+      [
+        "imgt:Phase_I",
+        560
+      ],
+      [
+        "imgt:FDA",
+        491
+      ],
+      [
+        "imgt:Phase_II",
+        373
+      ],
+      [
+        "imgt:approval",
+        367
+      ],
+      [
+        "imgt:Phase_M",
+        306
+      ],
+      [
+        "imgt:_CHO_(Chinese_Hamster_Ovary)_cells",
+        301
+      ],
+      [
+        "imgt:Homsap",
+        275
+      ],
+      [
+        "imgt:Solid_tumors",
+        244
+      ],
+      [
+        "imgt:IgG1 - kappa",
+        226
+      ],
+      [
+        "imgt:Oncology",
+        226
+      ],
+      [
+        "imgt:Orphan_drug",
+        199
+      ],
+      [
+        "imgt:Phase_I/II",
+        183
+      ],
+      [
+        "imgt:Musmus",
+        171
+      ],
+      [
+        "imgt:IgG4-kappa",
+        156
+      ],
+      [
+        "imgt:Phase_III",
+        149
+      ],
+      [
+        "imgt:bispecific",
+        87
+      ],
+      [
+        "HGNC:17635",
+        85
+      ],
+      [
+        "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+        81
+      ]
+    ]
+  },
+  "hyperbolicity": {
+    "mode": "sampled_approximation",
+    "largest_component_size": 9231,
+    "sampled_nodes": 96,
+    "quartet_samples_evaluated": 200000,
+    "delta": 2.5,
+    "normalized_delta_by_sample_diameter": 0.22727272727272727,
+    "witness_nodes": [
+      "imgt:StudyProduct_Forty_Seven_Inc_Solid_tumors_916",
+      "imgt:Segment_1308_1",
+      "imgt:Product_Rentschler_Biotechnologie_GmbH_568",
+      "imgt:Product_AbbVie_Inc_654"
+    ],
+    "sample_diameter": 11,
+    "sample_mean_distance": 5.521491228070175
+  },
+  "power_law_hint": {
+    "xmin": 2,
+    "loglog_frequency_slope": -1.1965022488605355,
+    "approx_power_law_exponent": 1.1965022488605355,
+    "intercept": 5.7986468714993515
+  },
+  "artifacts": {
+    "degree_distribution_plot": "results/graph_analysis/degree_distribution.png",
+    "node_degrees_csv": "results/graph_analysis/node_degrees.csv",
+    "degree_histogram_csv": "results/graph_analysis/degree_histogram.csv"
+  }
+}

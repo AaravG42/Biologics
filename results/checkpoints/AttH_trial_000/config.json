@@ -1,0 +1,22 @@
+{
+  "batch_size": 2048,
+  "bias": "constant",
+  "dataset": "IMGT_no_leakage_directional_clinical",
+  "debug": false,
+  "double_neg": false,
+  "dropout": 0.0,
+  "dtype": "single",
+  "gamma": 12.0,
+  "init_size": 0.001,
+  "learning_rate": 0.001,
+  "max_epochs": 200,
+  "model": "AttH",
+  "multi_c": true,
+  "neg_sample_size": 64,
+  "optimizer": "Adam",
+  "patience": 10,
+  "rank": 640,
+  "reg": 0.0,
+  "regularizer": "F2",
+  "valid": 5
+}

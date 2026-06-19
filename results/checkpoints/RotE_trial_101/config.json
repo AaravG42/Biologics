@@ -1,0 +1,22 @@
+{
+  "batch_size": 256,
+  "bias": "constant",
+  "dataset": "IMGT_no_leakage_directional_clinical",
+  "debug": false,
+  "double_neg": true,
+  "dropout": 0.0,
+  "dtype": "single",
+  "gamma": 6.0,
+  "init_size": 0.001,
+  "learning_rate": 0.0003,
+  "max_epochs": 200,
+  "model": "RotE",
+  "multi_c": false,
+  "neg_sample_size": 32,
+  "optimizer": "Adam",
+  "patience": 10,
+  "rank": 640,
+  "reg": 0.0,
+  "regularizer": "N3",
+  "valid": 5
+}
