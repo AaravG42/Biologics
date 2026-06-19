@@ -1,0 +1,552 @@
+[
+  {
+    "mab": "imgt:mAb_1365",
+    "gene": "PDCD1",
+    "true_tail": "imgt:Cancers_gastric",
+    "rank": 13,
+    "analysis": [
+      {
+        "pos": 1,
+        "pred": "imgt:Solid_tumors",
+        "plausible": null
+      },
+      {
+        "pos": 2,
+        "pred": "imgt:Hepatocellular_carcinoma_(HCC)_metastatic",
+        "plausible": true
+      },
+      {
+        "pos": 3,
+        "pred": "imgt:Cancers_esophageal_metastatic",
+        "plausible": true
+      },
+      {
+        "pos": 4,
+        "pred": "imgt:Carcinoma_head_and_neck_squamous_cell_(HNSCC)_recurrent_or_metastatic",
+        "plausible": false
+      },
+      {
+        "pos": 5,
+        "pred": "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+        "plausible": true
+      },
+      {
+        "pos": 6,
+        "pred": "imgt:Non-Hodgkins_lymphoma_(NHL)",
+        "plausible": true
+      },
+      {
+        "pos": 7,
+        "pred": "imgt:Chronic_lymphocytic_leukemia_(CLL)",
+        "plausible": false
+      },
+      {
+        "pos": 8,
+        "pred": "imgt:Multiple_myeloma_(MM)",
+        "plausible": true
+      },
+      {
+        "pos": 9,
+        "pred": "imgt:Acute_myeloid_leukemia_(AML)",
+        "plausible": false
+      },
+      {
+        "pos": 10,
+        "pred": "imgt:Cancers_breast",
+        "plausible": true
+      },
+      {
+        "pos": 11,
+        "pred": "imgt:Cancers",
+        "plausible": null
+      },
+      {
+        "pos": 12,
+        "pred": "imgt:Acute_lymphocytic_leukemia_(ALL)",
+        "plausible": false
+      },
+      {
+        "pos": 13,
+        "pred": "imgt:Cancers_gastric",
+        "plausible": true
+      },
+      {
+        "pos": 14,
+        "pred": "imgt:Solid_tumors_advanced_or_metastatic",
+        "plausible": false
+      },
+      {
+        "pos": 15,
+        "pred": "imgt:Lymphoma",
+        "plausible": true
+      },
+      {
+        "pos": 16,
+        "pred": "imgt:Neoplasms",
+        "plausible": null
+      },
+      {
+        "pos": 17,
+        "pred": "imgt:Cancers_ovarian",
+        "plausible": false
+      },
+      {
+        "pos": 18,
+        "pred": "imgt:Cancers_pancreatic",
+        "plausible": false
+      },
+      {
+        "pos": 19,
+        "pred": "imgt:Glioblastoma_multiforme_(GBM)",
+        "plausible": false
+      },
+      {
+        "pos": 20,
+        "pred": "imgt:Cancers_colorectal_(CRC)",
+        "plausible": true
+      }
+    ],
+    "hits_plausible": 9,
+    "total_specific": 17
+  },
+  {
+    "mab": "imgt:mAb_1101",
+    "gene": "MSLN",
+    "true_tail": "imgt:Cancers_ovarian",
+    "rank": 12,
+    "analysis": [
+      {
+        "pos": 1,
+        "pred": "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+        "plausible": true
+      },
+      {
+        "pos": 2,
+        "pred": "imgt:Solid_tumors",
+        "plausible": null
+      },
+      {
+        "pos": 3,
+        "pred": "imgt:Cholangiocarcinoma",
+        "plausible": true
+      },
+      {
+        "pos": 4,
+        "pred": "imgt:Non-Hodgkins_lymphoma_(NHL)",
+        "plausible": false
+      },
+      {
+        "pos": 5,
+        "pred": "imgt:Mesothelioma_pleural_malignant",
+        "plausible": true
+      },
+      {
+        "pos": 6,
+        "pred": "imgt:Cancers_pancreatic",
+        "plausible": true
+      },
+      {
+        "pos": 7,
+        "pred": "imgt:Cancers",
+        "plausible": null
+      },
+      {
+        "pos": 8,
+        "pred": "imgt:Mesothelioma_malignant",
+        "plausible": true
+      },
+      {
+        "pos": 9,
+        "pred": "imgt:Acute_myeloid_leukemia_(AML)",
+        "plausible": true
+      },
+      {
+        "pos": 10,
+        "pred": "imgt:Cancers_colorectal_(CRC)",
+        "plausible": true
+      },
+      {
+        "pos": 11,
+        "pred": "imgt:Cancers_breast",
+        "plausible": true
+      },
+      {
+        "pos": 12,
+        "pred": "imgt:Cancers_ovarian",
+        "plausible": true
+      },
+      {
+        "pos": 13,
+        "pred": "imgt:Lymphoma_B_cell",
+        "plausible": false
+      },
+      {
+        "pos": 14,
+        "pred": "imgt:Multiple_myeloma_(MM)",
+        "plausible": false
+      },
+      {
+        "pos": 15,
+        "pred": "imgt:Acute_lymphocytic_leukemia_(ALL)",
+        "plausible": false
+      },
+      {
+        "pos": 16,
+        "pred": "imgt:Chronic_lymphocytic_leukemia_(CLL)",
+        "plausible": false
+      },
+      {
+        "pos": 17,
+        "pred": "imgt:Renal_cell_carcinoma_(RCC)",
+        "plausible": false
+      },
+      {
+        "pos": 18,
+        "pred": "imgt:Cancers_gastric",
+        "plausible": true
+      },
+      {
+        "pos": 19,
+        "pred": "imgt:Myelodysplastic_syndromes_(MDS)",
+        "plausible": false
+      },
+      {
+        "pos": 20,
+        "pred": "imgt:Cancers_prostate_metastatic",
+        "plausible": false
+      }
+    ],
+    "hits_plausible": 10,
+    "total_specific": 18
+  },
+  {
+    "mab": "imgt:mAb_1115",
+    "gene": "ERBB2",
+    "true_tail": "imgt:Cancers_breast",
+    "rank": 12,
+    "analysis": [
+      {
+        "pos": 1,
+        "pred": "imgt:Solid_tumors",
+        "plausible": null
+      },
+      {
+        "pos": 2,
+        "pred": "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+        "plausible": true
+      },
+      {
+        "pos": 3,
+        "pred": "imgt:Non-Hodgkins_lymphoma_(NHL)",
+        "plausible": false
+      },
+      {
+        "pos": 4,
+        "pred": "imgt:Cancers_pancreatic",
+        "plausible": true
+      },
+      {
+        "pos": 5,
+        "pred": "imgt:Acute_myeloid_leukemia_(AML)",
+        "plausible": false
+      },
+      {
+        "pos": 6,
+        "pred": "imgt:Cancers",
+        "plausible": null
+      },
+      {
+        "pos": 7,
+        "pred": "imgt:Multiple_myeloma_(MM)",
+        "plausible": false
+      },
+      {
+        "pos": 8,
+        "pred": "imgt:Cancers_colorectal_(CRC)",
+        "plausible": true
+      },
+      {
+        "pos": 9,
+        "pred": "imgt:Cancers_ovarian",
+        "plausible": true
+      },
+      {
+        "pos": 10,
+        "pred": "imgt:Chronic_lymphocytic_leukemia_(CLL)",
+        "plausible": false
+      },
+      {
+        "pos": 11,
+        "pred": "imgt:Lymphoma_B_cell",
+        "plausible": false
+      },
+      {
+        "pos": 12,
+        "pred": "imgt:Cancers_breast",
+        "plausible": true
+      },
+      {
+        "pos": 13,
+        "pred": "imgt:Acute_lymphocytic_leukemia_(ALL)",
+        "plausible": false
+      },
+      {
+        "pos": 14,
+        "pred": "imgt:Cancers_prostate_metastatic",
+        "plausible": true
+      },
+      {
+        "pos": 15,
+        "pred": "imgt:Cancers_head_and_neck",
+        "plausible": true
+      },
+      {
+        "pos": 16,
+        "pred": "imgt:Cancers_gastric",
+        "plausible": true
+      },
+      {
+        "pos": 17,
+        "pred": "imgt:Glioblastoma_multiforme_(GBM)",
+        "plausible": false
+      },
+      {
+        "pos": 18,
+        "pred": "imgt:Solid_tumors_advanced_or_metastatic",
+        "plausible": false
+      },
+      {
+        "pos": 19,
+        "pred": "imgt:Renal_cell_carcinoma_(RCC)",
+        "plausible": true
+      },
+      {
+        "pos": 20,
+        "pred": "imgt:Neoplasms",
+        "plausible": null
+      }
+    ],
+    "hits_plausible": 9,
+    "total_specific": 17
+  },
+  {
+    "mab": "imgt:mAb_419",
+    "gene": "EGFR",
+    "true_tail": "imgt:Cancers_colorectal_(CRC)",
+    "rank": 11,
+    "analysis": [
+      {
+        "pos": 1,
+        "pred": "imgt:Solid_tumors",
+        "plausible": null
+      },
+      {
+        "pos": 2,
+        "pred": "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+        "plausible": true
+      },
+      {
+        "pos": 3,
+        "pred": "imgt:Cancers_breast",
+        "plausible": true
+      },
+      {
+        "pos": 4,
+        "pred": "imgt:Non-Hodgkins_lymphoma_(NHL)",
+        "plausible": true
+      },
+      {
+        "pos": 5,
+        "pred": "imgt:Chronic_lymphocytic_leukemia_(CLL)",
+        "plausible": false
+      },
+      {
+        "pos": 6,
+        "pred": "imgt:Multiple_myeloma_(MM)",
+        "plausible": false
+      },
+      {
+        "pos": 7,
+        "pred": "imgt:Cancers_ovarian",
+        "plausible": true
+      },
+      {
+        "pos": 8,
+        "pred": "imgt:Cancers_gastric",
+        "plausible": false
+      },
+      {
+        "pos": 9,
+        "pred": "imgt:Acute_myeloid_leukemia_(AML)",
+        "plausible": false
+      },
+      {
+        "pos": 10,
+        "pred": "imgt:Lymphoma_diffuse_large_B_cell_(DLBCL)",
+        "plausible": false
+      },
+      {
+        "pos": 11,
+        "pred": "imgt:Cancers_colorectal_(CRC)",
+        "plausible": true
+      },
+      {
+        "pos": 12,
+        "pred": "imgt:Cancers_head_and_neck",
+        "plausible": true
+      },
+      {
+        "pos": 13,
+        "pred": "imgt:Cancers",
+        "plausible": null
+      },
+      {
+        "pos": 14,
+        "pred": "imgt:Rheumatoid_arthritis_(RA)",
+        "plausible": false
+      },
+      {
+        "pos": 15,
+        "pred": "imgt:Cancers_pancreatic",
+        "plausible": true
+      },
+      {
+        "pos": 16,
+        "pred": "imgt:Hepatocellular_carcinoma_(HCC)",
+        "plausible": true
+      },
+      {
+        "pos": 17,
+        "pred": "imgt:Renal_cell_carcinoma_(RCC)",
+        "plausible": false
+      },
+      {
+        "pos": 18,
+        "pred": "imgt:Melanoma_metastatic",
+        "plausible": false
+      },
+      {
+        "pos": 19,
+        "pred": "imgt:Acute_lymphocytic_leukemia_(ALL)",
+        "plausible": false
+      },
+      {
+        "pos": 20,
+        "pred": "imgt:Cancers_colorectal_(CRC)_metastatic",
+        "plausible": true
+      }
+    ],
+    "hits_plausible": 9,
+    "total_specific": 18
+  },
+  {
+    "mab": "imgt:mAb_1230",
+    "gene": "TNFRSF17",
+    "true_tail": "imgt:Multiple_myeloma_(MM)",
+    "rank": 11,
+    "analysis": [
+      {
+        "pos": 1,
+        "pred": "imgt:Solid_tumors",
+        "plausible": null
+      },
+      {
+        "pos": 2,
+        "pred": "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+        "plausible": false
+      },
+      {
+        "pos": 3,
+        "pred": "imgt:Non-Hodgkins_lymphoma_(NHL)",
+        "plausible": true
+      },
+      {
+        "pos": 4,
+        "pred": "imgt:Acute_myeloid_leukemia_(AML)",
+        "plausible": true
+      },
+      {
+        "pos": 5,
+        "pred": "imgt:Cancers_pancreatic",
+        "plausible": true
+      },
+      {
+        "pos": 6,
+        "pred": "imgt:Lymphoma_B_cell",
+        "plausible": true
+      },
+      {
+        "pos": 7,
+        "pred": "imgt:Cancers_ovarian",
+        "plausible": false
+      },
+      {
+        "pos": 8,
+        "pred": "imgt:Acute_lymphocytic_leukemia_(ALL)",
+        "plausible": true
+      },
+      {
+        "pos": 9,
+        "pred": "imgt:Cancers",
+        "plausible": null
+      },
+      {
+        "pos": 10,
+        "pred": "imgt:Chronic_lymphocytic_leukemia_(CLL)",
+        "plausible": true
+      },
+      {
+        "pos": 11,
+        "pred": "imgt:Multiple_myeloma_(MM)",
+        "plausible": true
+      },
+      {
+        "pos": 12,
+        "pred": "imgt:Cancers_colorectal_(CRC)",
+        "plausible": true
+      },
+      {
+        "pos": 13,
+        "pred": "imgt:Cancers_breast",
+        "plausible": true
+      },
+      {
+        "pos": 14,
+        "pred": "imgt:Cancers_prostate_metastatic",
+        "plausible": true
+      },
+      {
+        "pos": 15,
+        "pred": "imgt:Cancers_gastric",
+        "plausible": true
+      },
+      {
+        "pos": 16,
+        "pred": "imgt:Lymphoma_diffuse_large_B_cell_(DLBCL)",
+        "plausible": true
+      },
+      {
+        "pos": 17,
+        "pred": "imgt:Lymphoma",
+        "plausible": true
+      },
+      {
+        "pos": 18,
+        "pred": "imgt:Hodgkin_lymphoma",
+        "plausible": false
+      },
+      {
+        "pos": 19,
+        "pred": "imgt:Soft-tissue_sarcoma_(STS)",
+        "plausible": false
+      },
+      {
+        "pos": 20,
+        "pred": "imgt:Cancers_prostate",
+        "plausible": true
+      }
+    ],
+    "hits_plausible": 14,
+    "total_specific": 18
+  }
+]

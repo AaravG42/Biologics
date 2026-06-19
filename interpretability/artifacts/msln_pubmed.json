@@ -1,0 +1,228 @@
+{
+  "mesothelin CAR-T cholangiocarcinoma": [
+    {
+      "pmid": "41543488",
+      "title": "Preclinical development of mesothelin-targeting CAR T cells for the treatment of cholangiocarcinoma.",
+      "first_author": "Duangdara J",
+      "journal": "Hepatol Commun",
+      "pub_date": "2026 Feb 1",
+      "doi": "10.1097/HC9.0000000000000888"
+    },
+    {
+      "pmid": "32700185",
+      "title": "CAR T Cell Therapy in Pancreaticobiliary Cancers: a Focused Review of Clinical Data.",
+      "first_author": "Anwar MY",
+      "journal": "J Gastrointest Cancer",
+      "pub_date": "2021 Mar",
+      "doi": "10.1007/s12029-020-00457-1"
+    },
+    {
+      "pmid": "35961708",
+      "title": "Immunotherapy for hepatobiliary cancers: Emerging targets and translational advances.",
+      "first_author": "Li D",
+      "journal": "Adv Cancer Res",
+      "pub_date": "2022",
+      "doi": "10.1016/bs.acr.2022.01.013"
+    }
+  ],
+  "mesothelin CAR-T gastric cancer": [
+    {
+      "pmid": "32560392",
+      "title": "CAR-T Cell Therapy-An Overview of Targets in Gastric Cancer.",
+      "first_author": "B\u0119bnowska D",
+      "journal": "J Clin Med",
+      "pub_date": "2020 Jun 17",
+      "doi": "10.3390/jcm9061894"
+    },
+    {
+      "pmid": "34326835",
+      "title": "Human Hyaluronidase PH20 Potentiates the Antitumor Activities of Mesothelin-Specific CAR-T Cells Against Gastric Cancer.",
+      "first_author": "Zhao R",
+      "journal": "Front Immunol",
+      "pub_date": "2021",
+      "doi": "10.3389/fimmu.2021.660488"
+    },
+    {
+      "pmid": "30777106",
+      "title": "Mesothelin is a target of chimeric antigen receptor T cells for treating gastric cancer.",
+      "first_author": "Lv J",
+      "journal": "J Hematol Oncol",
+      "pub_date": "2019 Feb 18",
+      "doi": "10.1186/s13045-019-0704-y"
+    },
+    {
+      "pmid": "38368374",
+      "title": "Combined therapy of CAR-IL-15/IL-15R\u03b1-T cells and GLIPR1 knockdown in cancer cells enhanced anti-tumor effect against gastric cancer.",
+      "first_author": "Ye J",
+      "journal": "J Transl Med",
+      "pub_date": "2024 Feb 18",
+      "doi": "10.1186/s12967-024-04982-6"
+    },
+    {
+      "pmid": "30260046",
+      "title": "MSLN (Mesothelin), ANTXR1 (TEM8), and MUC3A are the potent antigenic targets for CAR T cell therapy of gastric adenocarcinoma.",
+      "first_author": "Sotoudeh M",
+      "journal": "J Cell Biochem",
+      "pub_date": "2019 Apr",
+      "doi": "10.1002/jcb.27776"
+    },
+    {
+      "pmid": "40954076",
+      "title": "Intraperitoneal CAR T-cell therapy for peritoneal carcinomatosis from gastroesophageal cancer: preclinical investigations to a phase I clinical trial (NCT06623396).",
+      "first_author": "Restle D",
+      "journal": "J Immunother Cancer",
+      "pub_date": "2025 Sep 15",
+      "doi": "10.1136/jitc-2025-012292"
+    }
+  ],
+  "mesothelin CAR-T colorectal cancer": [
+    {
+      "pmid": "39627822",
+      "title": "Repurposing anti-mesothelin CAR-NK immunotherapy against colorectal cancer.",
+      "first_author": "Torchiaro E",
+      "journal": "J Transl Med",
+      "pub_date": "2024 Dec 4",
+      "doi": "10.1186/s12967-024-05851-y"
+    },
+    {
+      "pmid": "37566162",
+      "title": "Updated Clinical Perspectives and Challenges of Chimeric Antigen Receptor-T Cell Therapy in Colorectal Cancer and Invasive Breast Cancer.",
+      "first_author": "Cao Y",
+      "journal": "Arch Immunol Ther Exp (Warsz)",
+      "pub_date": "2023 Aug 11",
+      "doi": "10.1007/s00005-023-00684-x"
+    },
+    {
+      "pmid": "38482238",
+      "title": "Regional delivery of mesothelin-targeted chimeric antigen receptor T-cell effectively and safely targets colorectal cancer liver metastases in mice.",
+      "first_author": "Zhou X",
+      "journal": "J Gastrointest Oncol",
+      "pub_date": "2024 Feb 29",
+      "doi": "10.21037/jgo-24-25"
+    },
+    {
+      "pmid": "39995672",
+      "title": "Efficacy of natural killer T and gammadelta T cells in mesothelin-targeted immunotherapy of pancreatic cancer.",
+      "first_author": "Zhu Y",
+      "journal": "Front Immunol",
+      "pub_date": "2025",
+      "doi": "10.3389/fimmu.2025.1524899"
+    },
+    {
+      "pmid": "33738341",
+      "title": "The antitumor capacity of mesothelin-CAR-T cells in targeting solid tumors in mice.",
+      "first_author": "Zhang Q",
+      "journal": "Mol Ther Oncolytics",
+      "pub_date": "2021 Mar 26",
+      "doi": "10.1016/j.omto.2021.02.013"
+    },
+    {
+      "pmid": "39548594",
+      "title": "Persistence of activated anti-mesothelin hYP218 chimeric antigen receptor T cells in the tumour is associated with efficacy in gastric and colorectal carcinomas.",
+      "first_author": "Mir S",
+      "journal": "Clin Transl Med",
+      "pub_date": "2024 Nov",
+      "doi": "10.1002/ctm2.70057"
+    }
+  ],
+  "mesothelin triple negative breast cancer antibody": [
+    {
+      "pmid": "31354732",
+      "title": "A Bispecific Antibody-Based Approach for Targeting Mesothelin in Triple Negative Breast Cancer.",
+      "first_author": "Del Bano J",
+      "journal": "Front Immunol",
+      "pub_date": "2019",
+      "doi": "10.3389/fimmu.2019.01593"
+    },
+    {
+      "pmid": "29572256",
+      "title": "Preclinical Evaluation of Mesothelin-Specific Ligands for SPECT Imaging of Triple-Negative Breast Cancer.",
+      "first_author": "Montemagno C",
+      "journal": "J Nucl Med",
+      "pub_date": "2018 Jul",
+      "doi": "10.2967/jnumed.117.203489"
+    },
+    {
+      "pmid": "22418702",
+      "title": "Mesothelin, a novel immunotherapy target for triple negative breast cancer.",
+      "first_author": "Tchou J",
+      "journal": "Breast Cancer Res Treat",
+      "pub_date": "2012 Jun",
+      "doi": "10.1007/s10549-012-2018-4"
+    },
+    {
+      "pmid": "40515614",
+      "title": "Advances in targeted therapy for triple-negative breast cancer: a review of key antigens and recent advances.",
+      "first_author": "Akbari B",
+      "journal": "J Drug Target",
+      "pub_date": "2025 Nov",
+      "doi": "10.1080/1061186X.2025.2520306"
+    },
+    {
+      "pmid": "25239937",
+      "title": "Efficacy of RG7787, a next-generation mesothelin-targeted immunotoxin, against triple-negative breast and gastric cancers.",
+      "first_author": "Alewine C",
+      "journal": "Mol Cancer Ther",
+      "pub_date": "2014 Nov",
+      "doi": "10.1158/1535-7163.MCT-14-0132"
+    },
+    {
+      "pmid": "40507272",
+      "title": "Advancing Antibody-Drug Conjugates: Precision Oncology Approaches for Breast and Pancreatic Cancers.",
+      "first_author": "Yajaman DR",
+      "journal": "Cancers (Basel)",
+      "pub_date": "2025 May 27",
+      "doi": "10.3390/cancers17111792"
+    }
+  ],
+  "mesothelin prostate cancer expression": [
+    {
+      "pmid": "40427042",
+      "title": "Targeting Aggressive Prostate Carcinoma Cells with Mesothelin-CAR-T Cells.",
+      "first_author": "de Testas de Folmont A",
+      "journal": "Biomedicines",
+      "pub_date": "2025 May 16",
+      "doi": "10.3390/biomedicines13051215"
+    },
+    {
+      "pmid": "38728394",
+      "title": "CD8(+) T cell targeting of tumor antigens presented by HLA-E.",
+      "first_author": "Iyer RF",
+      "journal": "Sci Adv",
+      "pub_date": "2024 May 10",
+      "doi": "10.1126/sciadv.adm7515"
+    },
+    {
+      "pmid": "33828176",
+      "title": "Discovery of CASP8 as a potential biomarker for high-risk prostate cancer through a high-multiplex immunoassay.",
+      "first_author": "Liu S",
+      "journal": "Sci Rep",
+      "pub_date": "2021 Apr 7",
+      "doi": "10.1038/s41598-021-87155-5"
+    },
+    {
+      "pmid": "33917081",
+      "title": "Mesothelin Expression in Human Tumors: A Tissue Microarray Study on 12,679 Tumors.",
+      "first_author": "Weidemann S",
+      "journal": "Biomedicines",
+      "pub_date": "2021 Apr 7",
+      "doi": "10.3390/biomedicines9040397"
+    },
+    {
+      "pmid": "16467095",
+      "title": "Diffuse mesothelin expression correlates with prolonged patient survival in ovarian serous carcinoma.",
+      "first_author": "Yen MJ",
+      "journal": "Clin Cancer Res",
+      "pub_date": "2006 Feb 1",
+      "doi": "10.1158/1078-0432.CCR-05-1397"
+    },
+    {
+      "pmid": "37998743",
+      "title": "Advances in CAR T Cell Therapy for Non-Small Cell Lung Cancer.",
+      "first_author": "Ma HY",
+      "journal": "Curr Issues Mol Biol",
+      "pub_date": "2023 Nov 12",
+      "doi": "10.3390/cimb45110566"
+    }
+  ]
+}

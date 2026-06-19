@@ -1,0 +1,211 @@
+[
+  {
+    "query_idx": 21,
+    "rank": 11,
+    "head": "imgt:StudyProduct_Atara_Biotherapeutics_Inc_Cancers_ovarian_582",
+    "mab": "imgt:mAb_582",
+    "targets": [
+      "HGNC:4216",
+      "HGNC:4223",
+      "HGNC:6066"
+    ],
+    "true_tail": "imgt:Cancers_ovarian",
+    "top5": [
+      "imgt:Solid_tumors",
+      "imgt:Multiple_myeloma_(MM)",
+      "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "imgt:Cancers_pancreatic",
+      "imgt:Chronic_lymphocytic_leukemia_(CLL)"
+    ]
+  },
+  {
+    "query_idx": 56,
+    "rank": 11,
+    "head": "imgt:StudyProduct_MacroGenics_Inc_Acute_lymphocytic_leukemia_(ALL)_640",
+    "mab": "imgt:mAb_640",
+    "targets": [
+      "HGNC:1633",
+      "HGNC:1674"
+    ],
+    "true_tail": "imgt:Acute_lymphocytic_leukemia_(ALL)",
+    "top5": [
+      "imgt:Solid_tumors",
+      "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "imgt:Non-Hodgkins_lymphoma_(NHL)",
+      "imgt:Multiple_myeloma_(MM)",
+      "imgt:Chronic_lymphocytic_leukemia_(CLL)"
+    ]
+  },
+  {
+    "query_idx": 126,
+    "rank": 11,
+    "head": "imgt:StudyProduct_Symphogen_Cancers_colorectal_(CRC)_419",
+    "mab": "imgt:mAb_419",
+    "targets": [
+      "HGNC:3236"
+    ],
+    "true_tail": "imgt:Cancers_colorectal_(CRC)",
+    "top5": [
+      "imgt:Solid_tumors",
+      "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "imgt:Cancers_breast",
+      "imgt:Non-Hodgkins_lymphoma_(NHL)",
+      "imgt:Chronic_lymphocytic_leukemia_(CLL)"
+    ]
+  },
+  {
+    "query_idx": 263,
+    "rank": 11,
+    "head": "imgt:StudyProduct_CARsgen_Therapeutics_Multiple_myeloma_(MM)_1230",
+    "mab": "imgt:mAb_1230",
+    "targets": [
+      "HGNC:11913"
+    ],
+    "true_tail": "imgt:Multiple_myeloma_(MM)",
+    "top5": [
+      "imgt:Solid_tumors",
+      "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "imgt:Non-Hodgkins_lymphoma_(NHL)",
+      "imgt:Acute_myeloid_leukemia_(AML)",
+      "imgt:Cancers_pancreatic"
+    ]
+  },
+  {
+    "query_idx": 50,
+    "rank": 12,
+    "head": "imgt:StudyProduct_TCR2_Therapeutics_Inc_Cancers_ovarian_1101",
+    "mab": "imgt:mAb_1101",
+    "targets": [
+      "HGNC:7371"
+    ],
+    "true_tail": "imgt:Cancers_ovarian",
+    "top5": [
+      "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "imgt:Solid_tumors",
+      "imgt:Cholangiocarcinoma",
+      "imgt:Non-Hodgkins_lymphoma_(NHL)",
+      "imgt:Mesothelioma_pleural_malignant"
+    ]
+  },
+  {
+    "query_idx": 100,
+    "rank": 12,
+    "head": "imgt:StudyProduct_Affibody_AB_Cancers_breast_1115",
+    "mab": "imgt:mAb_1115",
+    "targets": [
+      "HGNC:3430"
+    ],
+    "true_tail": "imgt:Cancers_breast",
+    "top5": [
+      "imgt:Solid_tumors",
+      "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "imgt:Non-Hodgkins_lymphoma_(NHL)",
+      "imgt:Cancers_pancreatic",
+      "imgt:Acute_myeloid_leukemia_(AML)"
+    ]
+  },
+  {
+    "query_idx": 116,
+    "rank": 12,
+    "head": "imgt:StudyProduct_MD_Anderson_Cancer_Center_Cancers_gastric_1366",
+    "mab": "imgt:mAb_1366",
+    "targets": [
+      "HGNC:11924"
+    ],
+    "true_tail": "imgt:Cancers_gastric",
+    "top5": [
+      "imgt:Solid_tumors",
+      "imgt:Hepatocellular_carcinoma_(HCC)_metastatic",
+      "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "imgt:Multiple_myeloma_(MM)",
+      "imgt:Non-Hodgkins_lymphoma_(NHL)"
+    ]
+  },
+  {
+    "query_idx": 203,
+    "rank": 12,
+    "head": "imgt:StudyProduct_Regeneron_Pharmaceuticals_Inc_Lymphoma_follicular_(FL)_748",
+    "mab": "imgt:mAb_748",
+    "targets": [
+      "HGNC:1674",
+      "HGNC:7315"
+    ],
+    "true_tail": "imgt:Lymphoma_follicular_(FL)",
+    "top5": [
+      "imgt:Solid_tumors",
+      "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "imgt:Acute_myeloid_leukemia_(AML)",
+      "imgt:Multiple_myeloma_(MM)",
+      "imgt:Chronic_lymphocytic_leukemia_(CLL)"
+    ]
+  },
+  {
+    "query_idx": 290,
+    "rank": 12,
+    "head": "imgt:StudyProduct_AstraZeneca_Acute_lymphocytic_leukemia_(ALL)_198",
+    "mab": "imgt:mAb_198",
+    "targets": [
+      "HGNC:1643"
+    ],
+    "true_tail": "imgt:Acute_lymphocytic_leukemia_(ALL)",
+    "top5": [
+      "imgt:Solid_tumors",
+      "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "imgt:Multiple_myeloma_(MM)",
+      "imgt:Acute_myeloid_leukemia_(AML)",
+      "imgt:Chronic_lymphocytic_leukemia_(CLL)"
+    ]
+  },
+  {
+    "query_idx": 8,
+    "rank": 13,
+    "head": "imgt:StudyProduct_Regeneron_Pharmaceuticals_Inc_Multiple_myeloma_(MM)_1263",
+    "mab": "imgt:mAb_1263",
+    "targets": [
+      "HGNC:11913",
+      "HGNC:1674"
+    ],
+    "true_tail": "imgt:Multiple_myeloma_(MM)",
+    "top5": [
+      "imgt:Chronic_kidney_disease_(CDK)",
+      "imgt:Solid_tumors",
+      "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "imgt:Non-Hodgkins_lymphoma_(NHL)",
+      "imgt:Cancers_pancreatic"
+    ]
+  },
+  {
+    "query_idx": 14,
+    "rank": 13,
+    "head": "imgt:StudyProduct_Lyvgen_Biopharma_Cancers_gastric_1365",
+    "mab": "imgt:mAb_1365",
+    "targets": [
+      "HGNC:8760"
+    ],
+    "true_tail": "imgt:Cancers_gastric",
+    "top5": [
+      "imgt:Solid_tumors",
+      "imgt:Hepatocellular_carcinoma_(HCC)_metastatic",
+      "imgt:Cancers_esophageal_metastatic",
+      "imgt:Carcinoma_head_and_neck_squamous_cell_(HNSCC)_recurrent_or_metastatic",
+      "imgt:Cancers_non-small_cell_lung_(NSCLC)"
+    ]
+  },
+  {
+    "query_idx": 38,
+    "rank": 13,
+    "head": "imgt:StudyProduct_Eli_Lilly_Glioblastoma_352",
+    "mab": "imgt:mAb_352",
+    "targets": [
+      "HGNC:8803"
+    ],
+    "true_tail": "imgt:Glioblastoma",
+    "top5": [
+      "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "imgt:Solid_tumors",
+      "imgt:Cancers_ovarian",
+      "imgt:Non-Hodgkins_lymphoma_(NHL)",
+      "imgt:Cancers_breast"
+    ]
+  }
+]

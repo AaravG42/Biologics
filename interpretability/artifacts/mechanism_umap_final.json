@@ -1,0 +1,2270 @@
+{
+  "description": "Final mechanism UMAP \u2014 RotE query embeddings restricted to 6 defined mechanism classes",
+  "n_queries_total": 297,
+  "n_queries_plotted": 172,
+  "silhouette": {
+    "mechanism_2d": -0.15818071365356445,
+    "mechanism_full": -0.04302336648106575,
+    "disease_family_2d": -0.3560838997364044,
+    "disease_family_full": -0.11013352870941162
+  },
+  "points": [
+    {
+      "umap_x": 11.868003845214844,
+      "umap_y": 12.672781944274902,
+      "query_idx": 0,
+      "head": "imgt:StudyProduct_Innovent_Biologics_Solid_tumors_1171",
+      "mab": "imgt:mAb_1171",
+      "targets_sym": [
+        "ERBB2",
+        "PDCD1"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 12.426305770874023,
+      "umap_y": 12.638751029968262,
+      "query_idx": 1,
+      "head": "imgt:StudyProduct_Amgen_Solid_tumors_1153",
+      "mab": "imgt:mAb_1153",
+      "targets_sym": [
+        "PDCD1"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 9.14840316772461,
+      "umap_y": 14.613432884216309,
+      "query_idx": 3,
+      "head": "imgt:StudyProduct_Sinocelltech_Ltd_Hepatocellular_carcinoma_(HCC)_1128",
+      "mab": "imgt:mAb_1128",
+      "targets_sym": [
+        "PDCD1"
+      ],
+      "true_tail": "imgt:Hepatocellular_carcinoma_(HCC)",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": "GI \u2014 upper"
+    },
+    {
+      "umap_x": 12.039470672607422,
+      "umap_y": 13.072649002075195,
+      "query_idx": 4,
+      "head": "imgt:StudyProduct_AbbVie_Inc_Solid_tumors_902",
+      "mab": "imgt:mAb_902",
+      "targets_sym": [
+        "EGFR"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": null
+    },
+    {
+      "umap_x": 11.509970664978027,
+      "umap_y": 13.32207202911377,
+      "query_idx": 6,
+      "head": "imgt:StudyProduct_MacroGenics_Inc_Solid_tumors_advanced_or_metastatic_1054",
+      "mab": "imgt:mAb_1054",
+      "targets_sym": [
+        "CD3E",
+        "CD276"
+      ],
+      "true_tail": "imgt:Solid_tumors_advanced_or_metastatic",
+      "mechanism_class": "Tumor antigens (MSLN/TROP2/B7H3)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 10.230545043945312,
+      "umap_y": 17.22959327697754,
+      "query_idx": 7,
+      "head": "imgt:StudyProduct_Amgen_Cancers_endometrial_(EC)_408",
+      "mab": "imgt:mAb_408",
+      "targets_sym": [
+        "ANGPT2"
+      ],
+      "true_tail": "imgt:Cancers_endometrial_(EC)",
+      "mechanism_class": "Growth factors (VEGF/MET/DLL)",
+      "disease_family": "GU (ovarian/prostate/renal/bladder)"
+    },
+    {
+      "umap_x": 10.188189506530762,
+      "umap_y": 11.756028175354004,
+      "query_idx": 8,
+      "head": "imgt:StudyProduct_Regeneron_Pharmaceuticals_Inc_Multiple_myeloma_(MM)_1263",
+      "mab": "imgt:mAb_1263",
+      "targets_sym": [
+        "TNFRSF17",
+        "CD3E"
+      ],
+      "true_tail": "imgt:Multiple_myeloma_(MM)",
+      "mechanism_class": "Plasma cell (BCMA/CD38/SLAMF7)",
+      "disease_family": "Heme \u2014 myeloma"
+    },
+    {
+      "umap_x": 13.072134017944336,
+      "umap_y": 13.645902633666992,
+      "query_idx": 10,
+      "head": "imgt:StudyProduct_Sutro_Biopharma_Inc_Cancers_ovarian_1266",
+      "mab": "imgt:mAb_1266",
+      "targets_sym": [
+        "FOLR1"
+      ],
+      "true_tail": "imgt:Cancers_ovarian",
+      "mechanism_class": "Tumor antigens (MSLN/TROP2/B7H3)",
+      "disease_family": "GU (ovarian/prostate/renal/bladder)"
+    },
+    {
+      "umap_x": 13.322596549987793,
+      "umap_y": 14.589064598083496,
+      "query_idx": 13,
+      "head": "imgt:StudyProduct_Jounce_Therapeutics_Solid_tumors_1082",
+      "mab": "imgt:mAb_1082",
+      "targets_sym": [
+        "PDCD1"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 13.837786674499512,
+      "umap_y": 14.121774673461914,
+      "query_idx": 14,
+      "head": "imgt:StudyProduct_Lyvgen_Biopharma_Cancers_gastric_1365",
+      "mab": "imgt:mAb_1365",
+      "targets_sym": [
+        "PDCD1"
+      ],
+      "true_tail": "imgt:Cancers_gastric",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": "GI \u2014 upper"
+    },
+    {
+      "umap_x": 13.731538772583008,
+      "umap_y": 14.406641006469727,
+      "query_idx": 19,
+      "head": "imgt:StudyProduct_Pfizer_Cancers_non-small_cell_lung_(NSCLC)_969",
+      "mab": "imgt:mAb_969",
+      "targets_sym": [
+        "PDCD1"
+      ],
+      "true_tail": "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": "Lung"
+    },
+    {
+      "umap_x": 8.10862922668457,
+      "umap_y": 14.276862144470215,
+      "query_idx": 20,
+      "head": "imgt:StudyProduct_Sanofi-Aventis_US_LLC_Multiple_myeloma_(MM)_539",
+      "mab": "imgt:mAb_539",
+      "targets_sym": [
+        "CD38"
+      ],
+      "true_tail": "imgt:Multiple_myeloma_(MM)",
+      "mechanism_class": "Plasma cell (BCMA/CD38/SLAMF7)",
+      "disease_family": "Heme \u2014 myeloma"
+    },
+    {
+      "umap_x": 11.334999084472656,
+      "umap_y": 13.762435913085938,
+      "query_idx": 22,
+      "head": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Melanoma_1354",
+      "mab": "imgt:mAb_1354",
+      "targets_sym": [
+        "LAG3",
+        "PDCD1"
+      ],
+      "true_tail": "imgt:Melanoma",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": "Skin / Melanoma"
+    },
+    {
+      "umap_x": 12.215080261230469,
+      "umap_y": 13.431456565856934,
+      "query_idx": 24,
+      "head": "imgt:StudyProduct_Akeso_Biopharma_Inc_Solid_tumors_1194",
+      "mab": "imgt:mAb_1194",
+      "targets_sym": [
+        "KDR"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "Growth factors (VEGF/MET/DLL)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 10.949111938476562,
+      "umap_y": 16.032508850097656,
+      "query_idx": 25,
+      "head": "imgt:StudyProduct_Merck_Serono_International_SA_Solid_tumors_512",
+      "mab": "imgt:mAb_512",
+      "targets_sym": [
+        "CD274"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 7.176063537597656,
+      "umap_y": 15.716286659240723,
+      "query_idx": 26,
+      "head": "imgt:StudyProduct_AstraZeneca_Cancers_non-small_cell_lung_(NSCLC)_248",
+      "mab": "imgt:mAb_248",
+      "targets_sym": [
+        "CTLA4"
+      ],
+      "true_tail": "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": "Lung"
+    },
+    {
+      "umap_x": 9.490822792053223,
+      "umap_y": 16.79046058654785,
+      "query_idx": 27,
+      "head": "imgt:StudyProduct_YM_BioSciences_Inc_Cancers_pancreatic_76",
+      "mab": "imgt:mAb_76",
+      "targets_sym": [
+        "EGFR"
+      ],
+      "true_tail": "imgt:Cancers_pancreatic",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "GI \u2014 upper"
+    },
+    {
+      "umap_x": 10.134245872497559,
+      "umap_y": 16.961530685424805,
+      "query_idx": 28,
+      "head": "imgt:StudyProduct_ImmunoGen_Inc_Cancers_gastric_357",
+      "mab": "imgt:mAb_357",
+      "targets_sym": [
+        "ERBB2"
+      ],
+      "true_tail": "imgt:Cancers_gastric",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "GI \u2014 upper"
+    },
+    {
+      "umap_x": 8.997669219970703,
+      "umap_y": 16.6816463470459,
+      "query_idx": 32,
+      "head": "imgt:StudyProduct_ImClone_Systems_Inc_Solid_tumors_295",
+      "mab": "imgt:mAb_295",
+      "targets_sym": [
+        "KDR"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "Growth factors (VEGF/MET/DLL)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 12.47796630859375,
+      "umap_y": 15.754059791564941,
+      "query_idx": 34,
+      "head": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Lymphoma_diffuse_large_B_cell_(DLBCL)_457",
+      "mab": "imgt:mAb_457",
+      "targets_sym": [
+        "CD22"
+      ],
+      "true_tail": "imgt:Lymphoma_diffuse_large_B_cell_(DLBCL)",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": "Heme \u2014 lymphomas"
+    },
+    {
+      "umap_x": 7.05632209777832,
+      "umap_y": 15.780647277832031,
+      "query_idx": 36,
+      "head": "imgt:StudyProduct_Medarex_Cancers_non-small_cell_lung_(NSCLC)_180",
+      "mab": "imgt:mAb_180",
+      "targets_sym": [
+        "CTLA4"
+      ],
+      "true_tail": "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": "Lung"
+    },
+    {
+      "umap_x": 8.183446884155273,
+      "umap_y": 14.925682067871094,
+      "query_idx": 37,
+      "head": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Cancers_colorectal_(CRC)_metastatic_24",
+      "mab": "imgt:mAb_24",
+      "targets_sym": [
+        "VEGFA"
+      ],
+      "true_tail": "imgt:Cancers_colorectal_(CRC)_metastatic",
+      "mechanism_class": "Growth factors (VEGF/MET/DLL)",
+      "disease_family": "GI \u2014 colorectal"
+    },
+    {
+      "umap_x": 9.839685440063477,
+      "umap_y": 11.30359935760498,
+      "query_idx": 40,
+      "head": "imgt:StudyProduct_Curocell_Inc_Lymphoma_diffuse_large_B_cell_(DLBCL)_1384",
+      "mab": "imgt:mAb_1384",
+      "targets_sym": [
+        "CD19"
+      ],
+      "true_tail": "imgt:Lymphoma_diffuse_large_B_cell_(DLBCL)",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": "Heme \u2014 lymphomas"
+    },
+    {
+      "umap_x": 6.777081489562988,
+      "umap_y": 15.026302337646484,
+      "query_idx": 41,
+      "head": "imgt:StudyProduct_Janssen_Biotech_Inc_AL_amyloidosis_301",
+      "mab": "imgt:mAb_301",
+      "targets_sym": [
+        "CD38"
+      ],
+      "true_tail": "imgt:AL_amyloidosis",
+      "mechanism_class": "Plasma cell (BCMA/CD38/SLAMF7)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 7.391915798187256,
+      "umap_y": 15.412431716918945,
+      "query_idx": 43,
+      "head": "imgt:StudyProduct_Merck_&_Co_Inc_Lymphoma_primary_mediastinal_B_cell_(PMBL)_472",
+      "mab": "imgt:mAb_472",
+      "targets_sym": [
+        "PDCD1"
+      ],
+      "true_tail": "imgt:Lymphoma_primary_mediastinal_B_cell_(PMBL)",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": "Heme \u2014 lymphomas"
+    },
+    {
+      "umap_x": 10.477837562561035,
+      "umap_y": 11.398627281188965,
+      "query_idx": 44,
+      "head": "imgt:StudyProduct_Millennium_Pharmaceuticals_Inc_Multiple_myeloma_(MM)_882",
+      "mab": "imgt:mAb_882",
+      "targets_sym": [
+        "CD38"
+      ],
+      "true_tail": "imgt:Multiple_myeloma_(MM)",
+      "mechanism_class": "Plasma cell (BCMA/CD38/SLAMF7)",
+      "disease_family": "Heme \u2014 myeloma"
+    },
+    {
+      "umap_x": 14.086627006530762,
+      "umap_y": 14.403266906738281,
+      "query_idx": 45,
+      "head": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Non-Hodgkins_lymphoma_(NHL)_458",
+      "mab": "imgt:mAb_458",
+      "targets_sym": [
+        "CD79B"
+      ],
+      "true_tail": "imgt:Non-Hodgkins_lymphoma_(NHL)",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": "Heme \u2014 lymphomas"
+    },
+    {
+      "umap_x": 8.40489673614502,
+      "umap_y": 14.105801582336426,
+      "query_idx": 47,
+      "head": "imgt:StudyProduct_PharmAbcine_Inc_Glioblastoma_834",
+      "mab": "imgt:mAb_834",
+      "targets_sym": [
+        "KDR"
+      ],
+      "true_tail": "imgt:Glioblastoma",
+      "mechanism_class": "Growth factors (VEGF/MET/DLL)",
+      "disease_family": "CNS"
+    },
+    {
+      "umap_x": 11.84563159942627,
+      "umap_y": 13.1965913772583,
+      "query_idx": 48,
+      "head": "imgt:StudyProduct_AbbVie_Inc_Solid_tumors_advanced_or_metastatic_958",
+      "mab": "imgt:mAb_958",
+      "targets_sym": [
+        "CD276"
+      ],
+      "true_tail": "imgt:Solid_tumors_advanced_or_metastatic",
+      "mechanism_class": "Tumor antigens (MSLN/TROP2/B7H3)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 11.689143180847168,
+      "umap_y": 14.823376655578613,
+      "query_idx": 49,
+      "head": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Cancers_non-small_cell_lung_(NSCLC)_1355",
+      "mab": "imgt:mAb_1355",
+      "targets_sym": [
+        "HAVCR2",
+        "PDCD1"
+      ],
+      "true_tail": "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": "Lung"
+    },
+    {
+      "umap_x": 10.332316398620605,
+      "umap_y": 11.159699440002441,
+      "query_idx": 50,
+      "head": "imgt:StudyProduct_TCR2_Therapeutics_Inc_Cancers_ovarian_1101",
+      "mab": "imgt:mAb_1101",
+      "targets_sym": [
+        "MSLN"
+      ],
+      "true_tail": "imgt:Cancers_ovarian",
+      "mechanism_class": "Tumor antigens (MSLN/TROP2/B7H3)",
+      "disease_family": "GU (ovarian/prostate/renal/bladder)"
+    },
+    {
+      "umap_x": 10.252272605895996,
+      "umap_y": 15.850266456604004,
+      "query_idx": 52,
+      "head": "imgt:StudyProduct_Daiichi_Sankyo_Inc_Cancers_non-small_cell_lung_(NSCLC)_407",
+      "mab": "imgt:mAb_407",
+      "targets_sym": [
+        "ERBB3"
+      ],
+      "true_tail": "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "Lung"
+    },
+    {
+      "umap_x": 11.515067100524902,
+      "umap_y": 12.827409744262695,
+      "query_idx": 54,
+      "head": "imgt:StudyProduct_Xencor_Inc_Solid_tumors_1084",
+      "mab": "imgt:mAb_1084",
+      "targets_sym": [
+        "CTLA4",
+        "LAG3"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 13.71645736694336,
+      "umap_y": 14.597198486328125,
+      "query_idx": 56,
+      "head": "imgt:StudyProduct_MacroGenics_Inc_Acute_lymphocytic_leukemia_(ALL)_640",
+      "mab": "imgt:mAb_640",
+      "targets_sym": [
+        "CD19",
+        "CD3E"
+      ],
+      "true_tail": "imgt:Acute_lymphocytic_leukemia_(ALL)",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": "Heme \u2014 leukemias"
+    },
+    {
+      "umap_x": 7.3503289222717285,
+      "umap_y": 14.21571159362793,
+      "query_idx": 58,
+      "head": "imgt:StudyProduct_ZymeWorks_Inc_Cancers_ovarian_736",
+      "mab": "imgt:mAb_736",
+      "targets_sym": [
+        "ERBB2"
+      ],
+      "true_tail": "imgt:Cancers_ovarian",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "GU (ovarian/prostate/renal/bladder)"
+    },
+    {
+      "umap_x": 10.733576774597168,
+      "umap_y": 11.335864067077637,
+      "query_idx": 65,
+      "head": "imgt:StudyProduct_Immunomedics_Inc_Non-Hodgkins_lymphoma_(NHL)_125",
+      "mab": "imgt:mAb_125",
+      "targets_sym": [
+        "CD22"
+      ],
+      "true_tail": "imgt:Non-Hodgkins_lymphoma_(NHL)",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": "Heme \u2014 lymphomas"
+    },
+    {
+      "umap_x": 14.155678749084473,
+      "umap_y": 14.969747543334961,
+      "query_idx": 66,
+      "head": "imgt:StudyProduct_MacroGenics_Inc_Solid_tumors_473",
+      "mab": "imgt:mAb_473",
+      "targets_sym": [
+        "ERBB2"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": null
+    },
+    {
+      "umap_x": 12.880845069885254,
+      "umap_y": 16.823787689208984,
+      "query_idx": 68,
+      "head": "imgt:StudyProduct_ImClone_Systems_Inc_Cancers_colon_365",
+      "mab": "imgt:mAb_365",
+      "targets_sym": [
+        "FLT1"
+      ],
+      "true_tail": "imgt:Cancers_colon",
+      "mechanism_class": "Growth factors (VEGF/MET/DLL)",
+      "disease_family": "GI \u2014 colorectal"
+    },
+    {
+      "umap_x": 9.466386795043945,
+      "umap_y": 16.24062728881836,
+      "query_idx": 69,
+      "head": "imgt:StudyProduct_Merck_&_Co_Inc_Multiple_myeloma_(MM)_472",
+      "mab": "imgt:mAb_472",
+      "targets_sym": [
+        "PDCD1"
+      ],
+      "true_tail": "imgt:Multiple_myeloma_(MM)",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": "Heme \u2014 myeloma"
+    },
+    {
+      "umap_x": 13.63370418548584,
+      "umap_y": 13.905284881591797,
+      "query_idx": 70,
+      "head": "imgt:StudyProduct_Precision_Biosciences_Acute_lymphocytic_leukemia_(ALL)_1102",
+      "mab": "imgt:mAb_1102",
+      "targets_sym": [
+        "CD19"
+      ],
+      "true_tail": "imgt:Acute_lymphocytic_leukemia_(ALL)",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": "Heme \u2014 leukemias"
+    },
+    {
+      "umap_x": 9.718722343444824,
+      "umap_y": 17.22162628173828,
+      "query_idx": 72,
+      "head": "imgt:StudyProduct_Biogen_Inc_Myasthenia_Gravis_(MG)_161",
+      "mab": "imgt:mAb_161",
+      "targets_sym": [
+        "MS4A1"
+      ],
+      "true_tail": "imgt:Myasthenia_Gravis_(MG)",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 8.333148956298828,
+      "umap_y": 14.737201690673828,
+      "query_idx": 73,
+      "head": "imgt:StudyProduct_ImClone_Systems_Inc_Cancers_colorectal_(CRC)_metastatic_151",
+      "mab": "imgt:mAb_151",
+      "targets_sym": [
+        "EGFR"
+      ],
+      "true_tail": "imgt:Cancers_colorectal_(CRC)_metastatic",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "GI \u2014 colorectal"
+    },
+    {
+      "umap_x": 10.294983863830566,
+      "umap_y": 12.105536460876465,
+      "query_idx": 75,
+      "head": "imgt:StudyProduct_Merus_NV_Solid_tumors_771",
+      "mab": "imgt:mAb_771",
+      "targets_sym": [
+        "ERBB2",
+        "ERBB3"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": null
+    },
+    {
+      "umap_x": 12.740630149841309,
+      "umap_y": 13.255820274353027,
+      "query_idx": 78,
+      "head": "imgt:StudyProduct_Celgene_corporation_Multiple_myeloma_(MM)_1259",
+      "mab": "imgt:mAb_1259",
+      "targets_sym": [
+        "TNFRSF17"
+      ],
+      "true_tail": "imgt:Multiple_myeloma_(MM)",
+      "mechanism_class": "Plasma cell (BCMA/CD38/SLAMF7)",
+      "disease_family": "Heme \u2014 myeloma"
+    },
+    {
+      "umap_x": 11.932313919067383,
+      "umap_y": 12.79186725616455,
+      "query_idx": 81,
+      "head": "imgt:StudyProduct_Innovent_Biologics_Solid_tumors_859",
+      "mab": "imgt:mAb_859",
+      "targets_sym": [
+        "PDCD1"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 10.291004180908203,
+      "umap_y": 16.703983306884766,
+      "query_idx": 82,
+      "head": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Cancers_breast_526",
+      "mab": "imgt:mAb_526",
+      "targets_sym": [
+        "CD274"
+      ],
+      "true_tail": "imgt:Cancers_breast",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": "Breast"
+    },
+    {
+      "umap_x": 14.04369068145752,
+      "umap_y": 13.57400894165039,
+      "query_idx": 83,
+      "head": "imgt:StudyProduct_University_of_California_Cancers_breast_1154",
+      "mab": "imgt:mAb_1154",
+      "targets_sym": [
+        "ROR1"
+      ],
+      "true_tail": "imgt:Cancers_breast",
+      "mechanism_class": "Tumor antigens (MSLN/TROP2/B7H3)",
+      "disease_family": "Breast"
+    },
+    {
+      "umap_x": 13.690342903137207,
+      "umap_y": 14.111299514770508,
+      "query_idx": 84,
+      "head": "imgt:StudyProduct_Beckman_Research_Institute_Cancers_145",
+      "mab": "imgt:mAb_145",
+      "targets_sym": [
+        "CEACAM5"
+      ],
+      "true_tail": "imgt:Cancers",
+      "mechanism_class": "Tumor antigens (MSLN/TROP2/B7H3)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 12.112645149230957,
+      "umap_y": 12.538431167602539,
+      "query_idx": 85,
+      "head": "imgt:StudyProduct_AbbVie_Inc_Solid_tumors_712",
+      "mab": "imgt:mAb_712",
+      "targets_sym": [
+        "EGFR"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": null
+    },
+    {
+      "umap_x": 14.134500503540039,
+      "umap_y": 14.437896728515625,
+      "query_idx": 86,
+      "head": "imgt:StudyProduct_Regeneron_Pharmaceuticals_Inc_Acute_myeloid_leukemia_(AML)_846",
+      "mab": "imgt:mAb_846",
+      "targets_sym": [
+        "PDCD1"
+      ],
+      "true_tail": "imgt:Acute_myeloid_leukemia_(AML)",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": "Heme \u2014 leukemias"
+    },
+    {
+      "umap_x": 12.733426094055176,
+      "umap_y": 14.1176118850708,
+      "query_idx": 87,
+      "head": "imgt:StudyProduct_Bayer_HealthCare_Pharmaceuticals_Solid_tumors_655",
+      "mab": "imgt:mAb_655",
+      "targets_sym": [
+        "FGFR2"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "Growth factors (VEGF/MET/DLL)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 11.3558931350708,
+      "umap_y": 14.30334186553955,
+      "query_idx": 88,
+      "head": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Solid_tumors_555",
+      "mab": "imgt:mAb_555",
+      "targets_sym": [
+        "CEACAM5"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "Tumor antigens (MSLN/TROP2/B7H3)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 10.766199111938477,
+      "umap_y": 13.809432029724121,
+      "query_idx": 91,
+      "head": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Solid_tumors_500",
+      "mab": "imgt:mAb_500",
+      "targets_sym": [
+        "VEGFA",
+        "ANGPT2"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "Growth factors (VEGF/MET/DLL)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 12.981060981750488,
+      "umap_y": 13.819249153137207,
+      "query_idx": 92,
+      "head": "imgt:StudyProduct_MacroGenics_Inc_Solid_tumors_1189",
+      "mab": "imgt:mAb_1189",
+      "targets_sym": [
+        "CTLA4",
+        "PDCD1"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 10.035598754882812,
+      "umap_y": 17.374317169189453,
+      "query_idx": 93,
+      "head": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Solid_tumors_368",
+      "mab": "imgt:mAb_368",
+      "targets_sym": [
+        "MET"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "Growth factors (VEGF/MET/DLL)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 7.246342658996582,
+      "umap_y": 15.13327407836914,
+      "query_idx": 95,
+      "head": "imgt:StudyProduct_Daiichi_Sankyo_Inc_Cancers_non-small_cell_lung_(NSCLC)_722",
+      "mab": "imgt:mAb_722",
+      "targets_sym": [
+        "ERBB2"
+      ],
+      "true_tail": "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "Lung"
+    },
+    {
+      "umap_x": 12.067974090576172,
+      "umap_y": 12.168017387390137,
+      "query_idx": 97,
+      "head": "imgt:StudyProduct_CJSC_Biocad_Solid_tumors_956",
+      "mab": "imgt:mAb_956",
+      "targets_sym": [
+        "CD274"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 10.52578067779541,
+      "umap_y": 11.158288955688477,
+      "query_idx": 100,
+      "head": "imgt:StudyProduct_Affibody_AB_Cancers_breast_1115",
+      "mab": "imgt:mAb_1115",
+      "targets_sym": [
+        "ERBB2"
+      ],
+      "true_tail": "imgt:Cancers_breast",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "Breast"
+    },
+    {
+      "umap_x": 9.263548851013184,
+      "umap_y": 14.904765129089355,
+      "query_idx": 102,
+      "head": "imgt:StudyProduct_Viela_Bio_Inc_Neuromyelitis_optica_(NMO)_553",
+      "mab": "imgt:mAb_553",
+      "targets_sym": [
+        "CD19"
+      ],
+      "true_tail": "imgt:Neuromyelitis_optica_(NMO)",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 10.0833158493042,
+      "umap_y": 11.587331771850586,
+      "query_idx": 103,
+      "head": "imgt:StudyProduct_Symphogen_Cancers_head_and_neck_433",
+      "mab": "imgt:mAb_433",
+      "targets_sym": [
+        "EGFR"
+      ],
+      "true_tail": "imgt:Cancers_head_and_neck",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "Head & neck"
+    },
+    {
+      "umap_x": 13.29492473602295,
+      "umap_y": 14.351789474487305,
+      "query_idx": 106,
+      "head": "imgt:StudyProduct_Shandong_New_Time_Pharmaceutical_Cancers_1179",
+      "mab": "imgt:mAb_1179",
+      "targets_sym": [
+        "PDCD1"
+      ],
+      "true_tail": "imgt:Cancers",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 13.750129699707031,
+      "umap_y": 14.888364791870117,
+      "query_idx": 107,
+      "head": "imgt:StudyProduct_ImmunoGen_Inc_Solid_tumors_600",
+      "mab": "imgt:mAb_600",
+      "targets_sym": [
+        "EGFR"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": null
+    },
+    {
+      "umap_x": 7.78999662399292,
+      "umap_y": 15.741487503051758,
+      "query_idx": 108,
+      "head": "imgt:StudyProduct_ImClone_Systems_Inc_Cancers_non-small_cell_lung_(NSCLC)_295",
+      "mab": "imgt:mAb_295",
+      "targets_sym": [
+        "KDR"
+      ],
+      "true_tail": "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "mechanism_class": "Growth factors (VEGF/MET/DLL)",
+      "disease_family": "Lung"
+    },
+    {
+      "umap_x": 10.75018310546875,
+      "umap_y": 12.595881462097168,
+      "query_idx": 109,
+      "head": "imgt:StudyProduct_AstraZeneca_Cancers_non-small_cell_lung_(NSCLC)_1370",
+      "mab": "imgt:mAb_1370",
+      "targets_sym": [
+        "TIGIT",
+        "PDCD1"
+      ],
+      "true_tail": "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": "Lung"
+    },
+    {
+      "umap_x": 7.157283782958984,
+      "umap_y": 15.427080154418945,
+      "query_idx": 110,
+      "head": "imgt:StudyProduct_Genmab_A/S_Multiple_sclerosis_(MS)_194",
+      "mab": "imgt:mAb_194",
+      "targets_sym": [
+        "MS4A1"
+      ],
+      "true_tail": "imgt:Multiple_sclerosis_(MS)",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 14.050291061401367,
+      "umap_y": 13.863677024841309,
+      "query_idx": 111,
+      "head": "imgt:StudyProduct_RemeGen_Ltd_Solid_tumors_931",
+      "mab": "imgt:mAb_931",
+      "targets_sym": [
+        "ERBB2"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": null
+    },
+    {
+      "umap_x": 6.70438814163208,
+      "umap_y": 15.414259910583496,
+      "query_idx": 113,
+      "head": "imgt:StudyProduct_Merck_&_Co_Inc_Melanoma_metastatic_472",
+      "mab": "imgt:mAb_472",
+      "targets_sym": [
+        "PDCD1"
+      ],
+      "true_tail": "imgt:Melanoma_metastatic",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": "Skin / Melanoma"
+    },
+    {
+      "umap_x": 13.897200584411621,
+      "umap_y": 14.639715194702148,
+      "query_idx": 114,
+      "head": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Lymphoma_B_cell_457",
+      "mab": "imgt:mAb_457",
+      "targets_sym": [
+        "CD22"
+      ],
+      "true_tail": "imgt:Lymphoma_B_cell",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": "Heme \u2014 lymphomas"
+    },
+    {
+      "umap_x": 13.782604217529297,
+      "umap_y": 14.771747589111328,
+      "query_idx": 117,
+      "head": "imgt:StudyProduct_Novartis_Pharmaceuticals_Corp_Cancers_breast_534",
+      "mab": "imgt:mAb_534",
+      "targets_sym": [
+        "ERBB3"
+      ],
+      "true_tail": "imgt:Cancers_breast",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "Breast"
+    },
+    {
+      "umap_x": 11.87424373626709,
+      "umap_y": 16.900279998779297,
+      "query_idx": 119,
+      "head": "imgt:StudyProduct_YM_BioSciences_Inc_Cancers_gastric_76",
+      "mab": "imgt:mAb_76",
+      "targets_sym": [
+        "EGFR"
+      ],
+      "true_tail": "imgt:Cancers_gastric",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "GI \u2014 upper"
+    },
+    {
+      "umap_x": 12.151012420654297,
+      "umap_y": 14.542007446289062,
+      "query_idx": 120,
+      "head": "imgt:StudyProduct_Merck_&_Co_Inc_Solid_tumors_333",
+      "mab": "imgt:mAb_333",
+      "targets_sym": [
+        "IGF1R"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "Growth factors (VEGF/MET/DLL)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 9.4791841506958,
+      "umap_y": 14.290589332580566,
+      "query_idx": 122,
+      "head": "imgt:StudyProduct_Systimmune_Inc_Cancers_non-small_cell_lung_(NSCLC)_1260",
+      "mab": "imgt:mAb_1260",
+      "targets_sym": [
+        "EGFR",
+        "ERBB3"
+      ],
+      "true_tail": "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "Lung"
+    },
+    {
+      "umap_x": 9.914339065551758,
+      "umap_y": 16.758024215698242,
+      "query_idx": 123,
+      "head": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Cancers_gastric_80",
+      "mab": "imgt:mAb_80",
+      "targets_sym": [
+        "ERBB2"
+      ],
+      "true_tail": "imgt:Cancers_gastric",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "GI \u2014 upper"
+    },
+    {
+      "umap_x": 13.397066116333008,
+      "umap_y": 14.504193305969238,
+      "query_idx": 124,
+      "head": "imgt:StudyProduct_MedImmune_Solid_tumors_528",
+      "mab": "imgt:mAb_528",
+      "targets_sym": [
+        "CD274"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 12.764741897583008,
+      "umap_y": 16.5123291015625,
+      "query_idx": 125,
+      "head": "imgt:StudyProduct_Taizhou_Hanzhong_Pharmaceuticals_Inc_Cancers_gastrointestinal_1142",
+      "mab": "imgt:mAb_1142",
+      "targets_sym": [
+        "PDCD1"
+      ],
+      "true_tail": "imgt:Cancers_gastrointestinal",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 12.599825859069824,
+      "umap_y": 16.8248348236084,
+      "query_idx": 126,
+      "head": "imgt:StudyProduct_Symphogen_Cancers_colorectal_(CRC)_419",
+      "mab": "imgt:mAb_419",
+      "targets_sym": [
+        "EGFR"
+      ],
+      "true_tail": "imgt:Cancers_colorectal_(CRC)",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "GI \u2014 colorectal"
+    },
+    {
+      "umap_x": 12.784942626953125,
+      "umap_y": 16.654220581054688,
+      "query_idx": 128,
+      "head": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Cancers_prostate_80",
+      "mab": "imgt:mAb_80",
+      "targets_sym": [
+        "ERBB2"
+      ],
+      "true_tail": "imgt:Cancers_prostate",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "GU (ovarian/prostate/renal/bladder)"
+    },
+    {
+      "umap_x": 11.880328178405762,
+      "umap_y": 14.648771286010742,
+      "query_idx": 129,
+      "head": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Cancers_small_cell_lung_(SCLC)_1355",
+      "mab": "imgt:mAb_1355",
+      "targets_sym": [
+        "HAVCR2",
+        "PDCD1"
+      ],
+      "true_tail": "imgt:Cancers_small_cell_lung_(SCLC)",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": "Lung"
+    },
+    {
+      "umap_x": 10.459050178527832,
+      "umap_y": 16.56458282470703,
+      "query_idx": 130,
+      "head": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Cancers_ovarian_80",
+      "mab": "imgt:mAb_80",
+      "targets_sym": [
+        "ERBB2"
+      ],
+      "true_tail": "imgt:Cancers_ovarian",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "GU (ovarian/prostate/renal/bladder)"
+    },
+    {
+      "umap_x": 12.605321884155273,
+      "umap_y": 13.038735389709473,
+      "query_idx": 131,
+      "head": "imgt:StudyProduct_Daiichi_Sankyo_Inc_Cancers_non-small_cell_lung_(NSCLC)_1005",
+      "mab": "imgt:mAb_1005",
+      "targets_sym": [
+        "TACSTD2"
+      ],
+      "true_tail": "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "mechanism_class": "Tumor antigens (MSLN/TROP2/B7H3)",
+      "disease_family": "Lung"
+    },
+    {
+      "umap_x": 9.9247465133667,
+      "umap_y": 11.451522827148438,
+      "query_idx": 133,
+      "head": "imgt:StudyProduct_Regeneron_Pharmaceuticals_Inc_Cancers_1555",
+      "mab": "imgt:mAb_1555",
+      "targets_sym": [
+        "CD28",
+        "EGFR"
+      ],
+      "true_tail": "imgt:Cancers",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": null
+    },
+    {
+      "umap_x": 7.903011322021484,
+      "umap_y": 15.277297973632812,
+      "query_idx": 134,
+      "head": "imgt:StudyProduct_Bristol-Myers_Squibb_Cancers_small_cell_lung_(SCLC)_180",
+      "mab": "imgt:mAb_180",
+      "targets_sym": [
+        "CTLA4"
+      ],
+      "true_tail": "imgt:Cancers_small_cell_lung_(SCLC)",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": "Lung"
+    },
+    {
+      "umap_x": 10.837289810180664,
+      "umap_y": 11.507209777832031,
+      "query_idx": 136,
+      "head": "imgt:StudyProduct_MacroGenics_Inc_Melanoma_1289",
+      "mab": "imgt:mAb_1289",
+      "targets_sym": [
+        "CD276"
+      ],
+      "true_tail": "imgt:Melanoma",
+      "mechanism_class": "Tumor antigens (MSLN/TROP2/B7H3)",
+      "disease_family": "Skin / Melanoma"
+    },
+    {
+      "umap_x": 11.168736457824707,
+      "umap_y": 12.34550666809082,
+      "query_idx": 137,
+      "head": "imgt:StudyProduct_University_Bath_Lymphoma_B_cell_13",
+      "mab": "imgt:mAb_13",
+      "targets_sym": [
+        "CD19"
+      ],
+      "true_tail": "imgt:Lymphoma_B_cell",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": "Heme \u2014 lymphomas"
+    },
+    {
+      "umap_x": 7.510041236877441,
+      "umap_y": 14.696016311645508,
+      "query_idx": 138,
+      "head": "imgt:StudyProduct_AstraZeneca_Cancers_breast_overexpressing_ERBB2_metastatic_722",
+      "mab": "imgt:mAb_722",
+      "targets_sym": [
+        "ERBB2"
+      ],
+      "true_tail": "imgt:Cancers_breast_overexpressing_ERBB2_metastatic",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "Breast"
+    },
+    {
+      "umap_x": 12.594551086425781,
+      "umap_y": 16.72796058654785,
+      "query_idx": 141,
+      "head": "imgt:StudyProduct_Xencor_Inc_Non-Hodgkins_lymphoma_(NHL)_522",
+      "mab": "imgt:mAb_522",
+      "targets_sym": [
+        "CD19"
+      ],
+      "true_tail": "imgt:Non-Hodgkins_lymphoma_(NHL)",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": "Heme \u2014 lymphomas"
+    },
+    {
+      "umap_x": 12.461091995239258,
+      "umap_y": 12.45776653289795,
+      "query_idx": 143,
+      "head": "imgt:StudyProduct_Millennium_Pharmaceuticals_Inc_Systemic_lupus_erythematosus_(SLE)_882",
+      "mab": "imgt:mAb_882",
+      "targets_sym": [
+        "CD38"
+      ],
+      "true_tail": "imgt:Systemic_lupus_erythematosus_(SLE)",
+      "mechanism_class": "Plasma cell (BCMA/CD38/SLAMF7)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 13.845897674560547,
+      "umap_y": 14.622084617614746,
+      "query_idx": 144,
+      "head": "imgt:StudyProduct_ImClone_Systems_Inc_Solid_tumors_294",
+      "mab": "imgt:mAb_294",
+      "targets_sym": [
+        "EGFR"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": null
+    },
+    {
+      "umap_x": 7.6277971267700195,
+      "umap_y": 16.220796585083008,
+      "query_idx": 146,
+      "head": "imgt:StudyProduct_Regeneron_Pharmaceuticals_Inc_Cancers_ovarian_214",
+      "mab": "imgt:mAb_214",
+      "targets_sym": [
+        "VEGFA"
+      ],
+      "true_tail": "imgt:Cancers_ovarian",
+      "mechanism_class": "Growth factors (VEGF/MET/DLL)",
+      "disease_family": "GU (ovarian/prostate/renal/bladder)"
+    },
+    {
+      "umap_x": 12.64275074005127,
+      "umap_y": 15.3980131149292,
+      "query_idx": 147,
+      "head": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Chronic_lymphocytic_leukemia_(CLL)_457",
+      "mab": "imgt:mAb_457",
+      "targets_sym": [
+        "CD22"
+      ],
+      "true_tail": "imgt:Chronic_lymphocytic_leukemia_(CLL)",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": "Heme \u2014 leukemias"
+    },
+    {
+      "umap_x": 11.198179244995117,
+      "umap_y": 11.342867851257324,
+      "query_idx": 148,
+      "head": "imgt:StudyProduct_Regeneron_Pharmaceuticals_Inc_Cancers_non-small_cell_lung_(NSCLC)_1394",
+      "mab": "imgt:mAb_1394",
+      "targets_sym": [
+        "MET"
+      ],
+      "true_tail": "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "mechanism_class": "Growth factors (VEGF/MET/DLL)",
+      "disease_family": "Lung"
+    },
+    {
+      "umap_x": 10.524630546569824,
+      "umap_y": 13.555986404418945,
+      "query_idx": 150,
+      "head": "imgt:StudyProduct_CJSC_GENERIUM_Cancers_714",
+      "mab": "imgt:mAb_714",
+      "targets_sym": [
+        "VEGFA"
+      ],
+      "true_tail": "imgt:Cancers",
+      "mechanism_class": "Growth factors (VEGF/MET/DLL)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 7.735074043273926,
+      "umap_y": 14.739378929138184,
+      "query_idx": 151,
+      "head": "imgt:StudyProduct_Amgen_Cancers_colorectal_(CRC)_metastatic_196",
+      "mab": "imgt:mAb_196",
+      "targets_sym": [
+        "EGFR"
+      ],
+      "true_tail": "imgt:Cancers_colorectal_(CRC)_metastatic",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "GI \u2014 colorectal"
+    },
+    {
+      "umap_x": 12.639337539672852,
+      "umap_y": 12.41138744354248,
+      "query_idx": 154,
+      "head": "imgt:StudyProduct_Atridia_Pty_Ltd_Solid_tumors_659",
+      "mab": "imgt:mAb_659",
+      "targets_sym": [
+        "PDCD1"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 9.556333541870117,
+      "umap_y": 17.292015075683594,
+      "query_idx": 157,
+      "head": "imgt:StudyProduct_Wyeth_Pharmaceuticals_Non-Hodgkins_lymphoma_(NHL)_259",
+      "mab": "imgt:mAb_259",
+      "targets_sym": [
+        "CD22"
+      ],
+      "true_tail": "imgt:Non-Hodgkins_lymphoma_(NHL)",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": "Heme \u2014 lymphomas"
+    },
+    {
+      "umap_x": 12.953617095947266,
+      "umap_y": 16.515562057495117,
+      "query_idx": 158,
+      "head": "imgt:StudyProduct_ImClone_Systems_Inc_Cancers_non-small_cell_lung_(NSCLC)_290",
+      "mab": "imgt:mAb_290",
+      "targets_sym": [
+        "IGF1R"
+      ],
+      "true_tail": "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "mechanism_class": "Growth factors (VEGF/MET/DLL)",
+      "disease_family": "Lung"
+    },
+    {
+      "umap_x": 11.09654426574707,
+      "umap_y": 13.208504676818848,
+      "query_idx": 159,
+      "head": "imgt:StudyProduct_Janssen_Pharmaceuticals_inc_Lymphoma_diffuse_large_B_cell_(DLBCL)_640",
+      "mab": "imgt:mAb_640",
+      "targets_sym": [
+        "CD19",
+        "CD3E"
+      ],
+      "true_tail": "imgt:Lymphoma_diffuse_large_B_cell_(DLBCL)",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": "Heme \u2014 lymphomas"
+    },
+    {
+      "umap_x": 9.739965438842773,
+      "umap_y": 17.400955200195312,
+      "query_idx": 160,
+      "head": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Cancers_bladder_526",
+      "mab": "imgt:mAb_526",
+      "targets_sym": [
+        "CD274"
+      ],
+      "true_tail": "imgt:Cancers_bladder",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": "GU (ovarian/prostate/renal/bladder)"
+    },
+    {
+      "umap_x": 7.977420806884766,
+      "umap_y": 15.074387550354004,
+      "query_idx": 162,
+      "head": "imgt:StudyProduct_Regeneron_Pharmaceuticals_Inc_Carcinoma_cutaneous_squamous_cell_846",
+      "mab": "imgt:mAb_846",
+      "targets_sym": [
+        "PDCD1"
+      ],
+      "true_tail": "imgt:Carcinoma_cutaneous_squamous_cell",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 11.102559089660645,
+      "umap_y": 13.671635627746582,
+      "query_idx": 164,
+      "head": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Lymphoma_B_cell_1224",
+      "mab": "imgt:mAb_1224",
+      "targets_sym": [
+        "TNFRSF9",
+        "CD19"
+      ],
+      "true_tail": "imgt:Lymphoma_B_cell",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": "Heme \u2014 lymphomas"
+    },
+    {
+      "umap_x": 12.268431663513184,
+      "umap_y": 13.021502494812012,
+      "query_idx": 165,
+      "head": "imgt:StudyProduct_Daiichi_Sankyo_Inc_Cancers_non-small_cell_lung_(NSCLC)_964",
+      "mab": "imgt:mAb_964",
+      "targets_sym": [
+        "ERBB3"
+      ],
+      "true_tail": "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "Lung"
+    },
+    {
+      "umap_x": 13.198819160461426,
+      "umap_y": 15.489120483398438,
+      "query_idx": 168,
+      "head": "imgt:StudyProduct_Fudan_University_Cancers_breast_1340",
+      "mab": "imgt:mAb_1340",
+      "targets_sym": [
+        "ERBB2"
+      ],
+      "true_tail": "imgt:Cancers_breast",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "Breast"
+    },
+    {
+      "umap_x": 12.9205961227417,
+      "umap_y": 13.000863075256348,
+      "query_idx": 169,
+      "head": "imgt:StudyProduct_Eli_Lilly_Solid_tumors_1112",
+      "mab": "imgt:mAb_1112",
+      "targets_sym": [
+        "ANGPT2"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "Growth factors (VEGF/MET/DLL)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 9.903824806213379,
+      "umap_y": 17.14595603942871,
+      "query_idx": 171,
+      "head": "imgt:StudyProduct_Genentech_Inc_Cancers_gastric_357",
+      "mab": "imgt:mAb_357",
+      "targets_sym": [
+        "ERBB2"
+      ],
+      "true_tail": "imgt:Cancers_gastric",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "GI \u2014 upper"
+    },
+    {
+      "umap_x": 13.433436393737793,
+      "umap_y": 14.125691413879395,
+      "query_idx": 175,
+      "head": "imgt:StudyProduct_Arcus_Biosciences_Inc_Cancers_non-small_cell_lung_(NSCLC)_1356",
+      "mab": "imgt:mAb_1356",
+      "targets_sym": [
+        "TIGIT"
+      ],
+      "true_tail": "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": "Lung"
+    },
+    {
+      "umap_x": 7.280388832092285,
+      "umap_y": 14.830585479736328,
+      "query_idx": 176,
+      "head": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Chronic_lymphocytic_leukemia_(CLL)_238",
+      "mab": "imgt:mAb_238",
+      "targets_sym": [
+        "MS4A1"
+      ],
+      "true_tail": "imgt:Chronic_lymphocytic_leukemia_(CLL)",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": "Heme \u2014 leukemias"
+    },
+    {
+      "umap_x": 13.054561614990234,
+      "umap_y": 16.415132522583008,
+      "query_idx": 177,
+      "head": "imgt:StudyProduct_iTeos_Therapeutics_Cancers_non-small_cell_lung_(NSCLC)_1361",
+      "mab": "imgt:mAb_1361",
+      "targets_sym": [
+        "TIGIT"
+      ],
+      "true_tail": "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": "Lung"
+    },
+    {
+      "umap_x": 7.616066932678223,
+      "umap_y": 15.096285820007324,
+      "query_idx": 178,
+      "head": "imgt:StudyProduct_Bristol-Myers_Squibb_Cancers_colorectal_(CRC)_metastatic_151",
+      "mab": "imgt:mAb_151",
+      "targets_sym": [
+        "EGFR"
+      ],
+      "true_tail": "imgt:Cancers_colorectal_(CRC)_metastatic",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "GI \u2014 colorectal"
+    },
+    {
+      "umap_x": 10.717276573181152,
+      "umap_y": 10.988597869873047,
+      "query_idx": 179,
+      "head": "imgt:StudyProduct_CureTech_Hepatitis_C_453",
+      "mab": "imgt:mAb_453",
+      "targets_sym": [
+        "PDCD1"
+      ],
+      "true_tail": "imgt:Hepatitis_C",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 12.979744911193848,
+      "umap_y": 14.695929527282715,
+      "query_idx": 180,
+      "head": "imgt:StudyProduct_Transcenta_Holding_Ltd_Solid_tumors_1239",
+      "mab": "imgt:mAb_1239",
+      "targets_sym": [
+        "CD274"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 9.307120323181152,
+      "umap_y": 13.1677885055542,
+      "query_idx": 182,
+      "head": "imgt:StudyProduct_Beckman_Research_Institute_Cancers_colorectal_(CRC)_metastatic_50",
+      "mab": "imgt:mAb_50",
+      "targets_sym": [
+        "CEACAM5"
+      ],
+      "true_tail": "imgt:Cancers_colorectal_(CRC)_metastatic",
+      "mechanism_class": "Tumor antigens (MSLN/TROP2/B7H3)",
+      "disease_family": "GI \u2014 colorectal"
+    },
+    {
+      "umap_x": 9.824447631835938,
+      "umap_y": 16.154184341430664,
+      "query_idx": 185,
+      "head": "imgt:StudyProduct_Stemcentrx_Inc_Cancers_small_cell_lung_(SCLC)_569",
+      "mab": "imgt:mAb_569",
+      "targets_sym": [
+        "DLL3"
+      ],
+      "true_tail": "imgt:Cancers_small_cell_lung_(SCLC)",
+      "mechanism_class": "Growth factors (VEGF/MET/DLL)",
+      "disease_family": "Lung"
+    },
+    {
+      "umap_x": 6.656428813934326,
+      "umap_y": 15.573420524597168,
+      "query_idx": 188,
+      "head": "imgt:StudyProduct_Juno_Therapeutics_Lymphoma_follicular_(FL)_874",
+      "mab": "imgt:mAb_874",
+      "targets_sym": [
+        "CD19"
+      ],
+      "true_tail": "imgt:Lymphoma_follicular_(FL)",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": "Heme \u2014 lymphomas"
+    },
+    {
+      "umap_x": 9.51608657836914,
+      "umap_y": 12.549131393432617,
+      "query_idx": 189,
+      "head": "imgt:StudyProduct_Immunomedics_Inc_Cancers_559",
+      "mab": "imgt:mAb_559",
+      "targets_sym": [
+        "TACSTD2"
+      ],
+      "true_tail": "imgt:Cancers",
+      "mechanism_class": "Tumor antigens (MSLN/TROP2/B7H3)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 12.582388877868652,
+      "umap_y": 15.827404975891113,
+      "query_idx": 190,
+      "head": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Non-Hodgkins_lymphoma_(NHL)_457",
+      "mab": "imgt:mAb_457",
+      "targets_sym": [
+        "CD22"
+      ],
+      "true_tail": "imgt:Non-Hodgkins_lymphoma_(NHL)",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": "Heme \u2014 lymphomas"
+    },
+    {
+      "umap_x": 7.58890438079834,
+      "umap_y": 15.12537670135498,
+      "query_idx": 191,
+      "head": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Lymphoma_B_cell_952",
+      "mab": "imgt:mAb_952",
+      "targets_sym": [
+        "CD3E",
+        "MS4A1"
+      ],
+      "true_tail": "imgt:Lymphoma_B_cell",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": "Heme \u2014 lymphomas"
+    },
+    {
+      "umap_x": 14.335688591003418,
+      "umap_y": 14.001214027404785,
+      "query_idx": 194,
+      "head": "imgt:StudyProduct_Bicara_Therapeutics_Carcinoma_head_and_neck_squamous_cell_carcinoma_(HNSCC)_1616",
+      "mab": "imgt:mAb_1616",
+      "targets_sym": [
+        "EGFR"
+      ],
+      "true_tail": "imgt:Carcinoma_head_and_neck_squamous_cell_carcinoma_(HNSCC)",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "Head & neck"
+    },
+    {
+      "umap_x": 11.464861869812012,
+      "umap_y": 14.444719314575195,
+      "query_idx": 196,
+      "head": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Cancers_ovarian_482",
+      "mab": "imgt:mAb_482",
+      "targets_sym": [
+        "MUC16"
+      ],
+      "true_tail": "imgt:Cancers_ovarian",
+      "mechanism_class": "Tumor antigens (MSLN/TROP2/B7H3)",
+      "disease_family": "GU (ovarian/prostate/renal/bladder)"
+    },
+    {
+      "umap_x": 11.562485694885254,
+      "umap_y": 12.54947566986084,
+      "query_idx": 197,
+      "head": "imgt:StudyProduct_AbbVie_Inc_Solid_tumors_653",
+      "mab": "imgt:mAb_653",
+      "targets_sym": [
+        "MET"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "Growth factors (VEGF/MET/DLL)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 13.672813415527344,
+      "umap_y": 13.846233367919922,
+      "query_idx": 198,
+      "head": "imgt:StudyProduct_Celgene_corporation_Lymphoma_B_cell_874",
+      "mab": "imgt:mAb_874",
+      "targets_sym": [
+        "CD19"
+      ],
+      "true_tail": "imgt:Lymphoma_B_cell",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": "Heme \u2014 lymphomas"
+    },
+    {
+      "umap_x": 12.714081764221191,
+      "umap_y": 13.59444808959961,
+      "query_idx": 201,
+      "head": "imgt:StudyProduct_Akeso_Biopharma_Inc_Solid_tumors_1093",
+      "mab": "imgt:mAb_1093",
+      "targets_sym": [
+        "PDCD1"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 10.175007820129395,
+      "umap_y": 11.330915451049805,
+      "query_idx": 202,
+      "head": "imgt:StudyProduct_Symphogen_Cancers_head_and_neck_419",
+      "mab": "imgt:mAb_419",
+      "targets_sym": [
+        "EGFR"
+      ],
+      "true_tail": "imgt:Cancers_head_and_neck",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "Head & neck"
+    },
+    {
+      "umap_x": 9.254390716552734,
+      "umap_y": 13.670740127563477,
+      "query_idx": 203,
+      "head": "imgt:StudyProduct_Regeneron_Pharmaceuticals_Inc_Lymphoma_follicular_(FL)_748",
+      "mab": "imgt:mAb_748",
+      "targets_sym": [
+        "CD3E",
+        "MS4A1"
+      ],
+      "true_tail": "imgt:Lymphoma_follicular_(FL)",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": "Heme \u2014 lymphomas"
+    },
+    {
+      "umap_x": 11.266121864318848,
+      "umap_y": 14.55077838897705,
+      "query_idx": 204,
+      "head": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Non-Hodgkins_lymphoma_(NHL)_774",
+      "mab": "imgt:mAb_774",
+      "targets_sym": [
+        "CD79B"
+      ],
+      "true_tail": "imgt:Non-Hodgkins_lymphoma_(NHL)",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": "Heme \u2014 lymphomas"
+    },
+    {
+      "umap_x": 9.568737030029297,
+      "umap_y": 17.065475463867188,
+      "query_idx": 205,
+      "head": "imgt:StudyProduct_Genentech_Inc_Renal_cell_carcinoma_(RCC)_526",
+      "mab": "imgt:mAb_526",
+      "targets_sym": [
+        "CD274"
+      ],
+      "true_tail": "imgt:Renal_cell_carcinoma_(RCC)",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": "GU (ovarian/prostate/renal/bladder)"
+    },
+    {
+      "umap_x": 9.789822578430176,
+      "umap_y": 12.785908699035645,
+      "query_idx": 210,
+      "head": "imgt:StudyProduct_Immunomedics_Inc_Cancers_colorectal_(CRC)_metastatic_558",
+      "mab": "imgt:mAb_558",
+      "targets_sym": [
+        "CEACAM5"
+      ],
+      "true_tail": "imgt:Cancers_colorectal_(CRC)_metastatic",
+      "mechanism_class": "Tumor antigens (MSLN/TROP2/B7H3)",
+      "disease_family": "GI \u2014 colorectal"
+    },
+    {
+      "umap_x": 10.17841625213623,
+      "umap_y": 17.095609664916992,
+      "query_idx": 211,
+      "head": "imgt:StudyProduct_Genentech_Inc_Cancers_ovarian_80",
+      "mab": "imgt:mAb_80",
+      "targets_sym": [
+        "ERBB2"
+      ],
+      "true_tail": "imgt:Cancers_ovarian",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "GU (ovarian/prostate/renal/bladder)"
+    },
+    {
+      "umap_x": 6.764937877655029,
+      "umap_y": 15.777538299560547,
+      "query_idx": 212,
+      "head": "imgt:StudyProduct_Eli_Lilly_Hepatocellular_carcinoma_(HCC)_295",
+      "mab": "imgt:mAb_295",
+      "targets_sym": [
+        "KDR"
+      ],
+      "true_tail": "imgt:Hepatocellular_carcinoma_(HCC)",
+      "mechanism_class": "Growth factors (VEGF/MET/DLL)",
+      "disease_family": "GI \u2014 upper"
+    },
+    {
+      "umap_x": 7.046925067901611,
+      "umap_y": 15.096213340759277,
+      "query_idx": 218,
+      "head": "imgt:StudyProduct_Daiichi_Sankyo_Inc_Cancers_gastric_overexpressing_ERBB2_metastatic_722",
+      "mab": "imgt:mAb_722",
+      "targets_sym": [
+        "ERBB2"
+      ],
+      "true_tail": "imgt:Cancers_gastric_overexpressing_ERBB2_metastatic",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "GI \u2014 upper"
+    },
+    {
+      "umap_x": 8.592683792114258,
+      "umap_y": 13.931562423706055,
+      "query_idx": 219,
+      "head": "imgt:StudyProduct_Regeneron_Pharmaceuticals_Inc_Lymphoma_diffuse_large_B_cell_(DLBCL)_748",
+      "mab": "imgt:mAb_748",
+      "targets_sym": [
+        "CD3E",
+        "MS4A1"
+      ],
+      "true_tail": "imgt:Lymphoma_diffuse_large_B_cell_(DLBCL)",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": "Heme \u2014 lymphomas"
+    },
+    {
+      "umap_x": 10.960119247436523,
+      "umap_y": 15.37427043914795,
+      "query_idx": 222,
+      "head": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Solid_organ_transplantation_161",
+      "mab": "imgt:mAb_161",
+      "targets_sym": [
+        "MS4A1"
+      ],
+      "true_tail": "imgt:Solid_organ_transplantation",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 12.906867027282715,
+      "umap_y": 16.318239212036133,
+      "query_idx": 224,
+      "head": "imgt:StudyProduct_Novartis_Pharmaceuticals_Corp_Solid_tumors_918",
+      "mab": "imgt:mAb_918",
+      "targets_sym": [
+        "LAG3"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 9.12463665008545,
+      "umap_y": 12.960360527038574,
+      "query_idx": 225,
+      "head": "imgt:StudyProduct_Charing_Cross_Sunley_Research_Centre_Cancers_99",
+      "mab": "imgt:mAb_99",
+      "targets_sym": [
+        "CD3E",
+        "ERBB2"
+      ],
+      "true_tail": "imgt:Cancers",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": null
+    },
+    {
+      "umap_x": 9.700221061706543,
+      "umap_y": 16.465768814086914,
+      "query_idx": 226,
+      "head": "imgt:StudyProduct_Merck_&_Co_Inc_Cancers_bladder_472",
+      "mab": "imgt:mAb_472",
+      "targets_sym": [
+        "PDCD1"
+      ],
+      "true_tail": "imgt:Cancers_bladder",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": "GU (ovarian/prostate/renal/bladder)"
+    },
+    {
+      "umap_x": 10.275816917419434,
+      "umap_y": 13.185882568359375,
+      "query_idx": 227,
+      "head": "imgt:StudyProduct_Bayer_AG_Cancers_1285",
+      "mab": "imgt:mAb_1285",
+      "targets_sym": [
+        "ERBB2"
+      ],
+      "true_tail": "imgt:Cancers",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": null
+    },
+    {
+      "umap_x": 13.323078155517578,
+      "umap_y": 13.007833480834961,
+      "query_idx": 228,
+      "head": "imgt:StudyProduct_Tesaro_Inc_Solid_tumors_886",
+      "mab": "imgt:mAb_886",
+      "targets_sym": [
+        "HAVCR2"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 7.930383682250977,
+      "umap_y": 14.882646560668945,
+      "query_idx": 229,
+      "head": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Renal_cell_carcinoma_(RCC)_24",
+      "mab": "imgt:mAb_24",
+      "targets_sym": [
+        "VEGFA"
+      ],
+      "true_tail": "imgt:Renal_cell_carcinoma_(RCC)",
+      "mechanism_class": "Growth factors (VEGF/MET/DLL)",
+      "disease_family": "GU (ovarian/prostate/renal/bladder)"
+    },
+    {
+      "umap_x": 10.656920433044434,
+      "umap_y": 13.18999195098877,
+      "query_idx": 231,
+      "head": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Cancers_blood_760",
+      "mab": "imgt:mAb_760",
+      "targets_sym": [
+        "CD3E",
+        "MS4A1"
+      ],
+      "true_tail": "imgt:Cancers_blood",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 14.060735702514648,
+      "umap_y": 14.830275535583496,
+      "query_idx": 236,
+      "head": "imgt:StudyProduct_ADC_Therapeutics_Lymphoma_B_cell_759",
+      "mab": "imgt:mAb_759",
+      "targets_sym": [
+        "CD19"
+      ],
+      "true_tail": "imgt:Lymphoma_B_cell",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": "Heme \u2014 lymphomas"
+    },
+    {
+      "umap_x": 9.001553535461426,
+      "umap_y": 13.214057922363281,
+      "query_idx": 239,
+      "head": "imgt:StudyProduct_Boehringer_Ingelheim_Pharmaceuticals_Cancers_small_cell_lung_(SCLC)_133",
+      "mab": "imgt:mAb_133",
+      "targets_sym": [
+        "MS4A1"
+      ],
+      "true_tail": "imgt:Cancers_small_cell_lung_(SCLC)",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": "Lung"
+    },
+    {
+      "umap_x": 10.186615943908691,
+      "umap_y": 11.00196647644043,
+      "query_idx": 240,
+      "head": "imgt:StudyProduct_Nanjing_IASO_Biotherapeutics_CoLtd_Multiple_myeloma_(MM)_1383",
+      "mab": "imgt:mAb_1383",
+      "targets_sym": [
+        "TNFRSF17"
+      ],
+      "true_tail": "imgt:Multiple_myeloma_(MM)",
+      "mechanism_class": "Plasma cell (BCMA/CD38/SLAMF7)",
+      "disease_family": "Heme \u2014 myeloma"
+    },
+    {
+      "umap_x": 6.825437545776367,
+      "umap_y": 15.121915817260742,
+      "query_idx": 243,
+      "head": "imgt:StudyProduct_Janssen_Biotech_Inc_Multiple_myeloma_(MM)_301",
+      "mab": "imgt:mAb_301",
+      "targets_sym": [
+        "CD38"
+      ],
+      "true_tail": "imgt:Multiple_myeloma_(MM)",
+      "mechanism_class": "Plasma cell (BCMA/CD38/SLAMF7)",
+      "disease_family": "Heme \u2014 myeloma"
+    },
+    {
+      "umap_x": 13.585563659667969,
+      "umap_y": 13.475680351257324,
+      "query_idx": 244,
+      "head": "imgt:StudyProduct_Boehringer_Ingelheim_Pharmaceuticals_Cancers_non-small_cell_lung_(NSCLC)_1009",
+      "mab": "imgt:mAb_1009",
+      "targets_sym": [
+        "PDCD1"
+      ],
+      "true_tail": "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": "Lung"
+    },
+    {
+      "umap_x": 7.030391693115234,
+      "umap_y": 15.785982131958008,
+      "query_idx": 246,
+      "head": "imgt:StudyProduct_Genentech_Inc_Carcinoma_urothelial_526",
+      "mab": "imgt:mAb_526",
+      "targets_sym": [
+        "CD274"
+      ],
+      "true_tail": "imgt:Carcinoma_urothelial",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": "GU (ovarian/prostate/renal/bladder)"
+    },
+    {
+      "umap_x": 11.242498397827148,
+      "umap_y": 12.968429565429688,
+      "query_idx": 248,
+      "head": "imgt:StudyProduct_Bayer_HealthCare_Pharmaceuticals_Cancers_938",
+      "mab": "imgt:mAb_938",
+      "targets_sym": [
+        "MSLN"
+      ],
+      "true_tail": "imgt:Cancers",
+      "mechanism_class": "Tumor antigens (MSLN/TROP2/B7H3)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 11.388427734375,
+      "umap_y": 11.779523849487305,
+      "query_idx": 249,
+      "head": "imgt:StudyProduct_Daiichi_Sankyo_Inc_Solid_tumors_1256",
+      "mab": "imgt:mAb_1256",
+      "targets_sym": [
+        "CD276"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "Tumor antigens (MSLN/TROP2/B7H3)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 10.68752384185791,
+      "umap_y": 14.890247344970703,
+      "query_idx": 251,
+      "head": "imgt:StudyProduct_Stemcentrx_Inc_Cancers_569",
+      "mab": "imgt:mAb_569",
+      "targets_sym": [
+        "DLL3"
+      ],
+      "true_tail": "imgt:Cancers",
+      "mechanism_class": "Growth factors (VEGF/MET/DLL)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 11.530742645263672,
+      "umap_y": 13.83863353729248,
+      "query_idx": 252,
+      "head": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Solid_tumors_765",
+      "mab": "imgt:mAb_765",
+      "targets_sym": [
+        "TIGIT"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 11.767066955566406,
+      "umap_y": 13.364567756652832,
+      "query_idx": 253,
+      "head": "imgt:StudyProduct_Genentech_Inc_Solid_tumors_502",
+      "mab": "imgt:mAb_502",
+      "targets_sym": [
+        "ERBB3"
+      ],
+      "true_tail": "imgt:Solid_tumors",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": null
+    },
+    {
+      "umap_x": 9.707027435302734,
+      "umap_y": 12.029151916503906,
+      "query_idx": 254,
+      "head": "imgt:StudyProduct_Immunomedics_Inc_Cancers_pancreatic_559",
+      "mab": "imgt:mAb_559",
+      "targets_sym": [
+        "TACSTD2"
+      ],
+      "true_tail": "imgt:Cancers_pancreatic",
+      "mechanism_class": "Tumor antigens (MSLN/TROP2/B7H3)",
+      "disease_family": "GI \u2014 upper"
+    },
+    {
+      "umap_x": 9.435556411743164,
+      "umap_y": 16.62177085876465,
+      "query_idx": 255,
+      "head": "imgt:StudyProduct_ImClone_Systems_Inc_Cancers_bladder_295",
+      "mab": "imgt:mAb_295",
+      "targets_sym": [
+        "KDR"
+      ],
+      "true_tail": "imgt:Cancers_bladder",
+      "mechanism_class": "Growth factors (VEGF/MET/DLL)",
+      "disease_family": "GU (ovarian/prostate/renal/bladder)"
+    },
+    {
+      "umap_x": 10.6477689743042,
+      "umap_y": 12.042474746704102,
+      "query_idx": 258,
+      "head": "imgt:StudyProduct_Takeda_Pharmaceuticals_USA_Inc_Multiple_myeloma_(MM)_882",
+      "mab": "imgt:mAb_882",
+      "targets_sym": [
+        "CD38"
+      ],
+      "true_tail": "imgt:Multiple_myeloma_(MM)",
+      "mechanism_class": "Plasma cell (BCMA/CD38/SLAMF7)",
+      "disease_family": "Heme \u2014 myeloma"
+    },
+    {
+      "umap_x": 10.412376403808594,
+      "umap_y": 16.49466323852539,
+      "query_idx": 260,
+      "head": "imgt:StudyProduct_Pfizer_Cancers_non-small_cell_lung_(NSCLC)_metastatic_512",
+      "mab": "imgt:mAb_512",
+      "targets_sym": [
+        "CD274"
+      ],
+      "true_tail": "imgt:Cancers_non-small_cell_lung_(NSCLC)_metastatic",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": "Lung"
+    },
+    {
+      "umap_x": 6.79661226272583,
+      "umap_y": 15.995796203613281,
+      "query_idx": 261,
+      "head": "imgt:StudyProduct_Medarex_Renal_cell_carcinoma_(RCC)_180",
+      "mab": "imgt:mAb_180",
+      "targets_sym": [
+        "CTLA4"
+      ],
+      "true_tail": "imgt:Renal_cell_carcinoma_(RCC)",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": "GU (ovarian/prostate/renal/bladder)"
+    },
+    {
+      "umap_x": 10.073661804199219,
+      "umap_y": 10.952347755432129,
+      "query_idx": 263,
+      "head": "imgt:StudyProduct_CARsgen_Therapeutics_Multiple_myeloma_(MM)_1230",
+      "mab": "imgt:mAb_1230",
+      "targets_sym": [
+        "TNFRSF17"
+      ],
+      "true_tail": "imgt:Multiple_myeloma_(MM)",
+      "mechanism_class": "Plasma cell (BCMA/CD38/SLAMF7)",
+      "disease_family": "Heme \u2014 myeloma"
+    },
+    {
+      "umap_x": 9.343667984008789,
+      "umap_y": 16.21833610534668,
+      "query_idx": 264,
+      "head": "imgt:StudyProduct_Ono_Pharmaceutical_Co_Ltd_GE_Junction_Cancer_424",
+      "mab": "imgt:mAb_424",
+      "targets_sym": [
+        "PDCD1"
+      ],
+      "true_tail": "imgt:GE_Junction_Cancer",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 6.999904155731201,
+      "umap_y": 14.628708839416504,
+      "query_idx": 268,
+      "head": "imgt:StudyProduct_Janssen_Biotech_Inc_Myeloma_multiple_(MM)_recurrent_or_refractory_301",
+      "mab": "imgt:mAb_301",
+      "targets_sym": [
+        "CD38"
+      ],
+      "true_tail": "imgt:Myeloma_multiple_(MM)_recurrent_or_refractory",
+      "mechanism_class": "Plasma cell (BCMA/CD38/SLAMF7)",
+      "disease_family": "Heme \u2014 myeloma"
+    },
+    {
+      "umap_x": 7.1566267013549805,
+      "umap_y": 14.457589149475098,
+      "query_idx": 270,
+      "head": "imgt:StudyProduct_Gilead_Multiple_myeloma_(MM)_873",
+      "mab": "imgt:mAb_873",
+      "targets_sym": [
+        "TNFRSF17"
+      ],
+      "true_tail": "imgt:Multiple_myeloma_(MM)",
+      "mechanism_class": "Plasma cell (BCMA/CD38/SLAMF7)",
+      "disease_family": "Heme \u2014 myeloma"
+    },
+    {
+      "umap_x": 9.807136535644531,
+      "umap_y": 13.486486434936523,
+      "query_idx": 272,
+      "head": "imgt:StudyProduct_Genentech_Inc_Cancers_7",
+      "mab": "imgt:mAb_7",
+      "targets_sym": [
+        "VEGFA"
+      ],
+      "true_tail": "imgt:Cancers",
+      "mechanism_class": "Growth factors (VEGF/MET/DLL)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 8.571640014648438,
+      "umap_y": 13.432060241699219,
+      "query_idx": 276,
+      "head": "imgt:StudyProduct_DuPont_Merck_Pharmaceutical_Cancers_small_cell_lung_(SCLC)_133",
+      "mab": "imgt:mAb_133",
+      "targets_sym": [
+        "MS4A1"
+      ],
+      "true_tail": "imgt:Cancers_small_cell_lung_(SCLC)",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": "Lung"
+    },
+    {
+      "umap_x": 10.431063652038574,
+      "umap_y": 17.059505462646484,
+      "query_idx": 281,
+      "head": "imgt:StudyProduct_Amgen_Cancers_non-small_cell_lung_(NSCLC)_metastatic_584",
+      "mab": "imgt:mAb_584",
+      "targets_sym": [
+        "VEGFA"
+      ],
+      "true_tail": "imgt:Cancers_non-small_cell_lung_(NSCLC)_metastatic",
+      "mechanism_class": "Growth factors (VEGF/MET/DLL)",
+      "disease_family": "Lung"
+    },
+    {
+      "umap_x": 9.769914627075195,
+      "umap_y": 16.346946716308594,
+      "query_idx": 282,
+      "head": "imgt:StudyProduct_Groupe_Suisse_de_Recherche_Clinique_(SAKK)_Cancers_esophageal_resectable_151",
+      "mab": "imgt:mAb_151",
+      "targets_sym": [
+        "EGFR"
+      ],
+      "true_tail": "imgt:Cancers_esophageal_resectable",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "GI \u2014 upper"
+    },
+    {
+      "umap_x": 6.9355902671813965,
+      "umap_y": 15.154803276062012,
+      "query_idx": 283,
+      "head": "imgt:StudyProduct_Bristol-Myers_Squibb_Cancers_gastric_424",
+      "mab": "imgt:mAb_424",
+      "targets_sym": [
+        "PDCD1"
+      ],
+      "true_tail": "imgt:Cancers_gastric",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": "GI \u2014 upper"
+    },
+    {
+      "umap_x": 14.221993446350098,
+      "umap_y": 14.105650901794434,
+      "query_idx": 284,
+      "head": "imgt:StudyProduct_NantCell_Inc_Cancers_168",
+      "mab": "imgt:mAb_168",
+      "targets_sym": [
+        "IGF1R"
+      ],
+      "true_tail": "imgt:Cancers",
+      "mechanism_class": "Growth factors (VEGF/MET/DLL)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 11.029231071472168,
+      "umap_y": 12.314898490905762,
+      "query_idx": 285,
+      "head": "imgt:StudyProduct_Genentech_Inc_Cancers_ovarian_98",
+      "mab": "imgt:mAb_98",
+      "targets_sym": [
+        "ERBB2"
+      ],
+      "true_tail": "imgt:Cancers_ovarian",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "GU (ovarian/prostate/renal/bladder)"
+    },
+    {
+      "umap_x": 12.95280647277832,
+      "umap_y": 16.556358337402344,
+      "query_idx": 287,
+      "head": "imgt:StudyProduct_MorphoSys_Non-Hodgkins_lymphoma_(NHL)_522",
+      "mab": "imgt:mAb_522",
+      "targets_sym": [
+        "CD19"
+      ],
+      "true_tail": "imgt:Non-Hodgkins_lymphoma_(NHL)",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": "Heme \u2014 lymphomas"
+    },
+    {
+      "umap_x": 7.39914608001709,
+      "umap_y": 15.903021812438965,
+      "query_idx": 288,
+      "head": "imgt:StudyProduct_Regeneron_Pharmaceuticals_Inc_Retinopathy_of_Prematurity_(ROP)_214",
+      "mab": "imgt:mAb_214",
+      "targets_sym": [
+        "VEGFA"
+      ],
+      "true_tail": "imgt:Retinopathy_of_Prematurity_(ROP)",
+      "mechanism_class": "Growth factors (VEGF/MET/DLL)",
+      "disease_family": null
+    },
+    {
+      "umap_x": 8.845921516418457,
+      "umap_y": 13.76220703125,
+      "query_idx": 290,
+      "head": "imgt:StudyProduct_AstraZeneca_Acute_lymphocytic_leukemia_(ALL)_198",
+      "mab": "imgt:mAb_198",
+      "targets_sym": [
+        "CD22"
+      ],
+      "true_tail": "imgt:Acute_lymphocytic_leukemia_(ALL)",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": "Heme \u2014 leukemias"
+    },
+    {
+      "umap_x": 12.195886611938477,
+      "umap_y": 16.471450805664062,
+      "query_idx": 292,
+      "head": "imgt:StudyProduct_Morphotek_Inc_Cancers_pancreatic_64",
+      "mab": "imgt:mAb_64",
+      "targets_sym": [
+        "MSLN"
+      ],
+      "true_tail": "imgt:Cancers_pancreatic",
+      "mechanism_class": "Tumor antigens (MSLN/TROP2/B7H3)",
+      "disease_family": "GI \u2014 upper"
+    },
+    {
+      "umap_x": 14.27049732208252,
+      "umap_y": 14.177096366882324,
+      "query_idx": 293,
+      "head": "imgt:StudyProduct_Merrimack_Pharmaceuticals_Cancers_breast_865",
+      "mab": "imgt:mAb_865",
+      "targets_sym": [
+        "ERBB2"
+      ],
+      "true_tail": "imgt:Cancers_breast",
+      "mechanism_class": "HER / EGFR family",
+      "disease_family": "Breast"
+    },
+    {
+      "umap_x": 7.621824741363525,
+      "umap_y": 14.399487495422363,
+      "query_idx": 295,
+      "head": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Lymphoma_splenic_marginal_zone_(SMZL)_238",
+      "mab": "imgt:mAb_238",
+      "targets_sym": [
+        "MS4A1"
+      ],
+      "true_tail": "imgt:Lymphoma_splenic_marginal_zone_(SMZL)",
+      "mechanism_class": "B-cell (CD19/CD20/CD22)",
+      "disease_family": "Heme \u2014 lymphomas"
+    },
+    {
+      "umap_x": 10.205941200256348,
+      "umap_y": 16.4198055267334,
+      "query_idx": 296,
+      "head": "imgt:StudyProduct_Akeso_Biopharma_Inc_Cancers_non-small_cell_lung_(NSCLC)_1093",
+      "mab": "imgt:mAb_1093",
+      "targets_sym": [
+        "PDCD1"
+      ],
+      "true_tail": "imgt:Cancers_non-small_cell_lung_(NSCLC)",
+      "mechanism_class": "Checkpoint (PD-1/PD-L1/CTLA4)",
+      "disease_family": "Lung"
+    }
+  ]
+}

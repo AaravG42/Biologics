@@ -1,0 +1,565 @@
+{
+  "trial_dir": "/home/aarav/KGEmb/analysis_outputs/IMGT_no_leakage_directional_clinical/clinical_hpo/RotE/trial_101",
+  "dataset": "IMGT_no_leakage_directional_clinical",
+  "model": "RotE",
+  "query": {
+    "disease": "imgt:Chronic_lymphocytic_leukemia_(CLL)",
+    "relation": "imgt:hasClinicalIndication",
+    "reverse_query_form": "?, imgt:hasClinicalIndication, disease",
+    "known_scope": "all"
+  },
+  "candidate_pool": {
+    "num_entities_total": 9611,
+    "num_clinical_study_products": 1812,
+    "num_unique_mabs_mapped_from_clinical_heads": 684
+  },
+  "known_mabs_for_disease": {
+    "count": 24,
+    "entities": [
+      "imgt:mAb_11",
+      "imgt:mAb_1154",
+      "imgt:mAb_1155",
+      "imgt:mAb_1233",
+      "imgt:mAb_1325",
+      "imgt:mAb_158",
+      "imgt:mAb_161",
+      "imgt:mAb_176",
+      "imgt:mAb_18",
+      "imgt:mAb_194",
+      "imgt:mAb_198",
+      "imgt:mAb_238",
+      "imgt:mAb_320",
+      "imgt:mAb_340",
+      "imgt:mAb_372",
+      "imgt:mAb_457",
+      "imgt:mAb_458",
+      "imgt:mAb_488",
+      "imgt:mAb_522",
+      "imgt:mAb_553",
+      "imgt:mAb_781",
+      "imgt:mAb_825",
+      "imgt:mAb_874",
+      "imgt:mAb_962"
+    ]
+  },
+  "top_mab_summary": {
+    "top_k": 15,
+    "num_known_in_top_k": 15,
+    "precision_at_k": 1.0,
+    "recall_at_k": 0.625
+  },
+  "top_mabs": [
+    {
+      "rank": 1,
+      "mab": "imgt:mAb_781",
+      "mab_id": 9372,
+      "best_score": 4.425100803375244,
+      "best_supporting_study_product": "imgt:StudyProduct_Bristol-Myers_Squibb_Chronic_lymphocytic_leukemia_(CLL)_781",
+      "best_supporting_study_product_rank": 1,
+      "num_supporting_study_products": 7,
+      "known_for_disease": true
+    },
+    {
+      "rank": 2,
+      "mab": "imgt:mAb_553",
+      "mab_id": 9266,
+      "best_score": 4.091701507568359,
+      "best_supporting_study_product": "imgt:StudyProduct_Horizon_Therapeutics_plc_Chronic_lymphocytic_leukemia_(CLL)_553",
+      "best_supporting_study_product_rank": 2,
+      "num_supporting_study_products": 14,
+      "known_for_disease": true
+    },
+    {
+      "rank": 3,
+      "mab": "imgt:mAb_1325",
+      "mab_id": 8999,
+      "best_score": 3.9462523460388184,
+      "best_supporting_study_product": "imgt:StudyProduct_TG_Therapeutics_Chronic_lymphocytic_leukemia_(CLL)_1325",
+      "best_supporting_study_product_rank": 4,
+      "num_supporting_study_products": 3,
+      "known_for_disease": true
+    },
+    {
+      "rank": 4,
+      "mab": "imgt:mAb_488",
+      "mab_id": 9224,
+      "best_score": 3.945497512817383,
+      "best_supporting_study_product": "imgt:StudyProduct_Aptevo_Therapeutics_Chronic_lymphocytic_leukemia_(CLL)_488",
+      "best_supporting_study_product_rank": 5,
+      "num_supporting_study_products": 2,
+      "known_for_disease": true
+    },
+    {
+      "rank": 5,
+      "mab": "imgt:mAb_458",
+      "mab_id": 9210,
+      "best_score": 3.8919496536254883,
+      "best_supporting_study_product": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Chronic_lymphocytic_leukemia_(CLL)_458",
+      "best_supporting_study_product_rank": 6,
+      "num_supporting_study_products": 4,
+      "known_for_disease": true
+    },
+    {
+      "rank": 6,
+      "mab": "imgt:mAb_176",
+      "mab_id": 9067,
+      "best_score": 3.8568673133850098,
+      "best_supporting_study_product": "imgt:StudyProduct_Xoma_Chronic_lymphocytic_leukemia_(CLL)_176",
+      "best_supporting_study_product_rank": 7,
+      "num_supporting_study_products": 4,
+      "known_for_disease": true
+    },
+    {
+      "rank": 7,
+      "mab": "imgt:mAb_825",
+      "mab_id": 9394,
+      "best_score": 3.820664882659912,
+      "best_supporting_study_product": "imgt:StudyProduct_Stemline_Therapeutics_Inc_Chronic_lymphocytic_leukemia_(CLL)_825",
+      "best_supporting_study_product_rank": 8,
+      "num_supporting_study_products": 4,
+      "known_for_disease": true
+    },
+    {
+      "rank": 8,
+      "mab": "imgt:mAb_194",
+      "mab_id": 9076,
+      "best_score": 3.7984886169433594,
+      "best_supporting_study_product": "imgt:StudyProduct_Novartis_Pharmaceuticals_Corp_Chronic_lymphocytic_leukemia_(CLL)_194",
+      "best_supporting_study_product_rank": 9,
+      "num_supporting_study_products": 21,
+      "known_for_disease": true
+    },
+    {
+      "rank": 9,
+      "mab": "imgt:mAb_11",
+      "mab_id": 8878,
+      "best_score": 3.776608467102051,
+      "best_supporting_study_product": "imgt:StudyProduct_Millennium_Pharmaceuticals_Inc_Chronic_lymphocytic_leukemia_(CLL)_11",
+      "best_supporting_study_product_rank": 10,
+      "num_supporting_study_products": 10,
+      "known_for_disease": true
+    },
+    {
+      "rank": 10,
+      "mab": "imgt:mAb_18",
+      "mab_id": 9069,
+      "best_score": 3.760770797729492,
+      "best_supporting_study_product": "imgt:StudyProduct_PDL_(Protein_Design_Labs)_BioPharma_Chronic_lymphocytic_leukemia_(CLL)_18",
+      "best_supporting_study_product_rank": 11,
+      "num_supporting_study_products": 2,
+      "known_for_disease": true
+    },
+    {
+      "rank": 11,
+      "mab": "imgt:mAb_198",
+      "mab_id": 9078,
+      "best_score": 3.749718189239502,
+      "best_supporting_study_product": "imgt:StudyProduct_MedImmune_Chronic_lymphocytic_leukemia_(CLL)_198",
+      "best_supporting_study_product_rank": 13,
+      "num_supporting_study_products": 6,
+      "known_for_disease": true
+    },
+    {
+      "rank": 12,
+      "mab": "imgt:mAb_1155",
+      "mab_id": 8909,
+      "best_score": 3.715679168701172,
+      "best_supporting_study_product": "imgt:StudyProduct_Merck_&_Co_Inc_Chronic_lymphocytic_leukemia_(CLL)_1155",
+      "best_supporting_study_product_rank": 14,
+      "num_supporting_study_products": 2,
+      "known_for_disease": true
+    },
+    {
+      "rank": 13,
+      "mab": "imgt:mAb_161",
+      "mab_id": 9062,
+      "best_score": 3.5808162689208984,
+      "best_supporting_study_product": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Chronic_lymphocytic_leukemia_(CLL)_161",
+      "best_supporting_study_product_rank": 17,
+      "num_supporting_study_products": 28,
+      "known_for_disease": true
+    },
+    {
+      "rank": 14,
+      "mab": "imgt:mAb_874",
+      "mab_id": 9419,
+      "best_score": 3.5772829055786133,
+      "best_supporting_study_product": "imgt:StudyProduct_Celgene_corporation_Chronic_lymphocytic_leukemia_(CLL)_874",
+      "best_supporting_study_product_rank": 18,
+      "num_supporting_study_products": 12,
+      "known_for_disease": true
+    },
+    {
+      "rank": 15,
+      "mab": "imgt:mAb_340",
+      "mab_id": 9158,
+      "best_score": 3.5749855041503906,
+      "best_supporting_study_product": "imgt:StudyProduct_Genmab_A/S_Chronic_lymphocytic_leukemia_(CLL)_340",
+      "best_supporting_study_product_rank": 19,
+      "num_supporting_study_products": 3,
+      "known_for_disease": true
+    }
+  ],
+  "top_study_products": [
+    {
+      "rank": 1,
+      "study_product": "imgt:StudyProduct_Bristol-Myers_Squibb_Chronic_lymphocytic_leukemia_(CLL)_781",
+      "study_product_id": 6978,
+      "score": 4.425100803375244,
+      "mapped_mab": "imgt:mAb_781",
+      "mapped_mab_id": 9372,
+      "known_for_disease": true
+    },
+    {
+      "rank": 2,
+      "study_product": "imgt:StudyProduct_Horizon_Therapeutics_plc_Chronic_lymphocytic_leukemia_(CLL)_553",
+      "study_product_id": 7390,
+      "score": 4.091701507568359,
+      "mapped_mab": "imgt:mAb_553",
+      "mapped_mab_id": 9266,
+      "known_for_disease": true
+    },
+    {
+      "rank": 3,
+      "study_product": "imgt:StudyProduct_Viela_Bio_Inc_Chronic_lymphocytic_leukemia_(CLL)_553",
+      "study_product_id": 8384,
+      "score": 4.07017707824707,
+      "mapped_mab": "imgt:mAb_553",
+      "mapped_mab_id": 9266,
+      "known_for_disease": true
+    },
+    {
+      "rank": 4,
+      "study_product": "imgt:StudyProduct_TG_Therapeutics_Chronic_lymphocytic_leukemia_(CLL)_1325",
+      "study_product_id": 8303,
+      "score": 3.9462523460388184,
+      "mapped_mab": "imgt:mAb_1325",
+      "mapped_mab_id": 8999,
+      "known_for_disease": true
+    },
+    {
+      "rank": 5,
+      "study_product": "imgt:StudyProduct_Aptevo_Therapeutics_Chronic_lymphocytic_leukemia_(CLL)_488",
+      "study_product_id": 6832,
+      "score": 3.945497512817383,
+      "mapped_mab": "imgt:mAb_488",
+      "mapped_mab_id": 9224,
+      "known_for_disease": true
+    },
+    {
+      "rank": 6,
+      "study_product": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Chronic_lymphocytic_leukemia_(CLL)_458",
+      "study_product_id": 8111,
+      "score": 3.8919496536254883,
+      "mapped_mab": "imgt:mAb_458",
+      "mapped_mab_id": 9210,
+      "known_for_disease": true
+    },
+    {
+      "rank": 7,
+      "study_product": "imgt:StudyProduct_Xoma_Chronic_lymphocytic_leukemia_(CLL)_176",
+      "study_product_id": 8425,
+      "score": 3.8568673133850098,
+      "mapped_mab": "imgt:mAb_176",
+      "mapped_mab_id": 9067,
+      "known_for_disease": true
+    },
+    {
+      "rank": 8,
+      "study_product": "imgt:StudyProduct_Stemline_Therapeutics_Inc_Chronic_lymphocytic_leukemia_(CLL)_825",
+      "study_product_id": 8269,
+      "score": 3.820664882659912,
+      "mapped_mab": "imgt:mAb_825",
+      "mapped_mab_id": 9394,
+      "known_for_disease": true
+    },
+    {
+      "rank": 9,
+      "study_product": "imgt:StudyProduct_Novartis_Pharmaceuticals_Corp_Chronic_lymphocytic_leukemia_(CLL)_194",
+      "study_product_id": 7901,
+      "score": 3.7984886169433594,
+      "mapped_mab": "imgt:mAb_194",
+      "mapped_mab_id": 9076,
+      "known_for_disease": true
+    },
+    {
+      "rank": 10,
+      "study_product": "imgt:StudyProduct_Millennium_Pharmaceuticals_Inc_Chronic_lymphocytic_leukemia_(CLL)_11",
+      "study_product_id": 7829,
+      "score": 3.776608467102051,
+      "mapped_mab": "imgt:mAb_11",
+      "mapped_mab_id": 8878,
+      "known_for_disease": true
+    },
+    {
+      "rank": 11,
+      "study_product": "imgt:StudyProduct_PDL_(Protein_Design_Labs)_BioPharma_Chronic_lymphocytic_leukemia_(CLL)_18",
+      "study_product_id": 7969,
+      "score": 3.760770797729492,
+      "mapped_mab": "imgt:mAb_18",
+      "mapped_mab_id": 9069,
+      "known_for_disease": true
+    },
+    {
+      "rank": 12,
+      "study_product": "imgt:StudyProduct_Novartis_Pharmaceuticals_Corp_Chronic_lymphocytic_leukemia_(CLL)_176",
+      "study_product_id": 7900,
+      "score": 3.758237361907959,
+      "mapped_mab": "imgt:mAb_176",
+      "mapped_mab_id": 9067,
+      "known_for_disease": true
+    },
+    {
+      "rank": 13,
+      "study_product": "imgt:StudyProduct_MedImmune_Chronic_lymphocytic_leukemia_(CLL)_198",
+      "study_product_id": 7687,
+      "score": 3.749718189239502,
+      "mapped_mab": "imgt:mAb_198",
+      "mapped_mab_id": 9078,
+      "known_for_disease": true
+    },
+    {
+      "rank": 14,
+      "study_product": "imgt:StudyProduct_Merck_&_Co_Inc_Chronic_lymphocytic_leukemia_(CLL)_1155",
+      "study_product_id": 7748,
+      "score": 3.715679168701172,
+      "mapped_mab": "imgt:mAb_1155",
+      "mapped_mab_id": 8909,
+      "known_for_disease": true
+    },
+    {
+      "rank": 15,
+      "study_product": "imgt:StudyProduct_Genmab_A/S_Chronic_lymphocytic_leukemia_(CLL)_194",
+      "study_product_id": 7297,
+      "score": 3.680964469909668,
+      "mapped_mab": "imgt:mAb_194",
+      "mapped_mab_id": 9076,
+      "known_for_disease": true
+    },
+    {
+      "rank": 16,
+      "study_product": "imgt:StudyProduct_Genzyme_Corp_Chronic_lymphocytic_leukemia_(CLL)_11",
+      "study_product_id": 7331,
+      "score": 3.6373515129089355,
+      "mapped_mab": "imgt:mAb_11",
+      "mapped_mab_id": 8878,
+      "known_for_disease": true
+    },
+    {
+      "rank": 17,
+      "study_product": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Chronic_lymphocytic_leukemia_(CLL)_161",
+      "study_product_id": 8108,
+      "score": 3.5808162689208984,
+      "mapped_mab": "imgt:mAb_161",
+      "mapped_mab_id": 9062,
+      "known_for_disease": true
+    },
+    {
+      "rank": 18,
+      "study_product": "imgt:StudyProduct_Celgene_corporation_Chronic_lymphocytic_leukemia_(CLL)_874",
+      "study_product_id": 7038,
+      "score": 3.5772829055786133,
+      "mapped_mab": "imgt:mAb_874",
+      "mapped_mab_id": 9419,
+      "known_for_disease": true
+    },
+    {
+      "rank": 19,
+      "study_product": "imgt:StudyProduct_Genmab_A/S_Chronic_lymphocytic_leukemia_(CLL)_340",
+      "study_product_id": 7298,
+      "score": 3.5749855041503906,
+      "mapped_mab": "imgt:mAb_340",
+      "mapped_mab_id": 9158,
+      "known_for_disease": true
+    },
+    {
+      "rank": 20,
+      "study_product": "imgt:StudyProduct_Juno_Therapeutics_Chronic_lymphocytic_leukemia_(CLL)_874",
+      "study_product_id": 7573,
+      "score": 3.570708751678467,
+      "mapped_mab": "imgt:mAb_874",
+      "mapped_mab_id": 9419,
+      "known_for_disease": true
+    },
+    {
+      "rank": 21,
+      "study_product": "imgt:StudyProduct_Gilead_Chronic_lymphocytic_leukemia_(CLL)_1233",
+      "study_product_id": 7339,
+      "score": 3.5531105995178223,
+      "mapped_mab": "imgt:mAb_1233",
+      "mapped_mab_id": 8956,
+      "known_for_disease": true
+    },
+    {
+      "rank": 22,
+      "study_product": "imgt:StudyProduct_Xencor_Inc_Chronic_lymphocytic_leukemia_(CLL)_522",
+      "study_product_id": 8416,
+      "score": 3.506077289581299,
+      "mapped_mab": "imgt:mAb_522",
+      "mapped_mab_id": 9248,
+      "known_for_disease": true
+    },
+    {
+      "rank": 23,
+      "study_product": "imgt:StudyProduct_Laboratoire_Fran\u00e7ais_du_fractionnement_et_des_Biotechnologies_(LFB)_Chronic_lymphocytic_leukemia_(CLL)_372",
+      "study_product_id": 7602,
+      "score": 3.4792823791503906,
+      "mapped_mab": "imgt:mAb_372",
+      "mapped_mab_id": 9173,
+      "known_for_disease": true
+    },
+    {
+      "rank": 24,
+      "study_product": "imgt:StudyProduct_Regeneron_Pharmaceuticals_Inc_Chronic_lymphocytic_leukemia_(CLL)_962",
+      "study_product_id": 8050,
+      "score": 3.4736404418945312,
+      "mapped_mab": "imgt:mAb_962",
+      "mapped_mab_id": 9469,
+      "known_for_disease": true
+    },
+    {
+      "rank": 25,
+      "study_product": "imgt:StudyProduct_Biogen_Inc_Chronic_lymphocytic_leukemia_(CLL)_238",
+      "study_product_id": 6928,
+      "score": 3.4426984786987305,
+      "mapped_mab": "imgt:mAb_238",
+      "mapped_mab_id": 9111,
+      "known_for_disease": true
+    },
+    {
+      "rank": 26,
+      "study_product": "imgt:StudyProduct_Oncternal_Therapeutics_Chronic_lymphocytic_leukemia_(CLL)_1154",
+      "study_product_id": 7944,
+      "score": 3.400282859802246,
+      "mapped_mab": "imgt:mAb_1154",
+      "mapped_mab_id": 8908,
+      "known_for_disease": true
+    },
+    {
+      "rank": 27,
+      "study_product": "imgt:StudyProduct_TG_Therapeutics_B_cell_lymphoma_1325",
+      "study_product_id": 8302,
+      "score": 3.1739306449890137,
+      "mapped_mab": "imgt:mAb_1325",
+      "mapped_mab_id": 8999,
+      "known_for_disease": true
+    },
+    {
+      "rank": 28,
+      "study_product": "imgt:StudyProduct_TG_Therapeutics_Lymphoma_follicular_(FL)_1325",
+      "study_product_id": 8306,
+      "score": 2.6456480026245117,
+      "mapped_mab": "imgt:mAb_1325",
+      "mapped_mab_id": 8999,
+      "known_for_disease": true
+    },
+    {
+      "rank": 29,
+      "study_product": "imgt:StudyProduct_Xoma_Multiple_myeloma_(MM)_176",
+      "study_product_id": 8426,
+      "score": 2.631338119506836,
+      "mapped_mab": "imgt:mAb_176",
+      "mapped_mab_id": 9067,
+      "known_for_disease": true
+    },
+    {
+      "rank": 30,
+      "study_product": "imgt:StudyProduct_Regeneron_Pharmaceuticals_Inc_Non-Hodgkins_lymphoma_(NHL)_962",
+      "study_product_id": 8059,
+      "score": 2.6274566650390625,
+      "mapped_mab": "imgt:mAb_962",
+      "mapped_mab_id": 9469,
+      "known_for_disease": true
+    },
+    {
+      "rank": 31,
+      "study_product": "imgt:StudyProduct_Novartis_Pharmaceuticals_Corp_Non-Hodgkins_lymphoma_(NHL)_194",
+      "study_product_id": 7911,
+      "score": 2.607512950897217,
+      "mapped_mab": "imgt:mAb_194",
+      "mapped_mab_id": 9076,
+      "known_for_disease": true
+    },
+    {
+      "rank": 32,
+      "study_product": "imgt:StudyProduct_Juno_Therapeutics_Lymphoma_B_cell_874",
+      "study_product_id": 7574,
+      "score": 2.5752058029174805,
+      "mapped_mab": "imgt:mAb_874",
+      "mapped_mab_id": 9419,
+      "known_for_disease": true
+    },
+    {
+      "rank": 33,
+      "study_product": "imgt:StudyProduct_Genzyme_Corp_Kidney_transplant_rejection_11",
+      "study_product_id": 7332,
+      "score": 2.4161014556884766,
+      "mapped_mab": "imgt:mAb_11",
+      "mapped_mab_id": 8878,
+      "known_for_disease": true
+    },
+    {
+      "rank": 34,
+      "study_product": "imgt:StudyProduct_Genmab_A/S_Non-Hodgkins_lymphoma_(NHL)_194",
+      "study_product_id": 7312,
+      "score": 2.4046478271484375,
+      "mapped_mab": "imgt:mAb_194",
+      "mapped_mab_id": 9076,
+      "known_for_disease": true
+    },
+    {
+      "rank": 35,
+      "study_product": "imgt:StudyProduct_Roche_F_Hoffmann-La_Roche_Ltd_Non-Hodgkins_lymphoma_(NHL)_458",
+      "study_product_id": 8141,
+      "score": 2.3958077430725098,
+      "mapped_mab": "imgt:mAb_458",
+      "mapped_mab_id": 9210,
+      "known_for_disease": true
+    },
+    {
+      "rank": 36,
+      "study_product": "imgt:StudyProduct_Celgene_corporation_Lymphoma_B_cell_874",
+      "study_product_id": 7039,
+      "score": 2.3247270584106445,
+      "mapped_mab": "imgt:mAb_874",
+      "mapped_mab_id": 9419,
+      "known_for_disease": true
+    },
+    {
+      "rank": 37,
+      "study_product": "imgt:StudyProduct_IGM_Biosciences_Inc_Lymphoma_follicular_(FL)_1257",
+      "study_product_id": 7408,
+      "score": 2.283277988433838,
+      "mapped_mab": "imgt:mAb_1257",
+      "mapped_mab_id": 8967,
+      "known_for_disease": false
+    },
+    {
+      "rank": 38,
+      "study_product": "imgt:StudyProduct_Berlex_Inc_Kidney_transplant_rejection_11",
+      "study_product_id": 6911,
+      "score": 2.2804951667785645,
+      "mapped_mab": "imgt:mAb_11",
+      "mapped_mab_id": 8878,
+      "known_for_disease": true
+    },
+    {
+      "rank": 39,
+      "study_product": "imgt:StudyProduct_MedImmune_Acute_lymphocytic_leukemia_(ALL)_198",
+      "study_product_id": 7673,
+      "score": 2.2784647941589355,
+      "mapped_mab": "imgt:mAb_198",
+      "mapped_mab_id": 9078,
+      "known_for_disease": true
+    },
+    {
+      "rank": 40,
+      "study_product": "imgt:StudyProduct_IGM_Biosciences_Inc_Lymphoma_diffuse_large_B_cell_(DLBCL)_1257",
+      "study_product_id": 7407,
+      "score": 2.2362427711486816,
+      "mapped_mab": "imgt:mAb_1257",
+      "mapped_mab_id": 8967,
+      "known_for_disease": false
+    }
+  ]
+}

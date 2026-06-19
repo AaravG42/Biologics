@@ -1,0 +1,1146 @@
+{
+  "NSCLC": [
+    {
+      "nct_id": "NCT04489862",
+      "title": "\u03b1PD1-MSLN-CAR T Cells for the Treatment of MSLN-positive Advanced Solid Tumors",
+      "status": "UNKNOWN",
+      "phase": "EARLY_PHASE1",
+      "conditions": [
+        "Non-small-cell Lung Cancer",
+        "Mesothelioma"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "\u03b1PD1-MSLN-CAR T cells"
+        }
+      ],
+      "sponsor": "Union Hospital, Tongji Medical College, Huazhong University of Science and Technology",
+      "enrollment": 10,
+      "start_date": "2020-05-13"
+    },
+    {
+      "nct_id": "NCT01051934",
+      "title": "A Phase I Trial of SS1 (dsFv) PE38 With Paclitaxel, Carboplatin, and Bevacizumab in Subjects With Unresectable Non-Small Cell Lung Adenocarcinoma",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "conditions": [
+        "Non-Small Cell Lung Cancer",
+        "Adenocarcinoma"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "SS1 (dsFv) PE38"
+        },
+        {
+          "type": "DRUG",
+          "name": "Paclitaxel"
+        },
+        {
+          "type": "DRUG",
+          "name": "Carboplatin"
+        },
+        {
+          "type": "DRUG",
+          "name": "Bevacizumab"
+        }
+      ],
+      "sponsor": "National Cancer Institute (NCI)",
+      "enrollment": 2,
+      "start_date": "2009-12-29"
+    },
+    {
+      "nct_id": "NCT01521325",
+      "title": "A Single-Dose Pilot Study of Radiolabeled Amatuximab (MORAb-009) in Mesothelin Over Expressing Cancers",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "conditions": [
+        "Mesothelioma",
+        "Pancreatic Cancer",
+        "Ovarian Cancer",
+        "Non-small Cell Lung Cancer"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Amatuximab"
+        }
+      ],
+      "sponsor": "Morphotek",
+      "enrollment": 6,
+      "start_date": "2011-09"
+    },
+    {
+      "nct_id": "NCT00585845",
+      "title": "Study of Safety and Tolerability of Intravenous CRS-207 in Adults With Selected Advanced Solid Tumors Who Have Failed or Who Are Not Candidates for Standard Treatment",
+      "status": "TERMINATED",
+      "phase": "PHASE1",
+      "conditions": [
+        "Malignant Epithelial Mesothelioma",
+        "Adenocarcinoma of the Pancreas",
+        "Carcinoma, Non-Small-Cell Lung",
+        "Adenocarcinoma of the Ovaries"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "CRS-207, Live-attenuated Listeria monocytogenes expressing human Mesothelin"
+        }
+      ],
+      "sponsor": "Anza Therapeutics, Inc.",
+      "enrollment": 17,
+      "start_date": "2007-12"
+    },
+    {
+      "nct_id": "NCT05451849",
+      "title": "A Phase 1/2 Trial of TC-510 In Patients With Advanced Mesothelin-Expressing Cancer",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE1, PHASE2",
+      "conditions": [
+        "Mesothelioma",
+        "Mesotheliomas Pleural",
+        "Mesothelioma, Malignant",
+        "Mesothelioma Peritoneum",
+        "Ovarian Cancer"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "TC-510"
+        },
+        {
+          "type": "DRUG",
+          "name": "Fludarabine"
+        },
+        {
+          "type": "DRUG",
+          "name": "Cyclophosphamide"
+        }
+      ],
+      "sponsor": "TCR2 Therapeutics",
+      "enrollment": 6,
+      "start_date": "2022-06-21"
+    },
+    {
+      "nct_id": "NCT07467863",
+      "title": "Dual-Target CAR-NK Cells Directed Against MSLN, EGFR, or HER2 in Advanced NSCLC",
+      "status": "RECRUITING",
+      "phase": "PHASE1, PHASE2",
+      "conditions": [
+        "Non-Small Cell Lung Cancer",
+        "Advanced/Metastatic NSCLC"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Dual-target CAR-NK cells"
+        },
+        {
+          "type": "DRUG",
+          "name": "Lymphodepleting chemotherapy"
+        },
+        {
+          "type": "OTHER",
+          "name": "Supportive Care"
+        }
+      ],
+      "sponsor": "Beijing Biotech",
+      "enrollment": 48,
+      "start_date": "2026-02-02"
+    }
+  ],
+  "Cholangiocarcinoma": [
+    {
+      "nct_id": "NCT06756035",
+      "title": "CT-95 in Advanced Cancers Associated With Mesothelin Expression",
+      "status": "RECRUITING",
+      "phase": "PHASE1",
+      "conditions": [
+        "Mesothelin-Expressing Tumors",
+        "Epithelial Ovarian Cancer",
+        "Malignant Pleural Mesothelioma, Advanced",
+        "Malignant Peritoneal Mesothelioma, Advanced",
+        "Pancreatic Adenocarcinoma Advanced or Metastatic"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "CT-95"
+        }
+      ],
+      "sponsor": "Context Therapeutics Inc.",
+      "enrollment": 70,
+      "start_date": "2025-03-31"
+    },
+    {
+      "nct_id": "NCT05451849",
+      "title": "A Phase 1/2 Trial of TC-510 In Patients With Advanced Mesothelin-Expressing Cancer",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE1, PHASE2",
+      "conditions": [
+        "Mesothelioma",
+        "Mesotheliomas Pleural",
+        "Mesothelioma, Malignant",
+        "Mesothelioma Peritoneum",
+        "Ovarian Cancer"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "TC-510"
+        },
+        {
+          "type": "DRUG",
+          "name": "Fludarabine"
+        },
+        {
+          "type": "DRUG",
+          "name": "Cyclophosphamide"
+        }
+      ],
+      "sponsor": "TCR2 Therapeutics",
+      "enrollment": 6,
+      "start_date": "2022-06-21"
+    },
+    {
+      "nct_id": "NCT05568680",
+      "title": "SynKIR-110 for Mesothelin Expressing Ovarian Cancer, Cholangiocarcinoma or Mesothelioma",
+      "status": "RECRUITING",
+      "phase": "PHASE1",
+      "conditions": [
+        "Ovarian Cancer",
+        "Cholangiocarcinoma Recurrent",
+        "Mesothelioma, Malignant"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "SynKIR-110, Autologous T cells Transduced with Mesothelin KIR-CAR"
+        }
+      ],
+      "sponsor": "Verismo Therapeutics",
+      "enrollment": 42,
+      "start_date": "2023-03-30"
+    },
+    {
+      "nct_id": "NCT06256055",
+      "title": "Phase 1 Study of UCMYM802 Injection in Mesothelin-positive Advanced Malignant Solid Tumors",
+      "status": "UNKNOWN",
+      "phase": "PHASE1",
+      "conditions": [
+        "Malignant Mesothelioma",
+        "Colorectal Cancer",
+        "Bile Duct Cancer",
+        "Rectal Cancer",
+        "Ovary Cancer"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "UCMYM802 Injection"
+        }
+      ],
+      "sponsor": "UTC Therapeutics Inc.",
+      "enrollment": 24,
+      "start_date": "2024-03-05"
+    },
+    {
+      "nct_id": "NCT04034238",
+      "title": "Mesothelin-Targeted Immunotoxin LMB-100 in Combination With Tofacitinib in Persons With Previously Treated Pancreatic Adenocarcinoma, Cholangiocarcinoma and Other Mesothelin Expressing Solid Tumors",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "conditions": [
+        "Neoplasms With Mesothelin Expression",
+        "Epithelioid Mesothelioma",
+        "Cholangiocarcinoma, Extrahepatic",
+        "Adenocarcinoma, Pancreatic"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "LMB-100"
+        },
+        {
+          "type": "DRUG",
+          "name": "Tofacitinib"
+        },
+        {
+          "type": "DEVICE",
+          "name": "Mesothelin Expression"
+        }
+      ],
+      "sponsor": "National Cancer Institute (NCI)",
+      "enrollment": 19,
+      "start_date": "2019-08-29"
+    },
+    {
+      "nct_id": "NCT03102320",
+      "title": "Phase 1b Multi-indication Study of Anetumab Ravtansine in Mesothelin Expressing Advanced Solid Tumors",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "conditions": [
+        "Neoplasms"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Cisplatin"
+        },
+        {
+          "type": "DRUG",
+          "name": "Gemcitabine"
+        },
+        {
+          "type": "DRUG",
+          "name": "Anetumab ravtansine (BAY94-9343)"
+        }
+      ],
+      "sponsor": "Bayer",
+      "enrollment": 173,
+      "start_date": "2017-05-26"
+    }
+  ],
+  "Mesothelioma (pleural/malignant)": [
+    {
+      "nct_id": "NCT02159716",
+      "title": "CART-meso in Mesothelin Expressing Cancers",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "conditions": [
+        "Metastatic Pancreatic (Ductal) Adenocarcinoma",
+        "Epithelial Ovarian Cancer",
+        "Malignant Epithelial Pleural Mesothelioma"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "CART-meso"
+        }
+      ],
+      "sponsor": "University of Pennsylvania",
+      "enrollment": 19,
+      "start_date": "2014-06"
+    },
+    {
+      "nct_id": "NCT00898547",
+      "title": "Biomarkers of Angiogenesis and Disease in Patients With Unresectable Malignant Mesothelioma Treated on Clinical Trial CALGB-30107",
+      "status": "TERMINATED",
+      "phase": "N/A",
+      "conditions": [
+        "Malignant Mesothelioma"
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "immunoenzyme technique"
+        },
+        {
+          "type": "OTHER",
+          "name": "laboratory biomarker analysis"
+        }
+      ],
+      "sponsor": "Alliance for Clinical Trials in Oncology",
+      "enrollment": 47,
+      "start_date": "2005-11"
+    },
+    {
+      "nct_id": "NCT01675765",
+      "title": "Safety and Efficacy of Listeria in Combination With Chemotherapy as Front-line Treatment for Malignant Pleural Mesothelioma",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "conditions": [
+        "Malignant Pleural Mesothelioma"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Immunotherapy plus chemotherapy"
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Immunotherapy with cyclophosphamide plus chemotherapy"
+        }
+      ],
+      "sponsor": "Aduro Biotech, Inc.",
+      "enrollment": 60,
+      "start_date": "2014-09-03"
+    },
+    {
+      "nct_id": "NCT03608618",
+      "title": "Intraperitoneal MCY-M11 (Mesothelin-targeting CAR) for Treatment of Advanced Ovarian Cancer and Peritoneal Mesothelioma",
+      "status": "TERMINATED",
+      "phase": "PHASE1",
+      "conditions": [
+        "Peritoneal Mesothelioma",
+        "Fallopian Tube Adenocarcinoma",
+        "Adenocarcinoma of the Ovary",
+        "Primary Peritoneal Carcinoma"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "MCY-M11"
+        },
+        {
+          "type": "DRUG",
+          "name": "Cyclophosphamide"
+        }
+      ],
+      "sponsor": "MaxCyte, Inc.",
+      "enrollment": 14,
+      "start_date": "2018-08-27"
+    },
+    {
+      "nct_id": "NCT00024687",
+      "title": "Study of SS1(dsFv)-PE38 (SS1P) Anti-Mesothelin Immunotoxin in Advanced Malignancies: IV Infusion QOD x Six Doses",
+      "status": "WITHDRAWN",
+      "phase": "PHASE1",
+      "conditions": [
+        "Neoplasms"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "SS1(dsFv)-PE38 (SS1P) Anti-Mesothelin Immunotoxin"
+        }
+      ],
+      "sponsor": "INSYS Therapeutics Inc",
+      "enrollment": 0,
+      "start_date": "2000-11"
+    },
+    {
+      "nct_id": "NCT02414269",
+      "title": "Malignant Pleural Disease Treated With Autologous T Cells Genetically Engineered to Target the Cancer-Cell Surface Antigen Mesothelin",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE1, PHASE2",
+      "conditions": [
+        "Malignant Pleural Disease",
+        "Mesothelioma",
+        "Metastases",
+        "Lung Cancer",
+        "Breast Cancer"
+      ],
+      "interventions": [
+        {
+          "type": "GENETIC",
+          "name": "iCasp9M28z T cell infusions"
+        },
+        {
+          "type": "DRUG",
+          "name": "cyclophosphamide"
+        },
+        {
+          "type": "DRUG",
+          "name": "pembrolizumab"
+        }
+      ],
+      "sponsor": "Memorial Sloan Kettering Cancer Center",
+      "enrollment": 113,
+      "start_date": "2015-05"
+    }
+  ],
+  "Pancreatic": [
+    {
+      "nct_id": "NCT02159716",
+      "title": "CART-meso in Mesothelin Expressing Cancers",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "conditions": [
+        "Metastatic Pancreatic (Ductal) Adenocarcinoma",
+        "Epithelial Ovarian Cancer",
+        "Malignant Epithelial Pleural Mesothelioma"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "CART-meso"
+        }
+      ],
+      "sponsor": "University of Pennsylvania",
+      "enrollment": 19,
+      "start_date": "2014-06"
+    },
+    {
+      "nct_id": "NCT07066995",
+      "title": "Mesothelin and Claudin 18.2 Dual-Target CAR-T Therapy in Advanced Pancreatic Cancer",
+      "status": "RECRUITING",
+      "phase": "PHASE1, PHASE2",
+      "conditions": [
+        "Pancreatic Cancer",
+        "Pancreatic Carcinoma",
+        "Pancreatic Cancer Non-resectable",
+        "Pancreatic Cancer Stage IV"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Mesothelin and Claudin 18.2 CAR-T cells"
+        }
+      ],
+      "sponsor": "Essen Biotech",
+      "enrollment": 60,
+      "start_date": "2025-04-29"
+    },
+    {
+      "nct_id": "NCT03816358",
+      "title": "Testing the Combination of Anetumab Ravtansine With Either Nivolumab, Nivolumab and Ipilimumab, or Gemcitabine and Nivolumab in Advanced Pancreatic Cancer",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE1",
+      "conditions": [
+        "Pancreatic Adenocarcinoma",
+        "Stage II Pancreatic Cancer AJCC v8",
+        "Stage III Pancreatic Cancer AJCC v8",
+        "Stage IV Pancreatic Cancer AJCC v8"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Anetumab Ravtansine"
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Biopsy Procedure"
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Biospecimen Collection"
+        },
+        {
+          "type": "DRUG",
+          "name": "Gemcitabine Hydrochloride"
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Ipilimumab"
+        }
+      ],
+      "sponsor": "National Cancer Institute (NCI)",
+      "enrollment": 74,
+      "start_date": "2019-12-09"
+    },
+    {
+      "nct_id": "NCT07480928",
+      "title": "Dual-Targeting CAR-NK Cells Targeting Mesothelin (MSLN) and MUC1 in Advanced Pancreatic Ductal Adenocarcinoma",
+      "status": "RECRUITING",
+      "phase": "PHASE1, PHASE2",
+      "conditions": [
+        "Pancreatic Ductal Adenocarcinoma (PDAC)",
+        "Unresectable Locally Advanced or Metastatic Disease"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "EB-DNK101 dual-targeting CAR-NK cells (MSLN + MUC1)"
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "EB-DNK102 dual-targeting CAR-NK cells (CLDN18.2 + MUC1)"
+        },
+        {
+          "type": "DRUG",
+          "name": "Lymphodepleting chemotherapy (Flu/Cy)"
+        }
+      ],
+      "sponsor": "Beijing Biotech",
+      "enrollment": 42,
+      "start_date": "2026-02-02"
+    },
+    {
+      "nct_id": "NCT01897415",
+      "title": "Autologous Redirected RNA Meso CAR T Cells for Pancreatic Cancer",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "conditions": [
+        "Subjects With Metastatic Pancreatic Ductal Adenocarcinoma (PDA)"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Autologous T cells transfected with chimeric anti-mesothelin immunoreceptor SS1"
+        }
+      ],
+      "sponsor": "University of Pennsylvania",
+      "enrollment": 16,
+      "start_date": "2013-07"
+    },
+    {
+      "nct_id": "NCT03956056",
+      "title": "Neoantigen Peptide Vaccine Strategy in Pancreatic Cancer Patients Following Surgical Resection and Adjuvant Chemotherapy",
+      "status": "TERMINATED",
+      "phase": "PHASE1",
+      "conditions": [
+        "Pancreas Cancer",
+        "Pancreatic Cancer",
+        "Cancer of the Pancreas"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Neoantigen Peptide Vaccine"
+        },
+        {
+          "type": "DRUG",
+          "name": "Poly ICLC"
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Blood for immune monitoring"
+        }
+      ],
+      "sponsor": "Washington University School of Medicine",
+      "enrollment": 12,
+      "start_date": "2020-02-13"
+    }
+  ],
+  "Colorectal": [
+    {
+      "nct_id": "NCT05089266",
+      "title": "Study of \u03b1PD1-MSLN-CAR T Cells to Evaluate the Safety, Tolerability, and Effectiveness for Patients With MSLN-positive Advanced Solid Tumors",
+      "status": "UNKNOWN",
+      "phase": "PHASE1",
+      "conditions": [
+        "Colorectal Cancer"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "CAR T cells"
+        }
+      ],
+      "sponsor": "Shanghai Cell Therapy Group Co.,Ltd",
+      "enrollment": 30,
+      "start_date": "2021-11-30"
+    },
+    {
+      "nct_id": "NCT06756035",
+      "title": "CT-95 in Advanced Cancers Associated With Mesothelin Expression",
+      "status": "RECRUITING",
+      "phase": "PHASE1",
+      "conditions": [
+        "Mesothelin-Expressing Tumors",
+        "Epithelial Ovarian Cancer",
+        "Malignant Pleural Mesothelioma, Advanced",
+        "Malignant Peritoneal Mesothelioma, Advanced",
+        "Pancreatic Adenocarcinoma Advanced or Metastatic"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "CT-95"
+        }
+      ],
+      "sponsor": "Context Therapeutics Inc.",
+      "enrollment": 70,
+      "start_date": "2025-03-31"
+    },
+    {
+      "nct_id": "NCT02959151",
+      "title": "A Study of Chimeric Antigen Receptor T Cells Combined With Interventional Therapy in Advanced Liver Malignancy",
+      "status": "UNKNOWN",
+      "phase": "PHASE1, PHASE2",
+      "conditions": [
+        "Carcinoma, Hepatocellular",
+        "Pancreatic Cancer Metastatic",
+        "Colorectal Cancer Metastatic"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "CAR-T cell"
+        }
+      ],
+      "sponsor": "Shanghai GeneChem Co., Ltd.",
+      "enrollment": 20,
+      "start_date": "2016-07"
+    },
+    {
+      "nct_id": "NCT04503980",
+      "title": "\u03b1PD1-MSLN-CAR T Cells for the Treatment of MSLN-positive Advanced Solid Tumors",
+      "status": "UNKNOWN",
+      "phase": "EARLY_PHASE1",
+      "conditions": [
+        "Colorectal Cancer",
+        "Ovarian Cancer"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "\u03b1PD1-MSLN-CAR T cells"
+        }
+      ],
+      "sponsor": "Shanghai Cell Therapy Group Co.,Ltd",
+      "enrollment": 10,
+      "start_date": "2020-03-26"
+    },
+    {
+      "nct_id": "NCT04842812",
+      "title": "Engineered TILs/CAR-TILs to Treat Advanced Solid Tumors",
+      "status": "RECRUITING",
+      "phase": "PHASE1",
+      "conditions": [
+        "Liver Cancer",
+        "Lung Cancer",
+        "Breast Cancer",
+        "Colo-rectal Cancer",
+        "Brain Tumor"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "TILs and CAR-TILs targeting HER2, Mesothelin, PSCA, MUC1, Lewis-Y, GPC3, AXL, EGFR, Claudin18.2/6, ROR1, GD1, or B7-H3"
+        }
+      ],
+      "sponsor": "Second Affiliated Hospital of Guangzhou Medical University",
+      "enrollment": 40,
+      "start_date": "2021-01-01"
+    },
+    {
+      "nct_id": "NCT05451849",
+      "title": "A Phase 1/2 Trial of TC-510 In Patients With Advanced Mesothelin-Expressing Cancer",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE1, PHASE2",
+      "conditions": [
+        "Mesothelioma",
+        "Mesotheliomas Pleural",
+        "Mesothelioma, Malignant",
+        "Mesothelioma Peritoneum",
+        "Ovarian Cancer"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "TC-510"
+        },
+        {
+          "type": "DRUG",
+          "name": "Fludarabine"
+        },
+        {
+          "type": "DRUG",
+          "name": "Cyclophosphamide"
+        }
+      ],
+      "sponsor": "TCR2 Therapeutics",
+      "enrollment": 6,
+      "start_date": "2022-06-21"
+    }
+  ],
+  "Breast (TNBC)": [
+    {
+      "nct_id": "NCT07486089",
+      "title": "Dual-Target CAR-NK Cells for Advanced Breast Cancer (HER2+ and TNBC)",
+      "status": "RECRUITING",
+      "phase": "PHASE1, PHASE2",
+      "conditions": [
+        "Breast Cancer (Locally Advanced or Metastatic)",
+        "HER2-positive Breast Cancer",
+        "Triple-Negative Breast Cancer (TNBC)"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Dual-target CAR-NK cells (EB-DT-CAR-NK)"
+        },
+        {
+          "type": "DRUG",
+          "name": "Lymphodepleting chemotherapy"
+        },
+        {
+          "type": "OTHER",
+          "name": "Supportive care"
+        }
+      ],
+      "sponsor": "Beijing Biotech",
+      "enrollment": 60,
+      "start_date": "2026-02-02"
+    },
+    {
+      "nct_id": "NCT02414269",
+      "title": "Malignant Pleural Disease Treated With Autologous T Cells Genetically Engineered to Target the Cancer-Cell Surface Antigen Mesothelin",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE1, PHASE2",
+      "conditions": [
+        "Malignant Pleural Disease",
+        "Mesothelioma",
+        "Metastases",
+        "Lung Cancer",
+        "Breast Cancer"
+      ],
+      "interventions": [
+        {
+          "type": "GENETIC",
+          "name": "iCasp9M28z T cell infusions"
+        },
+        {
+          "type": "DRUG",
+          "name": "cyclophosphamide"
+        },
+        {
+          "type": "DRUG",
+          "name": "pembrolizumab"
+        }
+      ],
+      "sponsor": "Memorial Sloan Kettering Cancer Center",
+      "enrollment": 113,
+      "start_date": "2015-05"
+    },
+    {
+      "nct_id": "NCT06054308",
+      "title": "Mesothelin-targeted CAR-T Cells as a Neo-adjuvant Treatment in Patients With Resectable Pancreatic Cancers: a Feasibility Study",
+      "status": "WITHDRAWN",
+      "phase": "NA",
+      "conditions": [
+        "Pancreatic Cancer"
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "MSLN CART"
+        }
+      ],
+      "sponsor": "Chinese University of Hong Kong",
+      "enrollment": 0,
+      "start_date": "2024-02-02"
+    },
+    {
+      "nct_id": "NCT06623396",
+      "title": "A Study of Mesothelin-Targeted CAR T-Cell Therapy in People With Esophagogastric Cancer",
+      "status": "RECRUITING",
+      "phase": "PHASE1",
+      "conditions": [
+        "Mesothelin Positive",
+        "Mesothelin-Expressing Tumors",
+        "Esophageal Adenocarcinoma",
+        "Esophageal Adenocarcinomas",
+        "Esophagogastric Adenocarcinoma"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "M28z1XXPD1DNR CAR"
+        }
+      ],
+      "sponsor": "Memorial Sloan Kettering Cancer Center",
+      "enrollment": 18,
+      "start_date": "2024-09-30"
+    },
+    {
+      "nct_id": "NCT04842812",
+      "title": "Engineered TILs/CAR-TILs to Treat Advanced Solid Tumors",
+      "status": "RECRUITING",
+      "phase": "PHASE1",
+      "conditions": [
+        "Liver Cancer",
+        "Lung Cancer",
+        "Breast Cancer",
+        "Colo-rectal Cancer",
+        "Brain Tumor"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "TILs and CAR-TILs targeting HER2, Mesothelin, PSCA, MUC1, Lewis-Y, GPC3, AXL, EGFR, Claudin18.2/6, ROR1, GD1, or B7-H3"
+        }
+      ],
+      "sponsor": "Second Affiliated Hospital of Guangzhou Medical University",
+      "enrollment": 40,
+      "start_date": "2021-01-01"
+    },
+    {
+      "nct_id": "NCT05451849",
+      "title": "A Phase 1/2 Trial of TC-510 In Patients With Advanced Mesothelin-Expressing Cancer",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE1, PHASE2",
+      "conditions": [
+        "Mesothelioma",
+        "Mesotheliomas Pleural",
+        "Mesothelioma, Malignant",
+        "Mesothelioma Peritoneum",
+        "Ovarian Cancer"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "TC-510"
+        },
+        {
+          "type": "DRUG",
+          "name": "Fludarabine"
+        },
+        {
+          "type": "DRUG",
+          "name": "Cyclophosphamide"
+        }
+      ],
+      "sponsor": "TCR2 Therapeutics",
+      "enrollment": 6,
+      "start_date": "2022-06-21"
+    }
+  ],
+  "Ovarian (ground truth)": [
+    {
+      "nct_id": "NCT02159716",
+      "title": "CART-meso in Mesothelin Expressing Cancers",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "conditions": [
+        "Metastatic Pancreatic (Ductal) Adenocarcinoma",
+        "Epithelial Ovarian Cancer",
+        "Malignant Epithelial Pleural Mesothelioma"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "CART-meso"
+        }
+      ],
+      "sponsor": "University of Pennsylvania",
+      "enrollment": 19,
+      "start_date": "2014-06"
+    },
+    {
+      "nct_id": "NCT03608618",
+      "title": "Intraperitoneal MCY-M11 (Mesothelin-targeting CAR) for Treatment of Advanced Ovarian Cancer and Peritoneal Mesothelioma",
+      "status": "TERMINATED",
+      "phase": "PHASE1",
+      "conditions": [
+        "Peritoneal Mesothelioma",
+        "Fallopian Tube Adenocarcinoma",
+        "Adenocarcinoma of the Ovary",
+        "Primary Peritoneal Carcinoma"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "MCY-M11"
+        },
+        {
+          "type": "DRUG",
+          "name": "Cyclophosphamide"
+        }
+      ],
+      "sponsor": "MaxCyte, Inc.",
+      "enrollment": 14,
+      "start_date": "2018-08-27"
+    },
+    {
+      "nct_id": "NCT06562647",
+      "title": "SY001 Targets Mesothelin in a Single-arm, Dose-increasing Setting in Subjects With Advanced Solid Tumors",
+      "status": "RECRUITING",
+      "phase": "NA",
+      "conditions": [
+        "Treatment Related Cancer",
+        "Ovarian Cancer"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "SY001"
+        }
+      ],
+      "sponsor": "Cell Origin Biotech (Hangzhou) Co., Ltd.",
+      "enrollment": 2,
+      "start_date": "2023-04-12"
+    },
+    {
+      "nct_id": "NCT04627740",
+      "title": "Anti-ALPP CAR-T Cells Immunotherapy for Advanced Solid Tumors",
+      "status": "COMPLETED",
+      "phase": "PHASE1, PHASE2",
+      "conditions": [
+        "Solid Tumors"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Retroviral vector-transduced autologous T cells to express anti-ALPP CARs"
+        }
+      ],
+      "sponsor": "Xinqiao Hospital of Chongqing",
+      "enrollment": 5,
+      "start_date": "2020-12-01"
+    },
+    {
+      "nct_id": "NCT05372692",
+      "title": "Study of LD013 in Subjects With Refractory or Relapsed Mesothelin -Positive Ovarian Cancer",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "conditions": [
+        "Ovarian Cancer"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "mesothelin-specific chimeric antigen receptor T cell injection"
+        }
+      ],
+      "sponsor": "Weijia Fang, MD",
+      "enrollment": 3,
+      "start_date": "2022-04-12"
+    },
+    {
+      "nct_id": "NCT06756035",
+      "title": "CT-95 in Advanced Cancers Associated With Mesothelin Expression",
+      "status": "RECRUITING",
+      "phase": "PHASE1",
+      "conditions": [
+        "Mesothelin-Expressing Tumors",
+        "Epithelial Ovarian Cancer",
+        "Malignant Pleural Mesothelioma, Advanced",
+        "Malignant Peritoneal Mesothelioma, Advanced",
+        "Pancreatic Adenocarcinoma Advanced or Metastatic"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "CT-95"
+        }
+      ],
+      "sponsor": "Context Therapeutics Inc.",
+      "enrollment": 70,
+      "start_date": "2025-03-31"
+    }
+  ],
+  "Gastric": [
+    {
+      "nct_id": "NCT06054308",
+      "title": "Mesothelin-targeted CAR-T Cells as a Neo-adjuvant Treatment in Patients With Resectable Pancreatic Cancers: a Feasibility Study",
+      "status": "WITHDRAWN",
+      "phase": "NA",
+      "conditions": [
+        "Pancreatic Cancer"
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "MSLN CART"
+        }
+      ],
+      "sponsor": "Chinese University of Hong Kong",
+      "enrollment": 0,
+      "start_date": "2024-02-02"
+    },
+    {
+      "nct_id": "NCT06885697",
+      "title": "Anti-Mesothelin TNaive/SCM hYP218 (TNhYP218) CAR T Cells in Participants With Mesothelin-Expressing Solid Tumors Including Mesothelioma",
+      "status": "RECRUITING",
+      "phase": "PHASE1",
+      "conditions": [
+        "Mesothelioma",
+        "Neoplasms",
+        "Stomach Neoplasms",
+        "Pancreatic Neoplasms",
+        "Ovarian Neoplasms"
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "mesothelin expression testing"
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "TNhYP217 CAR T Cells"
+        },
+        {
+          "type": "DRUG",
+          "name": "fludarabine"
+        },
+        {
+          "type": "DRUG",
+          "name": "cyclophosphamide"
+        }
+      ],
+      "sponsor": "National Cancer Institute (NCI)",
+      "enrollment": 100,
+      "start_date": "2025-07-08"
+    },
+    {
+      "nct_id": "NCT02341625",
+      "title": "A Study of BMS-986148 in Patients With Select Advanced Solid Tumors",
+      "status": "TERMINATED",
+      "phase": "PHASE1, PHASE2",
+      "conditions": [
+        "Advanced Cancer"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "BMS-986148"
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Nivolumab"
+        }
+      ],
+      "sponsor": "Bristol-Myers Squibb",
+      "enrollment": 126,
+      "start_date": "2015-06-19"
+    },
+    {
+      "nct_id": "NCT01950572",
+      "title": "Tissue Procurement and Natural History Study of Patients With Malignant Mesothelioma",
+      "status": "RECRUITING",
+      "phase": "N/A",
+      "conditions": [
+        "Mesothelioma",
+        "Thymoma",
+        "Pancreatic Neoplasms",
+        "Biliary Tract Neoplasms",
+        "Stomach Neoplasms"
+      ],
+      "interventions": [],
+      "sponsor": "National Cancer Institute (NCI)",
+      "enrollment": 1000,
+      "start_date": "2013-09-09"
+    },
+    {
+      "nct_id": "NCT03102320",
+      "title": "Phase 1b Multi-indication Study of Anetumab Ravtansine in Mesothelin Expressing Advanced Solid Tumors",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "conditions": [
+        "Neoplasms"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Cisplatin"
+        },
+        {
+          "type": "DRUG",
+          "name": "Gemcitabine"
+        },
+        {
+          "type": "DRUG",
+          "name": "Anetumab ravtansine (BAY94-9343)"
+        }
+      ],
+      "sponsor": "Bayer",
+      "enrollment": 173,
+      "start_date": "2017-05-26"
+    },
+    {
+      "nct_id": "NCT03941626",
+      "title": "Autologous CAR-T/TCR-T Cell Immunotherapy for Solid Malignancies",
+      "status": "UNKNOWN",
+      "phase": "PHASE1, PHASE2",
+      "conditions": [
+        "Esophagus Cancer",
+        "Hepatoma",
+        "Glioma",
+        "Gastric Cancer"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "CAR-T/TCR-T cells immunotherapy"
+        }
+      ],
+      "sponsor": "Shenzhen BinDeBio Ltd.",
+      "enrollment": 50,
+      "start_date": "2019-09-01"
+    }
+  ],
+  "Prostate": []
+}

@@ -1,0 +1,1006 @@
+{
+  "summary": "Reactome pathway analysis for 10 genes: 20 pathways enriched, 20 significant (FDR < 0.05)\nTop pathway: Constitutive Signaling by Aberrant PI3K in Cancer (FDR=1.2197864041052497e-07)\nCrosstalk nodes (multi-pathway genes): 6\nPathway pairs with shared genes: 45",
+  "query_genes": [
+    "CD40",
+    "ERBB3",
+    "TNFRSF9",
+    "CD28",
+    "EGFR",
+    "HGF",
+    "MSLN",
+    "PDCD1",
+    "ERBB2",
+    "ICOS"
+  ],
+  "genes_not_found": 0,
+  "pathways": [
+    {
+      "pathway_id": "R-HSA-2219530",
+      "name": "Constitutive Signaling by Aberrant PI3K in Cancer",
+      "p_value": 8.18648593359228e-10,
+      "fdr": 1.2197864041052497e-07,
+      "genes_found": 6,
+      "genes_total": 104,
+      "ratio": 0.0064,
+      "matched_input_genes": [
+        "CD28",
+        "EGFR",
+        "ERBB2",
+        "ERBB3",
+        "HGF",
+        "ICOS"
+      ]
+    },
+    {
+      "pathway_id": "R-HSA-2219528",
+      "name": "PI3K/AKT Signaling in Cancer",
+      "p_value": 3.366849909980374e-09,
+      "fdr": 1.9280203356064618e-07,
+      "genes_found": 6,
+      "genes_total": 132,
+      "ratio": 0.0082,
+      "matched_input_genes": [
+        "CD28",
+        "EGFR",
+        "ERBB2",
+        "ERBB3",
+        "HGF",
+        "ICOS"
+      ]
+    },
+    {
+      "pathway_id": "R-HSA-6811558",
+      "name": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+      "p_value": 4.195964020681231e-09,
+      "fdr": 1.9280203356064618e-07,
+      "genes_found": 6,
+      "genes_total": 137,
+      "ratio": 0.0085,
+      "matched_input_genes": [
+        "CD28",
+        "EGFR",
+        "ERBB2",
+        "ERBB3",
+        "HGF",
+        "ICOS"
+      ]
+    },
+    {
+      "pathway_id": "R-HSA-199418",
+      "name": "Negative regulation of the PI3K/AKT network",
+      "p_value": 5.870578467792598e-09,
+      "fdr": 1.9280203356064618e-07,
+      "genes_found": 6,
+      "genes_total": 145,
+      "ratio": 0.009,
+      "matched_input_genes": [
+        "CD28",
+        "EGFR",
+        "ERBB2",
+        "ERBB3",
+        "HGF",
+        "ICOS"
+      ]
+    },
+    {
+      "pathway_id": "R-HSA-8866910",
+      "name": "TFAP2 (AP-2) family regulates transcription of growth factors and their receptors",
+      "p_value": 6.648345984849868e-09,
+      "fdr": 1.9280203356064618e-07,
+      "genes_found": 4,
+      "genes_total": 21,
+      "ratio": 0.0013,
+      "matched_input_genes": [
+        "EGFR",
+        "ERBB2"
+      ]
+    },
+    {
+      "pathway_id": "R-HSA-5663202",
+      "name": "Diseases of signal transduction by growth factor receptors and second messengers",
+      "p_value": 2.6838981814769625e-08,
+      "fdr": 6.44135563554471e-07,
+      "genes_found": 8,
+      "genes_total": 536,
+      "ratio": 0.0331,
+      "matched_input_genes": [
+        "CD28",
+        "EGFR",
+        "ERBB2",
+        "ERBB3",
+        "HGF",
+        "ICOS"
+      ]
+    },
+    {
+      "pathway_id": "R-HSA-9927432",
+      "name": "Developmental Lineage of Mammary Gland Myoepithelial Cells",
+      "p_value": 5.083934873084672e-08,
+      "fdr": 1.0676263233477812e-06,
+      "genes_found": 4,
+      "genes_total": 35,
+      "ratio": 0.0022,
+      "matched_input_genes": [
+        "EGFR",
+        "ERBB2"
+      ]
+    },
+    {
+      "pathway_id": "R-HSA-8864260",
+      "name": "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors",
+      "p_value": 2.45015282729355e-07,
+      "fdr": 4.41027508912839e-06,
+      "genes_found": 4,
+      "genes_total": 52,
+      "ratio": 0.0032,
+      "matched_input_genes": [
+        "EGFR",
+        "ERBB2"
+      ]
+    },
+    {
+      "pathway_id": "R-HSA-1257604",
+      "name": "PIP3 activates AKT signaling",
+      "p_value": 5.583690578792044e-07,
+      "fdr": 8.933904926067271e-06,
+      "genes_found": 6,
+      "genes_total": 315,
+      "ratio": 0.0195,
+      "matched_input_genes": [
+        "CD28",
+        "EGFR",
+        "ERBB2",
+        "ERBB3",
+        "HGF",
+        "ICOS"
+      ]
+    },
+    {
+      "pathway_id": "R-HSA-8847993",
+      "name": "ERBB2 Activates PTK6 Signaling",
+      "p_value": 9.238380989096129e-07,
+      "fdr": 1.2009895285824967e-05,
+      "genes_found": 3,
+      "genes_total": 18,
+      "ratio": 0.0011,
+      "matched_input_genes": [
+        "EGFR",
+        "ERBB2",
+        "ERBB3"
+      ]
+    },
+    {
+      "pathway_id": "R-HSA-6785631",
+      "name": "ERBB2 Regulates Cell Motility",
+      "p_value": 1.0858190230278453e-06,
+      "fdr": 1.3029828276334143e-05,
+      "genes_found": 3,
+      "genes_total": 19,
+      "ratio": 0.0012
+    },
+    {
+      "pathway_id": "R-HSA-9006925",
+      "name": "Intracellular signaling by second messengers",
+      "p_value": 1.2711114257824008e-06,
+      "fdr": 1.3480786159592029e-05,
+      "genes_found": 6,
+      "genes_total": 363,
+      "ratio": 0.0224
+    },
+    {
+      "pathway_id": "R-HSA-9924644",
+      "name": "Developmental Lineages of the Mammary Gland",
+      "p_value": 1.3480786159592029e-06,
+      "fdr": 1.3480786159592029e-05,
+      "genes_found": 4,
+      "genes_total": 80,
+      "ratio": 0.0049
+    },
+    {
+      "pathway_id": "R-HSA-1963642",
+      "name": "PI3K events in ERBB2 signaling",
+      "p_value": 1.6823623687489686e-06,
+      "fdr": 1.5141261318740717e-05,
+      "genes_found": 3,
+      "genes_total": 22,
+      "ratio": 0.0014
+    },
+    {
+      "pathway_id": "R-HSA-9665686",
+      "name": "Signaling by ERBB2 TMD/JMD mutants",
+      "p_value": 4.243864283215437e-06,
+      "fdr": 3.8194778548938935e-05,
+      "genes_found": 3,
+      "genes_total": 30,
+      "ratio": 0.0019
+    },
+    {
+      "pathway_id": "R-HSA-9734779",
+      "name": "Developmental Cell Lineages of the Integumentary System",
+      "p_value": 6.651095101894988e-06,
+      "fdr": 5.1134364273175414e-05,
+      "genes_found": 4,
+      "genes_total": 120,
+      "ratio": 0.0074
+    },
+    {
+      "pathway_id": "R-HSA-9664565",
+      "name": "Signaling by ERBB2 KD Mutants",
+      "p_value": 6.7172759503630886e-06,
+      "fdr": 5.1134364273175414e-05,
+      "genes_found": 3,
+      "genes_total": 35,
+      "ratio": 0.0022
+    },
+    {
+      "pathway_id": "R-HSA-1227990",
+      "name": "Signaling by ERBB2 in Cancer",
+      "p_value": 7.304909181882202e-06,
+      "fdr": 5.1134364273175414e-05,
+      "genes_found": 3,
+      "genes_total": 36,
+      "ratio": 0.0022
+    },
+    {
+      "pathway_id": "R-HSA-8863795",
+      "name": "Downregulation of ERBB2 signaling",
+      "p_value": 7.304909181882202e-06,
+      "fdr": 5.1134364273175414e-05,
+      "genes_found": 3,
+      "genes_total": 36,
+      "ratio": 0.0022
+    },
+    {
+      "pathway_id": "R-HSA-1250196",
+      "name": "SHC1 events in ERBB2 signaling",
+      "p_value": 7.304909181882202e-06,
+      "fdr": 5.1134364273175414e-05,
+      "genes_found": 3,
+      "genes_total": 36,
+      "ratio": 0.0022
+    }
+  ],
+  "crosstalk_nodes": [
+    {
+      "gene": "EGFR",
+      "pathway_count": 92,
+      "pathways": [
+        "Constitutive Signaling by Aberrant PI3K in Cancer",
+        "Constitutive Signaling by Aberrant PI3K in Cancer",
+        "PI3K/AKT Signaling in Cancer",
+        "PI3K/AKT Signaling in Cancer",
+        "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+        "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+        "Negative regulation of the PI3K/AKT network",
+        "Negative regulation of the PI3K/AKT network",
+        "TFAP2 (AP-2) family regulates transcription of growth factors and their receptors",
+        "TFAP2 (AP-2) family regulates transcription of growth factors and their receptors",
+        "TFAP2 (AP-2) family regulates transcription of growth factors and their receptors",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Developmental Lineage of Mammary Gland Myoepithelial Cells",
+        "Developmental Lineage of Mammary Gland Myoepithelial Cells",
+        "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors",
+        "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors",
+        "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors",
+        "PIP3 activates AKT signaling",
+        "PIP3 activates AKT signaling",
+        "ERBB2 Activates PTK6 Signaling",
+        "ERBB2 Activates PTK6 Signaling"
+      ]
+    },
+    {
+      "gene": "ERBB2",
+      "pathway_count": 84,
+      "pathways": [
+        "Constitutive Signaling by Aberrant PI3K in Cancer",
+        "Constitutive Signaling by Aberrant PI3K in Cancer",
+        "PI3K/AKT Signaling in Cancer",
+        "PI3K/AKT Signaling in Cancer",
+        "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+        "Negative regulation of the PI3K/AKT network",
+        "TFAP2 (AP-2) family regulates transcription of growth factors and their receptors",
+        "TFAP2 (AP-2) family regulates transcription of growth factors and their receptors",
+        "TFAP2 (AP-2) family regulates transcription of growth factors and their receptors",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Developmental Lineage of Mammary Gland Myoepithelial Cells",
+        "Developmental Lineage of Mammary Gland Myoepithelial Cells",
+        "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors",
+        "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors",
+        "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors",
+        "PIP3 activates AKT signaling",
+        "ERBB2 Activates PTK6 Signaling",
+        "ERBB2 Activates PTK6 Signaling"
+      ]
+    },
+    {
+      "gene": "ERBB3",
+      "pathway_count": 26,
+      "pathways": [
+        "Constitutive Signaling by Aberrant PI3K in Cancer",
+        "Constitutive Signaling by Aberrant PI3K in Cancer",
+        "PI3K/AKT Signaling in Cancer",
+        "PI3K/AKT Signaling in Cancer",
+        "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+        "Negative regulation of the PI3K/AKT network",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "PIP3 activates AKT signaling",
+        "ERBB2 Activates PTK6 Signaling",
+        "ERBB2 Activates PTK6 Signaling"
+      ]
+    },
+    {
+      "gene": "ICOS",
+      "pathway_count": 12,
+      "pathways": [
+        "Constitutive Signaling by Aberrant PI3K in Cancer",
+        "Constitutive Signaling by Aberrant PI3K in Cancer",
+        "PI3K/AKT Signaling in Cancer",
+        "PI3K/AKT Signaling in Cancer",
+        "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+        "Negative regulation of the PI3K/AKT network",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "PIP3 activates AKT signaling"
+      ]
+    },
+    {
+      "gene": "HGF",
+      "pathway_count": 9,
+      "pathways": [
+        "Constitutive Signaling by Aberrant PI3K in Cancer",
+        "Constitutive Signaling by Aberrant PI3K in Cancer",
+        "PI3K/AKT Signaling in Cancer",
+        "PI3K/AKT Signaling in Cancer",
+        "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+        "Negative regulation of the PI3K/AKT network",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "PIP3 activates AKT signaling"
+      ]
+    },
+    {
+      "gene": "CD28",
+      "pathway_count": 9,
+      "pathways": [
+        "Constitutive Signaling by Aberrant PI3K in Cancer",
+        "Constitutive Signaling by Aberrant PI3K in Cancer",
+        "PI3K/AKT Signaling in Cancer",
+        "PI3K/AKT Signaling in Cancer",
+        "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+        "Negative regulation of the PI3K/AKT network",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "Diseases of signal transduction by growth factor receptors and second messengers",
+        "PIP3 activates AKT signaling"
+      ]
+    }
+  ],
+  "pathway_overlaps": [
+    {
+      "pathway_a": "Constitutive Signaling by Aberrant PI3K in Cancer",
+      "pathway_b": "PI3K/AKT Signaling in Cancer",
+      "shared_genes": [
+        "CD28",
+        "EGFR",
+        "ERBB2",
+        "ERBB3",
+        "HGF",
+        "ICOS"
+      ],
+      "shared_count": 6
+    },
+    {
+      "pathway_a": "Constitutive Signaling by Aberrant PI3K in Cancer",
+      "pathway_b": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+      "shared_genes": [
+        "CD28",
+        "EGFR",
+        "ERBB2",
+        "ERBB3",
+        "HGF",
+        "ICOS"
+      ],
+      "shared_count": 6
+    },
+    {
+      "pathway_a": "Constitutive Signaling by Aberrant PI3K in Cancer",
+      "pathway_b": "Negative regulation of the PI3K/AKT network",
+      "shared_genes": [
+        "CD28",
+        "EGFR",
+        "ERBB2",
+        "ERBB3",
+        "HGF",
+        "ICOS"
+      ],
+      "shared_count": 6
+    },
+    {
+      "pathway_a": "Constitutive Signaling by Aberrant PI3K in Cancer",
+      "pathway_b": "Diseases of signal transduction by growth factor receptors and second messengers",
+      "shared_genes": [
+        "CD28",
+        "EGFR",
+        "ERBB2",
+        "ERBB3",
+        "HGF",
+        "ICOS"
+      ],
+      "shared_count": 6
+    },
+    {
+      "pathway_a": "Constitutive Signaling by Aberrant PI3K in Cancer",
+      "pathway_b": "PIP3 activates AKT signaling",
+      "shared_genes": [
+        "CD28",
+        "EGFR",
+        "ERBB2",
+        "ERBB3",
+        "HGF",
+        "ICOS"
+      ],
+      "shared_count": 6
+    },
+    {
+      "pathway_a": "PI3K/AKT Signaling in Cancer",
+      "pathway_b": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+      "shared_genes": [
+        "CD28",
+        "EGFR",
+        "ERBB2",
+        "ERBB3",
+        "HGF",
+        "ICOS"
+      ],
+      "shared_count": 6
+    },
+    {
+      "pathway_a": "PI3K/AKT Signaling in Cancer",
+      "pathway_b": "Negative regulation of the PI3K/AKT network",
+      "shared_genes": [
+        "CD28",
+        "EGFR",
+        "ERBB2",
+        "ERBB3",
+        "HGF",
+        "ICOS"
+      ],
+      "shared_count": 6
+    },
+    {
+      "pathway_a": "PI3K/AKT Signaling in Cancer",
+      "pathway_b": "Diseases of signal transduction by growth factor receptors and second messengers",
+      "shared_genes": [
+        "CD28",
+        "EGFR",
+        "ERBB2",
+        "ERBB3",
+        "HGF",
+        "ICOS"
+      ],
+      "shared_count": 6
+    },
+    {
+      "pathway_a": "PI3K/AKT Signaling in Cancer",
+      "pathway_b": "PIP3 activates AKT signaling",
+      "shared_genes": [
+        "CD28",
+        "EGFR",
+        "ERBB2",
+        "ERBB3",
+        "HGF",
+        "ICOS"
+      ],
+      "shared_count": 6
+    },
+    {
+      "pathway_a": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+      "pathway_b": "Negative regulation of the PI3K/AKT network",
+      "shared_genes": [
+        "CD28",
+        "EGFR",
+        "ERBB2",
+        "ERBB3",
+        "HGF",
+        "ICOS"
+      ],
+      "shared_count": 6
+    },
+    {
+      "pathway_a": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+      "pathway_b": "Diseases of signal transduction by growth factor receptors and second messengers",
+      "shared_genes": [
+        "CD28",
+        "EGFR",
+        "ERBB2",
+        "ERBB3",
+        "HGF",
+        "ICOS"
+      ],
+      "shared_count": 6
+    },
+    {
+      "pathway_a": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+      "pathway_b": "PIP3 activates AKT signaling",
+      "shared_genes": [
+        "CD28",
+        "EGFR",
+        "ERBB2",
+        "ERBB3",
+        "HGF",
+        "ICOS"
+      ],
+      "shared_count": 6
+    },
+    {
+      "pathway_a": "Negative regulation of the PI3K/AKT network",
+      "pathway_b": "Diseases of signal transduction by growth factor receptors and second messengers",
+      "shared_genes": [
+        "CD28",
+        "EGFR",
+        "ERBB2",
+        "ERBB3",
+        "HGF",
+        "ICOS"
+      ],
+      "shared_count": 6
+    },
+    {
+      "pathway_a": "Negative regulation of the PI3K/AKT network",
+      "pathway_b": "PIP3 activates AKT signaling",
+      "shared_genes": [
+        "CD28",
+        "EGFR",
+        "ERBB2",
+        "ERBB3",
+        "HGF",
+        "ICOS"
+      ],
+      "shared_count": 6
+    },
+    {
+      "pathway_a": "Diseases of signal transduction by growth factor receptors and second messengers",
+      "pathway_b": "PIP3 activates AKT signaling",
+      "shared_genes": [
+        "CD28",
+        "EGFR",
+        "ERBB2",
+        "ERBB3",
+        "HGF",
+        "ICOS"
+      ],
+      "shared_count": 6
+    },
+    {
+      "pathway_a": "Constitutive Signaling by Aberrant PI3K in Cancer",
+      "pathway_b": "ERBB2 Activates PTK6 Signaling",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2",
+        "ERBB3"
+      ],
+      "shared_count": 3
+    },
+    {
+      "pathway_a": "PI3K/AKT Signaling in Cancer",
+      "pathway_b": "ERBB2 Activates PTK6 Signaling",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2",
+        "ERBB3"
+      ],
+      "shared_count": 3
+    },
+    {
+      "pathway_a": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+      "pathway_b": "ERBB2 Activates PTK6 Signaling",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2",
+        "ERBB3"
+      ],
+      "shared_count": 3
+    },
+    {
+      "pathway_a": "Negative regulation of the PI3K/AKT network",
+      "pathway_b": "ERBB2 Activates PTK6 Signaling",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2",
+        "ERBB3"
+      ],
+      "shared_count": 3
+    },
+    {
+      "pathway_a": "Diseases of signal transduction by growth factor receptors and second messengers",
+      "pathway_b": "ERBB2 Activates PTK6 Signaling",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2",
+        "ERBB3"
+      ],
+      "shared_count": 3
+    },
+    {
+      "pathway_a": "PIP3 activates AKT signaling",
+      "pathway_b": "ERBB2 Activates PTK6 Signaling",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2",
+        "ERBB3"
+      ],
+      "shared_count": 3
+    },
+    {
+      "pathway_a": "Constitutive Signaling by Aberrant PI3K in Cancer",
+      "pathway_b": "TFAP2 (AP-2) family regulates transcription of growth factors and their receptors",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2"
+      ],
+      "shared_count": 2
+    },
+    {
+      "pathway_a": "Constitutive Signaling by Aberrant PI3K in Cancer",
+      "pathway_b": "Developmental Lineage of Mammary Gland Myoepithelial Cells",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2"
+      ],
+      "shared_count": 2
+    },
+    {
+      "pathway_a": "Constitutive Signaling by Aberrant PI3K in Cancer",
+      "pathway_b": "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2"
+      ],
+      "shared_count": 2
+    },
+    {
+      "pathway_a": "PI3K/AKT Signaling in Cancer",
+      "pathway_b": "TFAP2 (AP-2) family regulates transcription of growth factors and their receptors",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2"
+      ],
+      "shared_count": 2
+    },
+    {
+      "pathway_a": "PI3K/AKT Signaling in Cancer",
+      "pathway_b": "Developmental Lineage of Mammary Gland Myoepithelial Cells",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2"
+      ],
+      "shared_count": 2
+    },
+    {
+      "pathway_a": "PI3K/AKT Signaling in Cancer",
+      "pathway_b": "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2"
+      ],
+      "shared_count": 2
+    },
+    {
+      "pathway_a": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+      "pathway_b": "TFAP2 (AP-2) family regulates transcription of growth factors and their receptors",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2"
+      ],
+      "shared_count": 2
+    },
+    {
+      "pathway_a": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+      "pathway_b": "Developmental Lineage of Mammary Gland Myoepithelial Cells",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2"
+      ],
+      "shared_count": 2
+    },
+    {
+      "pathway_a": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+      "pathway_b": "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2"
+      ],
+      "shared_count": 2
+    },
+    {
+      "pathway_a": "Negative regulation of the PI3K/AKT network",
+      "pathway_b": "TFAP2 (AP-2) family regulates transcription of growth factors and their receptors",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2"
+      ],
+      "shared_count": 2
+    },
+    {
+      "pathway_a": "Negative regulation of the PI3K/AKT network",
+      "pathway_b": "Developmental Lineage of Mammary Gland Myoepithelial Cells",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2"
+      ],
+      "shared_count": 2
+    },
+    {
+      "pathway_a": "Negative regulation of the PI3K/AKT network",
+      "pathway_b": "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2"
+      ],
+      "shared_count": 2
+    },
+    {
+      "pathway_a": "TFAP2 (AP-2) family regulates transcription of growth factors and their receptors",
+      "pathway_b": "Diseases of signal transduction by growth factor receptors and second messengers",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2"
+      ],
+      "shared_count": 2
+    },
+    {
+      "pathway_a": "TFAP2 (AP-2) family regulates transcription of growth factors and their receptors",
+      "pathway_b": "Developmental Lineage of Mammary Gland Myoepithelial Cells",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2"
+      ],
+      "shared_count": 2
+    },
+    {
+      "pathway_a": "TFAP2 (AP-2) family regulates transcription of growth factors and their receptors",
+      "pathway_b": "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2"
+      ],
+      "shared_count": 2
+    },
+    {
+      "pathway_a": "TFAP2 (AP-2) family regulates transcription of growth factors and their receptors",
+      "pathway_b": "PIP3 activates AKT signaling",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2"
+      ],
+      "shared_count": 2
+    },
+    {
+      "pathway_a": "TFAP2 (AP-2) family regulates transcription of growth factors and their receptors",
+      "pathway_b": "ERBB2 Activates PTK6 Signaling",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2"
+      ],
+      "shared_count": 2
+    },
+    {
+      "pathway_a": "Diseases of signal transduction by growth factor receptors and second messengers",
+      "pathway_b": "Developmental Lineage of Mammary Gland Myoepithelial Cells",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2"
+      ],
+      "shared_count": 2
+    },
+    {
+      "pathway_a": "Diseases of signal transduction by growth factor receptors and second messengers",
+      "pathway_b": "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2"
+      ],
+      "shared_count": 2
+    },
+    {
+      "pathway_a": "Developmental Lineage of Mammary Gland Myoepithelial Cells",
+      "pathway_b": "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2"
+      ],
+      "shared_count": 2
+    },
+    {
+      "pathway_a": "Developmental Lineage of Mammary Gland Myoepithelial Cells",
+      "pathway_b": "PIP3 activates AKT signaling",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2"
+      ],
+      "shared_count": 2
+    },
+    {
+      "pathway_a": "Developmental Lineage of Mammary Gland Myoepithelial Cells",
+      "pathway_b": "ERBB2 Activates PTK6 Signaling",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2"
+      ],
+      "shared_count": 2
+    },
+    {
+      "pathway_a": "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors",
+      "pathway_b": "PIP3 activates AKT signaling",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2"
+      ],
+      "shared_count": 2
+    },
+    {
+      "pathway_a": "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors",
+      "pathway_b": "ERBB2 Activates PTK6 Signaling",
+      "shared_genes": [
+        "EGFR",
+        "ERBB2"
+      ],
+      "shared_count": 2
+    }
+  ]
+}
