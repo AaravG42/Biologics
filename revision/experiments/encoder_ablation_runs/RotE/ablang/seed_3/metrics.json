@@ -1,0 +1,113 @@
+{
+  "model": "RotE",
+  "init": "ablang",
+  "seed": 3,
+  "config": {
+    "batch_size": 256,
+    "bias": "constant",
+    "dataset": "IMGT_no_leakage_directional_clinical",
+    "debug": false,
+    "double_neg": true,
+    "dropout": 0.0,
+    "dtype": "single",
+    "gamma": 6.0,
+    "init_size": 0.001,
+    "learning_rate": 0.0003,
+    "max_epochs": 200,
+    "model": "RotE",
+    "multi_c": false,
+    "neg_sample_size": 32,
+    "optimizer": "Adam",
+    "patience": 10,
+    "rank": 640,
+    "reg": 0.0,
+    "regularizer": "N3",
+    "valid": 5
+  },
+  "metrics": {
+    "epoch": 184,
+    "train_loss": 0.0008042399422265589,
+    "valid_loss": 0.1531316339969635,
+    "valid": {
+      "count": 301,
+      "tail_mr": 25.019933700561523,
+      "tail_mrr": 0.25301241874694824,
+      "tail_hits@1": 0.13953489065170288,
+      "tail_hits@3": 0.25249168276786804,
+      "tail_hits@10": 0.514950156211853
+    },
+    "test": {
+      "count": 297,
+      "tail_mr": 23.484848022460938,
+      "tail_mrr": 0.29975777864456177,
+      "tail_hits@1": 0.18855218589305878,
+      "tail_hits@3": 0.31313130259513855,
+      "tail_hits@10": 0.5387205481529236
+    },
+    "valid_by_direction": {
+      "tail_prediction": {
+        "count": 301,
+        "tail_mr": 25.019933700561523,
+        "tail_mrr": 0.25301241874694824,
+        "tail_hits@1": 0.13953489065170288,
+        "tail_hits@3": 0.25249168276786804,
+        "tail_hits@10": 0.514950156211853
+      },
+      "head_prediction": {
+        "count": 301,
+        "head_mr": 918.704345703125,
+        "head_mrr": 0.013637268915772438,
+        "head_hits@1": 0.006644518114626408,
+        "head_hits@3": 0.006644518114626408,
+        "head_hits@10": 0.02657807245850563
+      },
+      "combined": {
+        "count": 602,
+        "mr": 471.86213970184326,
+        "mrr": 0.13332484383136034,
+        "hits@1": 0.07308970438316464,
+        "hits@3": 0.12956810044124722,
+        "hits@10": 0.27076411433517933
+      }
+    },
+    "test_by_direction": {
+      "tail_prediction": {
+        "count": 297,
+        "tail_mr": 23.484848022460938,
+        "tail_mrr": 0.29975777864456177,
+        "tail_hits@1": 0.18855218589305878,
+        "tail_hits@3": 0.31313130259513855,
+        "tail_hits@10": 0.5387205481529236
+      },
+      "head_prediction": {
+        "count": 297,
+        "head_mr": 900.3670043945312,
+        "head_mrr": 0.00798323005437851,
+        "head_hits@1": 0.0,
+        "head_hits@3": 0.0,
+        "head_hits@10": 0.020202020183205605
+      },
+      "combined": {
+        "count": 594,
+        "mr": 461.9259262084961,
+        "mrr": 0.15387050434947014,
+        "hits@1": 0.09427609294652939,
+        "hits@3": 0.15656565129756927,
+        "hits@10": 0.2794612841680646
+      }
+    },
+    "best_epoch": 184,
+    "num_parameters": 6303382,
+    "clinical_relation_id": 6,
+    "clinical_relations": {
+      "forward_tail_prediction": {
+        "name": "imgt:hasClinicalIndication",
+        "id": 6
+      },
+      "forward_head_prediction": {
+        "query": "?, imgt:hasClinicalIndication, t",
+        "relation_offset": 52
+      }
+    }
+  }
+}

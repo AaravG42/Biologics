@@ -1,0 +1,37 @@
+[
+  {
+    "blinded_plausible": 10,
+    "blinded_specific": 17,
+    "gene": "PDCD1",
+    "original_plausible": 9,
+    "original_specific": 17
+  },
+  {
+    "blinded_plausible": 12,
+    "blinded_specific": 18,
+    "gene": "MSLN",
+    "original_plausible": 10,
+    "original_specific": 18
+  },
+  {
+    "blinded_plausible": 9,
+    "blinded_specific": 17,
+    "gene": "ERBB2",
+    "original_plausible": 9,
+    "original_specific": 17
+  },
+  {
+    "blinded_plausible": 10,
+    "blinded_specific": 18,
+    "gene": "EGFR",
+    "original_plausible": 9,
+    "original_specific": 18
+  },
+  {
+    "blinded_plausible": 16,
+    "blinded_specific": 18,
+    "gene": "TNFRSF17",
+    "original_plausible": 14,
+    "original_specific": 18
+  }
+]

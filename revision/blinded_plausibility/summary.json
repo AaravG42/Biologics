@@ -1,0 +1,97 @@
+{
+  "baseline_fraction_mean": 0.4748921146953405,
+  "baseline_fraction_median": 0.4718,
+  "enrichment_bootstrap_ci95": {
+    "high": 1.2341523465703972,
+    "low": 1.1826241877256318
+  },
+  "enrichment_mean": 1.2081895306859205,
+  "enrichment_median": 1.2008,
+  "frac_queries_enrichment_gt1": 0.8953068592057761,
+  "model_fraction_mean": 0.574194623655914,
+  "model_fraction_median": 0.5882,
+  "n_queries_scored": 279,
+  "n_queries_total": 297,
+  "n_queries_unscorable": 18,
+  "normalisation_coverage": {
+    "coverage_fraction": 0.5735969642500499,
+    "note": "coverage_fraction = fraction of SPECIFIC (non-generic) top-20 predictions that matched an OT disease for the target at thr=0.01; the complement are OFF-TARGET (no qualifying association).",
+    "specific_predictions_matched_OT": 2872,
+    "specific_predictions_scored": 5007
+  },
+  "pre_registration": {
+    "blinded": true,
+    "n_prior_draws": 1000,
+    "note": "Tags computed only from model top-20 predictions and the query mAb target gene(s); ground-truth tail/rank never used.",
+    "ot_diseases_per_gene": 50,
+    "prior_draw_size": 20,
+    "random_seed": 20240617,
+    "sensitivity_thresholds": [
+      0.01,
+      0.05,
+      0.1
+    ],
+    "threshold": 0.01,
+    "top_k": 20
+  },
+  "threshold_sensitivity": {
+    "0.01": {
+      "frac_enrichment_gt1": 0.8989169675090253,
+      "mean_enrichment": 1.2117666377418337,
+      "mean_model_fraction": 0.5741930552010781,
+      "mean_prior_fraction": 0.47360621420138804,
+      "n_scored": 279
+    },
+    "0.05": {
+      "frac_enrichment_gt1": 0.8916967509025271,
+      "mean_enrichment": 1.2114141377171503,
+      "mean_model_fraction": 0.5647682703843029,
+      "mean_prior_fraction": 0.4640410929047656,
+      "n_scored": 279
+    },
+    "0.1": {
+      "frac_enrichment_gt1": 0.8545454545454545,
+      "mean_enrichment": 1.2238535718694514,
+      "mean_model_fraction": 0.478949649406389,
+      "mean_prior_fraction": 0.3856511522558599,
+      "n_scored": 279
+    }
+  },
+  "validation_5case": [
+    {
+      "blinded_plausible": 10,
+      "blinded_specific": 17,
+      "gene": "PDCD1",
+      "original_plausible": 9,
+      "original_specific": 17
+    },
+    {
+      "blinded_plausible": 12,
+      "blinded_specific": 18,
+      "gene": "MSLN",
+      "original_plausible": 10,
+      "original_specific": 18
+    },
+    {
+      "blinded_plausible": 9,
+      "blinded_specific": 17,
+      "gene": "ERBB2",
+      "original_plausible": 9,
+      "original_specific": 17
+    },
+    {
+      "blinded_plausible": 10,
+      "blinded_specific": 18,
+      "gene": "EGFR",
+      "original_plausible": 9,
+      "original_specific": 18
+    },
+    {
+      "blinded_plausible": 16,
+      "blinded_specific": 18,
+      "gene": "TNFRSF17",
+      "original_plausible": 14,
+      "original_specific": 18
+    }
+  ]
+}
