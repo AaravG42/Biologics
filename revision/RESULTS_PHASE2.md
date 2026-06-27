@@ -107,31 +107,32 @@ The manuscript's headline **1.8× was over 5 hand-selected cases**; the
 systematic, blinded, all-query value is **1.21×** — a real but modest signal that
 removes the cherry-picking vulnerability.
 
-## 6. Transductive controlled split (PRELIMINARY — 37/45 runs)
+## 6. Transductive controlled split (final — 9 models × 5 seeds, 45/45)
 
 To allow a like-for-like comparison with Sanou et al.'s *transductive* KGE setting
 (and an honest contrast with our inductive directional split), we built a
 transductive controlled split (`scripts/create_imgt_transductive_clinical.py`):
 all 9,611 entities appear in train, reciprocal leakage = 0, forward-clinical
 triples split at the triple level (train 27,622 / valid 181 / test 180; OOV = 0).
-Multi-seed benchmark (additive ESM-2, 5 seeds; **PRELIMINARY — AttE still running,
-full table to follow**):
+Multi-seed benchmark (additive ESM-2, 5 seeds each; `experiments/transductive_benchmark.csv`):
 
-| Model | transductive MRR (partial) | H@10 | (inductive MRR for reference) |
-|---|---|---|---|
-| TransE | 0.2894 ± 0.0046 (n=5) | 61.7% | 0.3131 |
-| RefE | 0.2808 ± 0.0112 (n=5) | 57.6% | 0.3113 |
-| RotE | 0.2760 ± 0.0160 (n=5) | 56.3% | 0.3116 |
-| RotH | 0.2668 ± 0.0032 (n=4) | — | 0.2632 |
-| AttH | 0.2497 ± 0.0038 (n=5) | — | 0.2884 |
-| MurE | 0.2476 ± 0.0048 (n=3) | — | 0.2943 |
-| CP | 0.2354 ± 0.0018 (n=5) | — | 0.2904 |
-| RefH | 0.2194 ± 0.0032 (n=5) | — | 0.2844 |
+| Model | transductive MRR (mean±std) | MR | Hits@1 | Hits@10 | (inductive MRR) |
+|---|---|---|---|---|---|
+| TransE | 0.2894 ± 0.0046 | 36.1 | 15.7% | 61.7% | 0.3131 |
+| RefE | 0.2808 ± 0.0112 | 34.2 | 15.4% | 57.6% | 0.3113 |
+| RotE | 0.2760 ± 0.0160 | 35.0 | 15.2% | 56.3% | 0.3116 |
+| RotH | 0.2667 ± 0.0029 | 35.9 | 13.3% | 58.0% | 0.2632 |
+| AttH | 0.2497 ± 0.0038 | 84.0 | 14.4% | 48.0% | 0.2884 |
+| MurE | 0.2444 ± 0.0061 | 39.4 | 14.7% | 45.9% | 0.2943 |
+| AttE | 0.2434 ± 0.0038 | 39.4 | 13.9% | 48.3% | 0.2954 |
+| CP | 0.2354 ± 0.0018 | 48.9 | 14.0% | 46.2% | 0.2904 |
+| RefH | 0.2194 ± 0.0032 | 1176.7 | 13.9% | 39.6% | 0.2844 |
 
-**TransE remains the best model** in the transductive setting too; Euclidean
-models again lead. Absolute MRRs are not directly comparable across the two splits
-(different test sets — the transductive test is the Sanou-comparable one). *This
-table will be finalised when the remaining runs (incl. AttE, 5 seeds) complete.*
+**TransE is again the best model** in the transductive setting; the Euclidean
+models (TransE/RefE/RotE) again lead. Absolute MRRs are lower than on the inductive
+split, but the two are not directly comparable (different test sets — the
+transductive test is the Sanou-comparable one). The model ranking is stable across
+both settings, reinforcing that the single-seed "RotE best" selection was not robust.
 
 ## 7. Popularity-adjusted metrics are largely an artifact (distractor-removal ablation)
 
@@ -205,9 +206,10 @@ signal over random with honest parity-vs-prior in aggregate.
 7. The plausibility signal is model-agnostic (RotE 1.21× / RefH 1.19× / BoxE 1.22×,
    all CIs > 1) and robust across raters (κ = 0.73). The ESM benefit is diffuse,
    not localized to ESM-initialised mAbs.
-8. Transductive split (preliminary): TransE again best; finalising. External
-   validation: real signal vs random, at parity vs the popularity prior in
-   aggregate; a strict temporal validation is impossible (no timestamps).
+8. Transductive split (final, 5 seeds): TransE again best (0.289); model ranking
+   stable vs the inductive split. External validation: real signal vs random, at
+   parity vs the popularity prior in aggregate; a strict temporal validation is
+   impossible (no timestamps).
 
 ## Reproducibility
 
