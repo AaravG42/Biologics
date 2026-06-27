@@ -1,0 +1,43 @@
+model,condition,view,metric,mean,std,n,n_gold_excluded,n_draws,note
+RotE,(a) standard,all_297,MRR,0.3116202219972333,0.003399772236583191,297,0,1,no exclusion
+RotE,(a) standard,all_297,Hits@1,0.18922558922558924,0.004466834734485383,297,0,1,no exclusion
+RotE,(a) standard,all_297,Hits@10,0.5932659932659934,0.011741141935463094,297,0,1,no exclusion
+RotE,(b) freq-adjusted,full_297_goldinf,MRR,0.12027280179118047,0.003836317079847355,297,117,1,exclude TOP5; gold-in-excluded=>rank inf
+RotE,(b) freq-adjusted,full_297_goldinf,Hits@1,0.048484848484848485,0.00503926920777635,297,117,1,exclude TOP5; gold-in-excluded=>rank inf
+RotE,(b) freq-adjusted,full_297_goldinf,Hits@10,0.2902356902356903,0.006867366348273118,297,117,1,exclude TOP5; gold-in-excluded=>rank inf
+RotE,(b) freq-adjusted,unaffected_subset,MRR,0.1984501229554477,0.006329923181748148,180,117,1,on queries w/ gold NOT in TOP5; paired std baseline=0.1090
+RotE,(a) std on (b)-unaffected,unaffected_subset,MRR,0.10903554719203648,0.0063174688569147255,180,0,1,baseline for gain_b on same subset
+RotE,(b) freq-adjusted,unaffected_subset,Hits@1,0.08,0.008314794192830982,180,117,1,on queries w/ gold NOT in TOP5; paired std baseline=0.0122
+RotE,(a) std on (b)-unaffected,unaffected_subset,Hits@1,0.012222222222222223,0.0022222222222222222,180,0,1,baseline for gain_b on same subset
+RotE,(b) freq-adjusted,unaffected_subset,Hits@10,0.47888888888888886,0.01133115447465063,180,117,1,on queries w/ gold NOT in TOP5; paired std baseline=0.3611
+RotE,(a) std on (b)-unaffected,unaffected_subset,Hits@10,0.36111111111111105,0.019876159799998138,180,0,1,baseline for gain_b on same subset
+RotE,(c) random-control,full_297_goldinf,MRR,0.3112377674710971,0.0033797722912238086,297,4.12,50,exclude 5 random non-top disease tails; gold-in=>inf; avg over draws
+RotE,(c) random-control,full_297_goldinf,Hits@1,0.18934680134680132,0.004408877171833258,297,4.12,50,exclude 5 random non-top disease tails; gold-in=>inf; avg over draws
+RotE,(c) random-control,full_297_goldinf,Hits@10,0.5916498316498316,0.010717272737374732,297,4.12,50,exclude 5 random non-top disease tails; gold-in=>inf; avg over draws
+RotE,(c) random-control,unaffected_subset,MRR,0.31567810560298654,0.0034259780668430026,292.88,4.12,50,on queries w/ gold not in draw; paired std baseline=0.3148
+RotE,(a) std on (c)-unaffected,unaffected_subset,MRR,0.3147821637973703,0.0034521247603507637,292.88,0,50,baseline for gain_c on same subset
+RotE,(c) random-control,unaffected_subset,Hits@1,0.1920611068973218,0.0044721635936486965,292.88,4.12,50,on queries w/ gold not in draw; paired std baseline=0.1919
+RotE,(a) std on (c)-unaffected,unaffected_subset,Hits@1,0.1918567406051112,0.004533079346933787,292.88,0,50,baseline for gain_c on same subset
+RotE,(c) random-control,unaffected_subset,Hits@10,0.6000627599018664,0.010849088635943227,292.88,4.12,50,on queries w/ gold not in draw; paired std baseline=0.5976
+RotE,(a) std on (c)-unaffected,unaffected_subset,Hits@10,0.5975544590862423,0.011857457908297267,292.88,0,50,baseline for gain_c on same subset
+TransE,(a) standard,all_297,MRR,0.31307524036768786,0.001986032543649307,297,0,1,no exclusion
+TransE,(a) standard,all_297,Hits@1,0.1898989898989899,0.0016494880422782269,297,0,1,no exclusion
+TransE,(a) standard,all_297,Hits@10,0.5777777777777777,0.003433683174136574,297,0,1,no exclusion
+TransE,(b) freq-adjusted,full_297_goldinf,MRR,0.12601337446095534,0.0024586922649468376,297,117,1,exclude TOP5; gold-in-excluded=>rank inf
+TransE,(b) freq-adjusted,full_297_goldinf,Hits@1,0.06195286195286196,0.004567225577862134,297,117,1,exclude TOP5; gold-in-excluded=>rank inf
+TransE,(b) freq-adjusted,full_297_goldinf,Hits@10,0.27744107744107743,0.010982832612996683,297,117,1,exclude TOP5; gold-in-excluded=>rank inf
+TransE,(b) freq-adjusted,unaffected_subset,MRR,0.2079220678605763,0.004056842237162281,180,117,1,on queries w/ gold NOT in TOP5; paired std baseline=0.1246
+TransE,(a) std on (b)-unaffected,unaffected_subset,MRR,0.12463154346681549,0.0071690271477957155,180,0,1,baseline for gain_b on same subset
+TransE,(b) freq-adjusted,unaffected_subset,Hits@1,0.10222222222222221,0.007535922203472517,180,117,1,on queries w/ gold NOT in TOP5; paired std baseline=0.0200
+TransE,(a) std on (b)-unaffected,unaffected_subset,Hits@1,0.019999999999999997,0.006666666666666666,180,0,1,baseline for gain_b on same subset
+TransE,(b) freq-adjusted,unaffected_subset,Hits@10,0.45777777777777773,0.018121673811444545,180,117,1,on queries w/ gold NOT in TOP5; paired std baseline=0.3511
+TransE,(a) std on (b)-unaffected,unaffected_subset,Hits@10,0.3511111111111111,0.009558139185602927,180,0,1,baseline for gain_b on same subset
+TransE,(c) random-control,full_297_goldinf,MRR,0.31270732832406345,0.0019357710081452824,297,4.12,50,exclude 5 random non-top disease tails; gold-in=>inf; avg over draws
+TransE,(c) random-control,full_297_goldinf,Hits@1,0.1901144781144781,0.001724957591551277,297,4.12,50,exclude 5 random non-top disease tails; gold-in=>inf; avg over draws
+TransE,(c) random-control,full_297_goldinf,Hits@10,0.5766464646464646,0.0029068453735119227,297,4.12,50,exclude 5 random non-top disease tails; gold-in=>inf; avg over draws
+TransE,(c) random-control,unaffected_subset,MRR,0.317168732787066,0.0019638059544365887,292.88,4.12,50,on queries w/ gold not in draw; paired std baseline=0.3161
+TransE,(a) std on (c)-unaffected,unaffected_subset,MRR,0.31614427031541237,0.0020533148670390158,292.88,0,50,baseline for gain_c on same subset
+TransE,(c) random-control,unaffected_subset,Hits@1,0.19283865886626034,0.001749710093378141,292.88,4.12,50,on queries w/ gold not in draw; paired std baseline=0.1924
+TransE,(a) std on (c)-unaffected,unaffected_subset,Hits@1,0.19243028591005745,0.0015788929202887154,292.88,0,50,baseline for gain_c on same subset
+TransE,(c) random-control,unaffected_subset,Hits@10,0.5848494822982915,0.0029376897310239096,292.88,4.12,50,on queries w/ gold not in draw; paired std baseline=0.5822
+TransE,(a) std on (c)-unaffected,unaffected_subset,Hits@10,0.5822477924076054,0.003364564071072244,292.88,0,50,baseline for gain_c on same subset

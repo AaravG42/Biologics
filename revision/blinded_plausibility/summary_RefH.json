@@ -1,0 +1,34 @@
+{
+  "baseline_fraction_mean": 0.4748921146953405,
+  "baseline_fraction_median": 0.4718,
+  "enrichment_bootstrap_ci95": {
+    "high": 1.207282310469314,
+    "low": 1.172564259927798
+  },
+  "enrichment_mean": 1.189714440433213,
+  "enrichment_median": 1.1927,
+  "frac_queries_enrichment_gt1": 0.924187725631769,
+  "label": "RefH",
+  "model_fraction_mean": 0.5661086021505376,
+  "model_fraction_median": 0.5556,
+  "model_mrr": 0.2839166120374482,
+  "n_queries_scored": 279,
+  "n_queries_total": 297,
+  "n_queries_unscorable": 18,
+  "normalisation_coverage": {
+    "coverage_fraction": 0.5661091198725607,
+    "specific_predictions_matched_OT": 2843,
+    "specific_predictions_scored": 5022
+  },
+  "pre_registration": {
+    "blinded": true,
+    "n_prior_draws": 1000,
+    "offline_cache": true,
+    "ot_diseases_per_gene": 50,
+    "prior_draw_size": 20,
+    "random_seed": 20240617,
+    "threshold": 0.01,
+    "top_k": 20
+  },
+  "trial_dir": "/home/aarav/KGEmb/analysis_outputs/IMGT_no_leakage_directional_clinical/clinical_hpo/RefH/trial_059"
+}

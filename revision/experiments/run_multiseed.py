@@ -69,6 +69,7 @@ def load_selected_config(model: str) -> dict:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--models", nargs="+", default=list(SELECTED_TRIAL))
+    ap.add_argument("--dataset", default=DATASET, help="dataset dir under DATA_PATH (default: inductive directional)")
     ap.add_argument("--seeds", nargs="+", type=int, default=[0, 1, 2, 3, 4])
     ap.add_argument("--inits", nargs="+", default=["esm2", "random"])
     ap.add_argument("--device", default="cuda")
@@ -87,7 +88,7 @@ def main() -> None:
         torch.cuda.set_device(args.gpu)
         device = f"cuda:{args.gpu}"
 
-    dataset_dir = Path(os.environ["DATA_PATH"]) / DATASET
+    dataset_dir = Path(os.environ["DATA_PATH"]) / args.dataset
     dataset = KGDataset(str(dataset_dir), debug=False)
     train_ex = dataset.get_examples("train")
     valid_ex = dataset.get_examples("valid")

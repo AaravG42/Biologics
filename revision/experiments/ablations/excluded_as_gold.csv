@@ -1,0 +1,7 @@
+excluded_tail,entity_id,train_fwd_freq,all_fwd_freq,num_test_queries_with_this_gold
+imgt:Solid_tumors,6058,149,243,53
+imgt:Cancers_non-small_cell_lung_(NSCLC),1272,48,80,22
+imgt:Cancers,1238,42,77,16
+imgt:Multiple_myeloma_(MM),4094,39,70,15
+imgt:Non-Hodgkins_lymphoma_(NHL),4129,39,59,11
+TOTAL,,317,529,117

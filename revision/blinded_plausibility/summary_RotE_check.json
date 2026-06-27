@@ -1,0 +1,34 @@
+{
+  "baseline_fraction_mean": 0.4748921146953405,
+  "baseline_fraction_median": 0.4718,
+  "enrichment_bootstrap_ci95": {
+    "high": 1.2341523465703972,
+    "low": 1.1826241877256318
+  },
+  "enrichment_mean": 1.2081895306859205,
+  "enrichment_median": 1.2008,
+  "frac_queries_enrichment_gt1": 0.8953068592057761,
+  "label": "RotE_check",
+  "model_fraction_mean": 0.574194623655914,
+  "model_fraction_median": 0.5882,
+  "model_mrr": 0.31636820380937347,
+  "n_queries_scored": 279,
+  "n_queries_total": 297,
+  "n_queries_unscorable": 18,
+  "normalisation_coverage": {
+    "coverage_fraction": 0.5735969642500499,
+    "specific_predictions_matched_OT": 2872,
+    "specific_predictions_scored": 5007
+  },
+  "pre_registration": {
+    "blinded": true,
+    "n_prior_draws": 1000,
+    "offline_cache": true,
+    "ot_diseases_per_gene": 50,
+    "prior_draw_size": 20,
+    "random_seed": 20240617,
+    "threshold": 0.01,
+    "top_k": 20
+  },
+  "trial_dir": "/home/aarav/KGEmb/analysis_outputs/IMGT_no_leakage_directional_clinical/clinical_hpo/RotE/trial_101"
+}

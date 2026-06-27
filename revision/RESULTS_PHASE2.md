@@ -107,6 +107,90 @@ The manuscript's headline **1.8× was over 5 hand-selected cases**; the
 systematic, blinded, all-query value is **1.21×** — a real but modest signal that
 removes the cherry-picking vulnerability.
 
+## 6. Transductive controlled split (PRELIMINARY — 37/45 runs)
+
+To allow a like-for-like comparison with Sanou et al.'s *transductive* KGE setting
+(and an honest contrast with our inductive directional split), we built a
+transductive controlled split (`scripts/create_imgt_transductive_clinical.py`):
+all 9,611 entities appear in train, reciprocal leakage = 0, forward-clinical
+triples split at the triple level (train 27,622 / valid 181 / test 180; OOV = 0).
+Multi-seed benchmark (additive ESM-2, 5 seeds; **PRELIMINARY — AttE still running,
+full table to follow**):
+
+| Model | transductive MRR (partial) | H@10 | (inductive MRR for reference) |
+|---|---|---|---|
+| TransE | 0.2894 ± 0.0046 (n=5) | 61.7% | 0.3131 |
+| RefE | 0.2808 ± 0.0112 (n=5) | 57.6% | 0.3113 |
+| RotE | 0.2760 ± 0.0160 (n=5) | 56.3% | 0.3116 |
+| RotH | 0.2668 ± 0.0032 (n=4) | — | 0.2632 |
+| AttH | 0.2497 ± 0.0038 (n=5) | — | 0.2884 |
+| MurE | 0.2476 ± 0.0048 (n=3) | — | 0.2943 |
+| CP | 0.2354 ± 0.0018 (n=5) | — | 0.2904 |
+| RefH | 0.2194 ± 0.0032 (n=5) | — | 0.2844 |
+
+**TransE remains the best model** in the transductive setting too; Euclidean
+models again lead. Absolute MRRs are not directly comparable across the two splits
+(different test sets — the transductive test is the Sanou-comparable one). *This
+table will be finalised when the remaining runs (incl. AttE, 5 seeds) complete.*
+
+## 7. Popularity-adjusted metrics are largely an artifact (distractor-removal ablation)
+
+Addressing Referee 2 Moderate concern 2. On the 297 clinical test queries
+(`experiments/ablations/`): excluding the 5 most-frequent training tail nodes
+inflates MRR by **+0.089 (RotE)** / **+0.083 (TransE)**, but excluding 5 *random*
+non-frequent disease tails (≥20 draws) inflates it by only **+0.0009** — a
+~100× difference. Moreover, **117/297 (39.4%)** test queries have one of those
+five nodes *as their ground-truth tail* (Solid tumours 53, NSCLC 22, Cancers 16,
+MM 15, NHL 11), so honestly scored over all 297, deleting them *collapses* MRR
+from 0.31 → 0.12. **Conclusion:** the popularity-adjusted metric mostly removes
+common distractors (and legitimate answers); it must be demoted from any headline
+claim. Standard MRR (with CIs) is the honest primary metric.
+
+## 8. The ESM-2 benefit is diffuse, not localized (483/201 stratification)
+
+Stratifying the 297 queries by whether the query's mAb received ESM init: ESM-vs-
+random ΔMRR is **+0.0066 (p=0.016)** on the 229 ESM-mAb queries vs **+0.0119
+(p=0.0009)** on the 68 random-mAb queries. The benefit does **not** concentrate on
+ESM-initialised mAbs — it propagates through the shared graph geometry. So the
+"201 random mAbs dilute the effect" framing does not hold; the effect is real but
+systemic. (`experiments/ablations/esm_stratified.csv`.)
+
+## 9. Plausibility is model-agnostic and robust (baselines + second rater)
+
+Same pre-registered, blinded rule applied to three models (`blinded_plausibility/`):
+
+| Model | Enrichment (95% CI) | % queries >1 |
+|---|---|---|
+| RotE (headline) | 1.21× [1.18, 1.23] | 89.5% |
+| RefH (metric-consistent best) | 1.19× [1.17, 1.21] | 92.4% |
+| BoxE (Sanou et al.'s model — baseline) | 1.22× [1.21, 1.24] | 97.5% |
+
+The signal is a property of the **task, not of RotE** (BoxE, the source study's own
+model, is highest), which supplies the requested source-study baseline and the
+metric-consistent case-study model. A second **independent automated rater** (Open
+Targets clinical/known-drug axis vs the overall axis) gives Cohen's **κ = 0.73**
+(86.3% agreement) → the tags are robust across evidence streams. (The second rater
+is automated, not human — stated explicitly.)
+
+## 10. External held-out validation (no temporal data available)
+
+The KG has **no timestamps** (confirmed) and **anonymised antibodies** (no INN), so
+a strict temporal split and ClinicalTrials.gov-by-name are both infeasible — stated
+plainly. As the defensible substitute we used Open Targets target-level
+clinical-trial evidence (101 target genes; accessed 2026-06-27) for mAb–indication
+pairs **not in training** (`external_validation/`):
+
+- **vs random:** strong — corroborated held-out pairs (n=99) recall@10 **0.566**,
+  median rank **8/247** (~14× over random), recovering non-obvious hypotheses the
+  popularity prior misses (EPCAM→colon rank 1 vs 42; CD38→Merkel rank 5 vs 58;
+  ERBB2→biliary rank 8 vs 95).
+- **vs the popularity prior:** roughly **at parity in aggregate** (broad set
+  enrichment 0.95×; CIs include 1.0), because the external trial space is dominated
+  by common cancers the prior already ranks high.
+
+This is *not* a prospective/temporal validation (impossible here); it shows real
+signal over random with honest parity-vs-prior in aggregate.
+
 ## Bottom line for the revision
 
 1. Leakage audit remains the headline contribution.
@@ -115,6 +199,15 @@ removes the cherry-picking vulnerability.
    magnitude mechanism characterised (anticipating the obvious confound).
 4. Antibody-specific encoders add nothing here.
 5. Systematic blinded plausibility is 1.21×, not 1.8×.
+6. Popularity-adjusted metrics are a distractor-removal artifact (≈100× the gain of
+   removing random nodes; remove ground truth for 39% of queries) — demote them;
+   standard MRR with CIs is the honest primary metric.
+7. The plausibility signal is model-agnostic (RotE 1.21× / RefH 1.19× / BoxE 1.22×,
+   all CIs > 1) and robust across raters (κ = 0.73). The ESM benefit is diffuse,
+   not localized to ESM-initialised mAbs.
+8. Transductive split (preliminary): TransE again best; finalising. External
+   validation: real signal vs random, at parity vs the popularity prior in
+   aggregate; a strict temporal validation is impossible (no timestamps).
 
 ## Reproducibility
 

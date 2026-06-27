@@ -1,0 +1,39 @@
+{
+  "agreement": {
+    "clinicalB_vs_geneticC": {
+      "cohen_kappa": 0.11609228810202127,
+      "percent_agreement": 0.5989614539644498
+    },
+    "primaryA_vs_clinicalB_HEADLINE": {
+      "cohen_kappa": 0.7316075111289859,
+      "percent_agreement": 0.8633912522468544
+    },
+    "primaryA_vs_geneticC": {
+      "cohen_kappa": 0.1191803445093687,
+      "percent_agreement": 0.49950069902137006
+    }
+  },
+  "description": "Independent AUTOMATED second rater (NOT a human). Two Open Targets evidence axes score the SAME RotE top-20 predictions at the SAME matched stringency (>=0.01) on the SAME OT snapshot. Inter-rater agreement quantifies how much the PLAUSIBLE/OFF-TARGET tag depends on which evidence axis is privileged.",
+  "headline_kappa": 0.7316075111289859,
+  "headline_percent_agreement": 0.8633912522468544,
+  "headline_second_rater": "rater_B_clinical",
+  "is_human_rater": false,
+  "model": "RotE/trial_101",
+  "n_generic_excluded": 573,
+  "n_queries_unscorable": 18,
+  "n_specific_predictions_tagged": 5007,
+  "ot_api_version_primary_cache": "26.03 (gene_ot_assoc.json; headline enrichment)",
+  "ot_api_version_this_run": "26.6.0",
+  "plausible_fraction": {
+    "rater_A_overall": 0.5813860595166767,
+    "rater_B_clinical": 0.4447773117635311,
+    "rater_C_genetic": 0.08088675853804674
+  },
+  "rater_definitions": {
+    "rater_A_overall": "PRIMARY rater. OT OVERALL association score >= 0.01 (composite, harmonic-sum across all datatypes); identical rule to the headline analysis.",
+    "rater_B_clinical": "HEADLINE second rater (independent automated, NOT human). OT 'clinical' DATATYPE score >= 0.01 -- clinical-precedence / known-drug evidence (ChEMBL drug-indication); a clinically meaningful axis distinct from the composite OVERALL score.",
+    "rater_C_genetic": "Additional independent axis. OT 'genetic_association' DATATYPE score >= 0.01 -- human-genetics (GWAS/ClinVar) evidence; orthogonal but sparse for somatic cancers; stricter sensitivity comparator."
+  },
+  "stringency_threshold": 0.01,
+  "top_k_scored": 20
+}

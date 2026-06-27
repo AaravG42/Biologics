@@ -1,0 +1,34 @@
+{
+  "baseline_fraction_mean": 0.4748921146953405,
+  "baseline_fraction_median": 0.4718,
+  "enrichment_bootstrap_ci95": {
+    "high": 1.236688086642599,
+    "low": 1.211260288808664
+  },
+  "enrichment_mean": 1.2237335740072202,
+  "enrichment_median": 1.2231,
+  "frac_queries_enrichment_gt1": 0.9747292418772563,
+  "label": "BoxE",
+  "model_fraction_mean": 0.5798451612903226,
+  "model_fraction_median": 0.6111,
+  "model_mrr": 0.2880685784088938,
+  "n_queries_scored": 279,
+  "n_queries_total": 297,
+  "n_queries_unscorable": 18,
+  "normalisation_coverage": {
+    "coverage_fraction": 0.5798486658701713,
+    "specific_predictions_matched_OT": 2912,
+    "specific_predictions_scored": 5022
+  },
+  "pre_registration": {
+    "blinded": true,
+    "n_prior_draws": 1000,
+    "offline_cache": true,
+    "ot_diseases_per_gene": 50,
+    "prior_draw_size": 20,
+    "random_seed": 20240617,
+    "threshold": 0.01,
+    "top_k": 20
+  },
+  "trial_dir": "/home/aarav/KGEmb/analysis_outputs/IMGT_no_leakage_directional_clinical/clinical_hpo/BoxE/trial_001"
+}

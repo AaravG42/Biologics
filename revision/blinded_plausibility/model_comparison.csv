@@ -1,0 +1,4 @@
+model,role,trial,test_tail_mrr,n_scored,model_plausible_fraction,baseline_fraction,enrichment_mean,enrichment_ci95_low,enrichment_ci95_high,enrichment_median,frac_queries_enrichment_gt1
+RotE,headline model (already reported; metric used in source-study-style ranking),trial_101,0.31099,279,0.5742,0.4749,1.2082,1.1826,1.2342,1.2008,0.8953
+RefH,metric-consistent best (best under popularity-ADJUSTED metric the paper argues for),trial_059,0.28392,279,0.5661,0.4749,1.1897,1.1726,1.2073,1.1927,0.9242
+BoxE,source study (Sanou et al.) best model type; explicit baseline,trial_001,0.28807,279,0.5798,0.4749,1.2237,1.2113,1.2367,1.2231,0.9747

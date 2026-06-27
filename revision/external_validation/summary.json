@@ -1,0 +1,333 @@
+{
+  "candidate_pool_size_indications": 247,
+  "counts": {
+    "external_pairs_total": 11003,
+    "heldout_externally_AND_kg_corroborated(in_valid_test)": 169,
+    "heldout_not_in_training": 10575,
+    "heldout_with_ctgov_nct": 10478,
+    "heldout_with_nct_phase2plus": 9200,
+    "unique_mab_indication_heldout_nct": 7483
+  },
+  "cpu_only": true,
+  "external_source": {
+    "access_dates": [
+      "2026-06-27"
+    ],
+    "aggregates": "ChEMBL / ClinicalTrials.gov (AACT) / FDA / EMA",
+    "bridge": "molecular target gene (KG anonymises antibody identity; no INN entities -> ClinicalTrials.gov-by-name infeasible). Evidence is TARGET-LEVEL.",
+    "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "name": "Open Targets Platform GraphQL target.drugAndClinicalCandidates"
+  },
+  "interpretation": "recall@k = fraction of held-out externally-evidenced (mAb,indication) pairs for which the model ranks the indication in its top-k (within the 247-indication pool). enrichment = model recall / popularity-prior recall. Set C (model's own held-out test indications independently corroborated by external ClinicalTrials.gov evidence) is the strongest positive set; Sets A/B test the broader target-level external space.",
+  "model_checkpoint_note": "Ranks read from interpret_topk_50.json (pre-finetune checkpoint, test mean_rank=24.96 = the published ranking). model.pt in the trial dir is a later hard-negative finetune (mean_rank=24.56) and does NOT reproduce the published top-k, so it is intentionally not used.",
+  "model_predictions_used": "/home/aarav/KGEmb/analysis_outputs/IMGT_no_leakage_directional_clinical/clinical_hpo/RotE/trial_101/interpret_topk_50.json",
+  "no_timestamp_limitation": "The KG has NO timestamps; a strict temporally-held-out split is INFEASIBLE from the provided data. Only date-bearing content is imgt:hasStatut=approval (no date) and DOIs in bibliographic refs (incidental years). We therefore use an EXTERNAL-EVIDENCE held-out set, not a temporal one.",
+  "normalisation_coverage": {
+    "coverage_fraction": 0.5528,
+    "n_distinct_ot_disease_names": 966,
+    "n_ot_names_mapped_to_kg_entity": 534,
+    "note": "Most OT EFO diseases have no counterpart among the 247 KG indications; coverage = fraction of distinct OT disease strings mapping to a (specific, non-generic) KG node."
+  },
+  "random_uniform_recall_reference": {
+    "recall@10": 0.0405,
+    "recall@20": 0.081,
+    "recall@5": 0.0202
+  },
+  "resolution": {
+    "n_queries": 297,
+    "n_queries_with_target": 279,
+    "n_unique_genes": 101
+  },
+  "results": {
+    "A_heldout_nct_unique_mab_indication": {
+      "bootstrap_ci95": {
+        "recall@10": {
+          "enrichment_ci95": [
+            0.904,
+            0.993
+          ],
+          "model_recall_ci95": [
+            0.107,
+            0.121
+          ],
+          "prior_recall_ci95": [
+            0.113,
+            0.127
+          ]
+        },
+        "recall@20": {
+          "enrichment_ci95": [
+            0.925,
+            0.985
+          ],
+          "model_recall_ci95": [
+            0.194,
+            0.212
+          ],
+          "prior_recall_ci95": [
+            0.203,
+            0.222
+          ]
+        },
+        "recall@5": {
+          "enrichment_ci95": [
+            1.021,
+            1.207
+          ],
+          "model_recall_ci95": [
+            0.048,
+            0.058
+          ],
+          "prior_recall_ci95": [
+            0.043,
+            0.052
+          ]
+        }
+      },
+      "enrichment_model_over_prior": {
+        "recall@10": 0.947,
+        "recall@20": 0.954,
+        "recall@5": 1.11
+      },
+      "model": {
+        "frac_censored_beyond_depth": 0.5990912735533878,
+        "median_rank_within_depth": 20.0,
+        "mrr": 0.03898344384033963,
+        "n_pairs": 7483,
+        "n_ranked_within_depth": 3000,
+        "recall@10": 0.11372444206868902,
+        "recall@20": 0.20285981558198585,
+        "recall@5": 0.052652679406655085
+      },
+      "n_pairs": 7483,
+      "popularity_prior_baseline": {
+        "frac_censored_beyond_depth": 0.0,
+        "median_rank_within_depth": 58.0,
+        "mrr": 0.04572029231003819,
+        "n_pairs": 7483,
+        "n_ranked_within_depth": 7483,
+        "recall@10": 0.12013898169183483,
+        "recall@20": 0.2126152612588534,
+        "recall@5": 0.047440865962849126
+      }
+    },
+    "B_heldout_nct_phase2plus_unique_mab_indication": {
+      "bootstrap_ci95": {
+        "recall@10": {
+          "enrichment_ci95": [
+            0.906,
+            0.995
+          ],
+          "model_recall_ci95": [
+            0.112,
+            0.128
+          ],
+          "prior_recall_ci95": [
+            0.118,
+            0.135
+          ]
+        },
+        "recall@20": {
+          "enrichment_ci95": [
+            0.946,
+            1.01
+          ],
+          "model_recall_ci95": [
+            0.2,
+            0.22
+          ],
+          "prior_recall_ci95": [
+            0.205,
+            0.226
+          ]
+        },
+        "recall@5": {
+          "enrichment_ci95": [
+            1.034,
+            1.237
+          ],
+          "model_recall_ci95": [
+            0.051,
+            0.061
+          ],
+          "prior_recall_ci95": [
+            0.044,
+            0.055
+          ]
+        }
+      },
+      "enrichment_model_over_prior": {
+        "recall@10": 0.949,
+        "recall@20": 0.976,
+        "recall@5": 1.129
+      },
+      "model": {
+        "frac_censored_beyond_depth": 0.588719512195122,
+        "median_rank_within_depth": 20.0,
+        "mrr": 0.04084159919670704,
+        "n_pairs": 6560,
+        "n_ranked_within_depth": 2698,
+        "recall@10": 0.12012195121951219,
+        "recall@20": 0.21036585365853658,
+        "recall@5": 0.05594512195121951
+      },
+      "n_pairs": 6560,
+      "popularity_prior_baseline": {
+        "frac_censored_beyond_depth": 0.0,
+        "median_rank_within_depth": 58.0,
+        "mrr": 0.046935712891515005,
+        "n_pairs": 6560,
+        "n_ranked_within_depth": 6560,
+        "recall@10": 0.12652439024390244,
+        "recall@20": 0.21554878048780488,
+        "recall@5": 0.04954268292682927
+      }
+    },
+    "C_externally_corroborated_test_indications_unique_mab_indication": {
+      "bootstrap_ci95": {
+        "recall@10": {
+          "enrichment_ci95": [
+            0.929,
+            1.317
+          ],
+          "model_recall_ci95": [
+            0.465,
+            0.657
+          ],
+          "prior_recall_ci95": [
+            0.414,
+            0.616
+          ]
+        },
+        "recall@20": {
+          "enrichment_ci95": [
+            0.838,
+            1.027
+          ],
+          "model_recall_ci95": [
+            0.606,
+            0.788
+          ],
+          "prior_recall_ci95": [
+            0.657,
+            0.828
+          ]
+        },
+        "recall@5": {
+          "enrichment_ci95": [
+            0.968,
+            1.667
+          ],
+          "model_recall_ci95": [
+            0.263,
+            0.444
+          ],
+          "prior_recall_ci95": [
+            0.192,
+            0.374
+          ]
+        }
+      },
+      "enrichment_model_over_prior": {
+        "recall@10": 1.098,
+        "recall@20": 0.932,
+        "recall@5": 1.25
+      },
+      "model": {
+        "frac_censored_beyond_depth": 0.08080808080808077,
+        "median_rank_within_depth": 8.0,
+        "mrr": 0.16877948378285035,
+        "n_pairs": 99,
+        "n_ranked_within_depth": 91,
+        "recall@10": 0.5656565656565656,
+        "recall@20": 0.696969696969697,
+        "recall@5": 0.35353535353535354
+      },
+      "n_pairs": 99,
+      "popularity_prior_baseline": {
+        "frac_censored_beyond_depth": 0.0,
+        "median_rank_within_depth": 8.0,
+        "mrr": 0.16078537295540601,
+        "n_pairs": 99,
+        "n_ranked_within_depth": 99,
+        "recall@10": 0.5151515151515151,
+        "recall@20": 0.7474747474747475,
+        "recall@5": 0.2828282828282828
+      }
+    },
+    "D_heldout_nct_per_query": {
+      "bootstrap_ci95": {
+        "recall@10": {
+          "enrichment_ci95": [
+            0.831,
+            0.904
+          ],
+          "model_recall_ci95": [
+            0.096,
+            0.107
+          ],
+          "prior_recall_ci95": [
+            0.111,
+            0.123
+          ]
+        },
+        "recall@20": {
+          "enrichment_ci95": [
+            0.859,
+            0.909
+          ],
+          "model_recall_ci95": [
+            0.177,
+            0.191
+          ],
+          "prior_recall_ci95": [
+            0.2,
+            0.215
+          ]
+        },
+        "recall@5": {
+          "enrichment_ci95": [
+            0.924,
+            1.074
+          ],
+          "model_recall_ci95": [
+            0.042,
+            0.05
+          ],
+          "prior_recall_ci95": [
+            0.042,
+            0.05
+          ]
+        }
+      },
+      "enrichment_model_over_prior": {
+        "recall@10": 0.867,
+        "recall@20": 0.884,
+        "recall@5": 0.998
+      },
+      "model": {
+        "frac_censored_beyond_depth": 0.6273143729719413,
+        "median_rank_within_depth": 21.0,
+        "mrr": 0.035053497378673054,
+        "n_pairs": 10478,
+        "n_ranked_within_depth": 3905,
+        "recall@10": 0.10154609658331742,
+        "recall@20": 0.18390914296621494,
+        "recall@5": 0.04619202137812559
+      },
+      "n_pairs": 10478,
+      "popularity_prior_baseline": {
+        "frac_censored_beyond_depth": 0.0,
+        "median_rank_within_depth": 58.0,
+        "mrr": 0.044659958767086616,
+        "n_pairs": 10478,
+        "n_ranked_within_depth": 10478,
+        "recall@10": 0.1171025004771903,
+        "recall@20": 0.20805497232296238,
+        "recall@5": 0.0462874594388242
+      }
+    }
+  },
+  "run_date": "2026-06-27",
+  "title": "External-evidence held-out validation (RotE, mAb repurposing)"
+}
